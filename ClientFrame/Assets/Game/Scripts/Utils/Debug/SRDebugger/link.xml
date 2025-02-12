@@ -1,0 +1,6 @@
+﻿<linker>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SROptions" preserve="all"/>
+	<type fullname="SROptions.Attributes" preserve="all"/>
+  </assembly>
+</linker>
