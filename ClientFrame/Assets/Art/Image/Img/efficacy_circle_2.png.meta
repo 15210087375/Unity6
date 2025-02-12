@@ -1,0 +1,2548 @@
+fileFormatVersion: 2
+guid: ecd2fc595b17e664fb6f2c76e0fa1569
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6615195268962750639
+    second: efficacy_circle_2_0
+  - first:
+      213: 6972400749392815913
+    second: efficacy_circle_2_1
+  - first:
+      213: -6272698520021516827
+    second: efficacy_circle_2_2
+  - first:
+      213: 974428727553130608
+    second: efficacy_circle_2_3
+  - first:
+      213: 4143544906365320947
+    second: efficacy_circle_2_4
+  - first:
+      213: -5367692774254585104
+    second: efficacy_circle_2_5
+  - first:
+      213: -6330668845813165683
+    second: efficacy_circle_2_6
+  - first:
+      213: -1269644899173631092
+    second: efficacy_circle_2_7
+  - first:
+      213: -89337275285718785
+    second: efficacy_circle_2_8
+  - first:
+      213: -5389298871870565207
+    second: efficacy_circle_2_9
+  - first:
+      213: -544025157762145457
+    second: efficacy_circle_2_10
+  - first:
+      213: -357701307894862715
+    second: efficacy_circle_2_11
+  - first:
+      213: 4282844256594904610
+    second: efficacy_circle_2_12
+  - first:
+      213: 4737413928231036048
+    second: efficacy_circle_2_13
+  - first:
+      213: -8784747000913033231
+    second: efficacy_circle_2_14
+  - first:
+      213: 545929185924632575
+    second: efficacy_circle_2_15
+  - first:
+      213: 557369141219493365
+    second: efficacy_circle_2_16
+  - first:
+      213: -8531196610330806842
+    second: efficacy_circle_2_17
+  - first:
+      213: 1582270497880869922
+    second: efficacy_circle_2_18
+  - first:
+      213: 2513316588656776651
+    second: efficacy_circle_2_19
+  - first:
+      213: -695994904826176318
+    second: efficacy_circle_2_20
+  - first:
+      213: -7571133684952785311
+    second: efficacy_circle_2_21
+  - first:
+      213: 2168670169792205379
+    second: efficacy_circle_2_22
+  - first:
+      213: -2219094461269883099
+    second: efficacy_circle_2_23
+  - first:
+      213: -2735840060360866288
+    second: efficacy_circle_2_24
+  - first:
+      213: 4804312520363003158
+    second: efficacy_circle_2_25
+  - first:
+      213: -1436984502172913539
+    second: efficacy_circle_2_26
+  - first:
+      213: 8973360121368298746
+    second: efficacy_circle_2_27
+  - first:
+      213: -3233451814094667858
+    second: efficacy_circle_2_28
+  - first:
+      213: 1580231996630175737
+    second: efficacy_circle_2_29
+  - first:
+      213: -4775438837567661026
+    second: efficacy_circle_2_30
+  - first:
+      213: -1970570242357145661
+    second: efficacy_circle_2_31
+  - first:
+      213: -1331571396610826808
+    second: efficacy_circle_2_32
+  - first:
+      213: 1334290310253172478
+    second: efficacy_circle_2_33
+  - first:
+      213: 5994610029213501998
+    second: efficacy_circle_2_34
+  - first:
+      213: -3916943254033612727
+    second: efficacy_circle_2_35
+  - first:
+      213: -793435952892063345
+    second: efficacy_circle_2_36
+  - first:
+      213: 3222790640623856418
+    second: efficacy_circle_2_37
+  - first:
+      213: -8986062100633192593
+    second: efficacy_circle_2_38
+  - first:
+      213: -3091657678042612961
+    second: efficacy_circle_2_39
+  - first:
+      213: -1505172889736436018
+    second: efficacy_circle_2_40
+  - first:
+      213: 5753070980743133310
+    second: efficacy_circle_2_41
+  - first:
+      213: -8529635083466092909
+    second: efficacy_circle_2_42
+  - first:
+      213: 628110752735762043
+    second: efficacy_circle_2_43
+  - first:
+      213: -8961434629373570107
+    second: efficacy_circle_2_44
+  - first:
+      213: 8918836405329541864
+    second: efficacy_circle_2_45
+  - first:
+      213: -8575139576433831889
+    second: efficacy_circle_2_46
+  - first:
+      213: -3417369158451367976
+    second: efficacy_circle_2_47
+  - first:
+      213: 127341007466737661
+    second: efficacy_circle_2_48
+  - first:
+      213: 6264453934804471978
+    second: efficacy_circle_2_49
+  - first:
+      213: 3838752024165970776
+    second: efficacy_circle_2_50
+  - first:
+      213: -2756109766631546186
+    second: efficacy_circle_2_51
+  - first:
+      213: 5616225242272767107
+    second: efficacy_circle_2_52
+  - first:
+      213: -5702484770851516865
+    second: efficacy_circle_2_53
+  - first:
+      213: 6115609850884511238
+    second: efficacy_circle_2_54
+  - first:
+      213: -3734746440586562026
+    second: efficacy_circle_2_55
+  - first:
+      213: -5604745641669889740
+    second: efficacy_circle_2_56
+  - first:
+      213: -5260726503100735193
+    second: efficacy_circle_2_57
+  - first:
+      213: 3523264608696291352
+    second: efficacy_circle_2_58
+  - first:
+      213: 5850923618387288666
+    second: efficacy_circle_2_59
+  - first:
+      213: 8698223977399015270
+    second: efficacy_circle_2_60
+  - first:
+      213: 7498232585681993472
+    second: efficacy_circle_2_61
+  - first:
+      213: 6308701386501799410
+    second: efficacy_circle_2_62
+  - first:
+      213: 4252128792922922750
+    second: efficacy_circle_2_63
+  - first:
+      213: 2043329273272166061
+    second: efficacy_circle_2_64
+  - first:
+      213: -5604094176442250028
+    second: efficacy_circle_2_65
+  - first:
+      213: -5553701763300644226
+    second: efficacy_circle_2_66
+  - first:
+      213: 9066036794603364524
+    second: efficacy_circle_2_67
+  - first:
+      213: 7163590284775442938
+    second: efficacy_circle_2_68
+  - first:
+      213: -2439415413109271416
+    second: efficacy_circle_2_69
+  - first:
+      213: 3380019358910726248
+    second: efficacy_circle_2_70
+  - first:
+      213: -4798536445378064251
+    second: efficacy_circle_2_71
+  - first:
+      213: -4464392411575701440
+    second: efficacy_circle_2_72
+  - first:
+      213: -4315983438831645160
+    second: efficacy_circle_2_73
+  - first:
+      213: 7407943438576915782
+    second: efficacy_circle_2_74
+  - first:
+      213: 4537424872083752354
+    second: efficacy_circle_2_75
+  - first:
+      213: -7938522701627987435
+    second: efficacy_circle_2_76
+  - first:
+      213: -4292841468711004978
+    second: efficacy_circle_2_77
+  - first:
+      213: -4922610754294186946
+    second: efficacy_circle_2_78
+  - first:
+      213: 6003201437393562492
+    second: efficacy_circle_2_79
+  - first:
+      213: -5332178917730306886
+    second: efficacy_circle_2_80
+  - first:
+      213: -5350668814439530948
+    second: efficacy_circle_2_81
+  - first:
+      213: 465476994899870479
+    second: efficacy_circle_2_82
+  - first:
+      213: 2408424029841912262
+    second: efficacy_circle_2_83
+  - first:
+      213: -8427248090766975525
+    second: efficacy_circle_2_84
+  - first:
+      213: 7303474751814260177
+    second: efficacy_circle_2_85
+  - first:
+      213: -7243858849320186368
+    second: efficacy_circle_2_86
+  - first:
+      213: 3222126122459764744
+    second: efficacy_circle_2_87
+  - first:
+      213: -3764239096434563519
+    second: efficacy_circle_2_88
+  - first:
+      213: -2735969568435080553
+    second: efficacy_circle_2_89
+  - first:
+      213: 5225255994428420191
+    second: efficacy_circle_2_90
+  - first:
+      213: 5709151058730190383
+    second: efficacy_circle_2_91
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: efficacy_circle_2_0
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 828
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa09e5e5c05edcb50800000000000000
+      internalID: 6615195268962750639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_1
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 833
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927e93b4a81f2c060800000000000000
+      internalID: 6972400749392815913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_2
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 836
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edbff22ee5e2f8a0800000000000000
+      internalID: -6272698520021516827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_3
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 839
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0708db4d3cdd58d00800000000000000
+      internalID: 974428727553130608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_4
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 840
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3feb8ce8324d08930800000000000000
+      internalID: 4143544906365320947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_5
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 839
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fadf1f6cdf1285b0800000000000000
+      internalID: -5367692774254585104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_6
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 837
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d819caed932f428a0800000000000000
+      internalID: -6330668845813165683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_7
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 834
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b7ed9e0b0516ee0800000000000000
+      internalID: -1269644899173631092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_8
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 829
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8b461b83c92cef0800000000000000
+      internalID: -89337275285718785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_9
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 813
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4ddb1da3d5535b0800000000000000
+      internalID: -5389298871870565207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_10
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 821
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4326ba500c3378f0800000000000000
+      internalID: -544025157762145457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_11
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 823
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ceb3f3e80390bf0800000000000000
+      internalID: -357701307894862715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_12
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 816
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22649aee828bf6b30800000000000000
+      internalID: 4282844256594904610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_13
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 794
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094e23a2edcaeb140800000000000000
+      internalID: 4737413928231036048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_14
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 804
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f786e0752f461680800000000000000
+      internalID: -8784747000913033231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_15
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 807
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff4e8fb3b7839700800000000000000
+      internalID: 545929185924632575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_16
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 797
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f50727e74c2cb700800000000000000
+      internalID: 557369141219493365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_17
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 783
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5373412e91b9980800000000000000
+      internalID: -8531196610330806842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_18
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 787
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c05c472aa55f510800000000000000
+      internalID: 1582270497880869922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_19
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 774
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5dbfa0f1811e220800000000000000
+      internalID: 2513316588656776651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_20
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 771
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc9a5452545756f0800000000000000
+      internalID: -695994904826176318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_21
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 761
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e1561f60eede690800000000000000
+      internalID: -7571133684952785311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_22
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 757
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3425371870aa81e10800000000000000
+      internalID: 2168670169792205379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_23
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 747
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527c8f048513431e0800000000000000
+      internalID: -2219094461269883099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_24
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 743
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01648efc5f7580ad0800000000000000
+      internalID: -2735840060360866288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_25
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 732
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61dc23e68c85ca240800000000000000
+      internalID: 4804312520363003158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_26
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 728
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70fd30753ece0ce0800000000000000
+      internalID: -1436984502172913539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_27
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 716
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af440dbcc77c78c70800000000000000
+      internalID: 8973360121368298746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_28
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 711
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf7b86e4b87023d0800000000000000
+      internalID: -3233451814094667858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_29
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 700
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff09d5e0ac1ee510800000000000000
+      internalID: 1580231996630175737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_30
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 694
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cdc28bdab3abdb0800000000000000
+      internalID: -4775438837567661026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_31
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 682
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfc85b1ec027a4e0800000000000000
+      internalID: -1970570242357145661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_32
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 677
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdd0f7aede458de0800000000000000
+      internalID: -1331571396610826808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_33
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 664
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6d2e1c7f9548210800000000000000
+      internalID: 1334290310253172478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_34
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 659
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ac34e8f02213350800000000000000
+      internalID: 5994610029213501998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_35
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 646
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940c6f10dd834a9c0800000000000000
+      internalID: -3916943254033612727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_36
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 640
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8158d364362df4f0800000000000000
+      internalID: -793435952892063345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_37
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 627
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ba6d73307a9bc20800000000000000
+      internalID: 3222790640623856418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_38
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 621
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67782231281b4380800000000000000
+      internalID: -8986062100633192593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_39
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 601
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b392dd8b93815d0800000000000000
+      internalID: -3091657678042612961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_40
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 607
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec626b54b3d8c1be0800000000000000
+      internalID: -1505172889736436018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_41
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 581
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e787dce639307df40800000000000000
+      internalID: 5753070980743133310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_42
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 588
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e4b426516a0a980800000000000000
+      internalID: -8529635083466092909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_43
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 562
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b761b68d66f77b800800000000000000
+      internalID: 628110752735762043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_44
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 568
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3dd4e2fa692a380800000000000000
+      internalID: -8961434629373570107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_45
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 542
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea3d75e47216cb70800000000000000
+      internalID: 8918836405329541864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_46
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 548
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20944ffcfbfef880800000000000000
+      internalID: -8575139576433831889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_47
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 522
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df612c3bd01390d0800000000000000
+      internalID: -3417369158451367976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_48
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 528
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff256bb8f764c100800000000000000
+      internalID: 127341007466737661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_49
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 502
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa091d7c9afcfe650800000000000000
+      internalID: 6264453934804471978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_50
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 508
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853793d90acf54530800000000000000
+      internalID: 3838752024165970776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_51
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 482
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b221fd05c450c9d0800000000000000
+      internalID: -2756109766631546186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_52
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 488
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c10401a17d0fd40800000000000000
+      internalID: 5616225242272767107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_53
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 463
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e02506054bcd0b0800000000000000
+      internalID: -5702484770851516865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_54
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 469
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606d9dae1c20fd450800000000000000
+      internalID: 6115609850884511238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_55
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 444
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616feaa56e38b2cc0800000000000000
+      internalID: -3734746440586562026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_56
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 450
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431f8dbb881f732b0800000000000000
+      internalID: -5604745641669889740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_57
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 425
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721a2323e152ef6b0800000000000000
+      internalID: -5260726503100735193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_58
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 431
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8105c0b9e7625e030800000000000000
+      internalID: 3523264608696291352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_59
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 407
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52eae90808a23150800000000000000
+      internalID: 5850923618387288666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_60
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 413
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66757ad4f9c46b870800000000000000
+      internalID: 8698223977399015270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_61
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 390
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f75d03fc21f0860800000000000000
+      internalID: 7498232585681993472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_62
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 395
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd34707c720d8750800000000000000
+      internalID: 6308701386501799410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_63
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 374
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe9161cb98920b30800000000000000
+      internalID: 4252128792922922750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_64
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 378
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da66b84e52d5b5c10800000000000000
+      internalID: 2043329273272166061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_65
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 358
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc035dc9024a32b0800000000000000
+      internalID: -5604094176442250028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_66
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 362
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a210acba94de2b0800000000000000
+      internalID: -5553701763300644226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_67
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 343
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca064f64e6801dd70800000000000000
+      internalID: 9066036794603364524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_68
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 347
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9ca70e86f2a6360800000000000000
+      internalID: 7163590284775442938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_69
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 329
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884520a3b94752ed0800000000000000
+      internalID: -2439415413109271416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_70
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 320
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86041d5e2bd38ee20800000000000000
+      internalID: 3380019358910726248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_71
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 333
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5809973d68c286db0800000000000000
+      internalID: -4798536445378064251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_72
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 316
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040b41a41ca4b02c0800000000000000
+      internalID: -4464392411575701440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_73
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 304
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e88ffedeb8a14c0800000000000000
+      internalID: -4315983438831645160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_74
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 308
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6451094fe4d4ec660800000000000000
+      internalID: 7407943438576915782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_75
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 293
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5039f71eb28fe30800000000000000
+      internalID: 4537424872083752354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_76
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 284
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ae618b9a3b4d190800000000000000
+      internalID: -7938522701627987435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_77
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 286
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec41a6cbd63cc64c0800000000000000
+      internalID: -4292841468711004978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_78
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 296
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3cf6ce999f5fabb0800000000000000
+      internalID: -4922610754294186946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_79
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 275
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b25f6a6e7af4350800000000000000
+      internalID: 6003201437393562492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_80
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 268
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4bbd1868b4006b0800000000000000
+      internalID: -5332178917730306886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_81
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 270
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e3294ff0b9eb5b0800000000000000
+      internalID: -5350668814439530948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_82
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 278
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f038f145cd4b57600800000000000000
+      internalID: 465476994899870479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_83
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 262
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1fd3f05e07c6120800000000000000
+      internalID: 2408424029841912262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_84
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 258
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdddebbc2866c0b80800000000000000
+      internalID: -8427248090766975525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_85
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 255
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d55cef57972b5560800000000000000
+      internalID: 7303474751814260177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_86
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 253
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e433391c4a87b90800000000000000
+      internalID: -7243858849320186368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_87
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 252
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80898b603aa47bc20800000000000000
+      internalID: 3222126122459764744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_88
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 253
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146616f4c7cb2cbc0800000000000000
+      internalID: -3764239096434563519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_89
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 255
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792f52d5c22e70ad0800000000000000
+      internalID: -2735969568435080553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_90
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 259
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50f26074a6d38840800000000000000
+      internalID: 5225255994428420191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efficacy_circle_2_91
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 264
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2688a8b3aafa3f40800000000000000
+      internalID: 5709151058730190383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      efficacy_circle_2_0: 6615195268962750639
+      efficacy_circle_2_1: 6972400749392815913
+      efficacy_circle_2_10: -544025157762145457
+      efficacy_circle_2_11: -357701307894862715
+      efficacy_circle_2_12: 4282844256594904610
+      efficacy_circle_2_13: 4737413928231036048
+      efficacy_circle_2_14: -8784747000913033231
+      efficacy_circle_2_15: 545929185924632575
+      efficacy_circle_2_16: 557369141219493365
+      efficacy_circle_2_17: -8531196610330806842
+      efficacy_circle_2_18: 1582270497880869922
+      efficacy_circle_2_19: 2513316588656776651
+      efficacy_circle_2_2: -6272698520021516827
+      efficacy_circle_2_20: -695994904826176318
+      efficacy_circle_2_21: -7571133684952785311
+      efficacy_circle_2_22: 2168670169792205379
+      efficacy_circle_2_23: -2219094461269883099
+      efficacy_circle_2_24: -2735840060360866288
+      efficacy_circle_2_25: 4804312520363003158
+      efficacy_circle_2_26: -1436984502172913539
+      efficacy_circle_2_27: 8973360121368298746
+      efficacy_circle_2_28: -3233451814094667858
+      efficacy_circle_2_29: 1580231996630175737
+      efficacy_circle_2_3: 974428727553130608
+      efficacy_circle_2_30: -4775438837567661026
+      efficacy_circle_2_31: -1970570242357145661
+      efficacy_circle_2_32: -1331571396610826808
+      efficacy_circle_2_33: 1334290310253172478
+      efficacy_circle_2_34: 5994610029213501998
+      efficacy_circle_2_35: -3916943254033612727
+      efficacy_circle_2_36: -793435952892063345
+      efficacy_circle_2_37: 3222790640623856418
+      efficacy_circle_2_38: -8986062100633192593
+      efficacy_circle_2_39: -3091657678042612961
+      efficacy_circle_2_4: 4143544906365320947
+      efficacy_circle_2_40: -1505172889736436018
+      efficacy_circle_2_41: 5753070980743133310
+      efficacy_circle_2_42: -8529635083466092909
+      efficacy_circle_2_43: 628110752735762043
+      efficacy_circle_2_44: -8961434629373570107
+      efficacy_circle_2_45: 8918836405329541864
+      efficacy_circle_2_46: -8575139576433831889
+      efficacy_circle_2_47: -3417369158451367976
+      efficacy_circle_2_48: 127341007466737661
+      efficacy_circle_2_49: 6264453934804471978
+      efficacy_circle_2_5: -5367692774254585104
+      efficacy_circle_2_50: 3838752024165970776
+      efficacy_circle_2_51: -2756109766631546186
+      efficacy_circle_2_52: 5616225242272767107
+      efficacy_circle_2_53: -5702484770851516865
+      efficacy_circle_2_54: 6115609850884511238
+      efficacy_circle_2_55: -3734746440586562026
+      efficacy_circle_2_56: -5604745641669889740
+      efficacy_circle_2_57: -5260726503100735193
+      efficacy_circle_2_58: 3523264608696291352
+      efficacy_circle_2_59: 5850923618387288666
+      efficacy_circle_2_6: -6330668845813165683
+      efficacy_circle_2_60: 8698223977399015270
+      efficacy_circle_2_61: 7498232585681993472
+      efficacy_circle_2_62: 6308701386501799410
+      efficacy_circle_2_63: 4252128792922922750
+      efficacy_circle_2_64: 2043329273272166061
+      efficacy_circle_2_65: -5604094176442250028
+      efficacy_circle_2_66: -5553701763300644226
+      efficacy_circle_2_67: 9066036794603364524
+      efficacy_circle_2_68: 7163590284775442938
+      efficacy_circle_2_69: -2439415413109271416
+      efficacy_circle_2_7: -1269644899173631092
+      efficacy_circle_2_70: 3380019358910726248
+      efficacy_circle_2_71: -4798536445378064251
+      efficacy_circle_2_72: -4464392411575701440
+      efficacy_circle_2_73: -4315983438831645160
+      efficacy_circle_2_74: 7407943438576915782
+      efficacy_circle_2_75: 4537424872083752354
+      efficacy_circle_2_76: -7938522701627987435
+      efficacy_circle_2_77: -4292841468711004978
+      efficacy_circle_2_78: -4922610754294186946
+      efficacy_circle_2_79: 6003201437393562492
+      efficacy_circle_2_8: -89337275285718785
+      efficacy_circle_2_80: -5332178917730306886
+      efficacy_circle_2_81: -5350668814439530948
+      efficacy_circle_2_82: 465476994899870479
+      efficacy_circle_2_83: 2408424029841912262
+      efficacy_circle_2_84: -8427248090766975525
+      efficacy_circle_2_85: 7303474751814260177
+      efficacy_circle_2_86: -7243858849320186368
+      efficacy_circle_2_87: 3222126122459764744
+      efficacy_circle_2_88: -3764239096434563519
+      efficacy_circle_2_89: -2735969568435080553
+      efficacy_circle_2_9: -5389298871870565207
+      efficacy_circle_2_90: 5225255994428420191
+      efficacy_circle_2_91: 5709151058730190383
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

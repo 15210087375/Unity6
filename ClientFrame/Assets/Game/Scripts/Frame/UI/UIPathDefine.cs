@@ -8,6 +8,7 @@ public enum WindowID
     LayerGame,
     
     ViewSetting,
+    ViewTabBar,
     //WindowID Tag 
     //请勿删除或修改，用于自动生成代码
 }
@@ -21,6 +22,7 @@ public static class UIPathDefine
         { WindowID.LayerShop, new UIPath(WindowID.LayerShop, "Home/LayerShop.prefab", LayerIndex.Layer) },
         { WindowID.LayerGame, new UIPath(WindowID.LayerGame, "Home/LayerGame.prefab", LayerIndex.Layer) },
         { WindowID.ViewSetting, new UIPath(WindowID.ViewSetting, "Home/ViewSetting.prefab", LayerIndex.View) },
+        { WindowID.ViewTabBar, new UIPath(WindowID.ViewSetting, "Home/ViewTabBar.prefab", LayerIndex.View) },
         //WindowPath Tag 
         //请勿删除或修改，用于自动生成代码
     };

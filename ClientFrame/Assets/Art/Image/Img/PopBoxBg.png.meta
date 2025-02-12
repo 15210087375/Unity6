@@ -1,0 +1,2912 @@
+fileFormatVersion: 2
+guid: 9035b6948e1823d408eda4e9f8595d85
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8019343328047267123
+    second: PopBoxBg_0
+  - first:
+      213: -8431806647758346695
+    second: PopBoxBg_1
+  - first:
+      213: 8411660629337025412
+    second: PopBoxBg_2
+  - first:
+      213: -7844270191177693893
+    second: PopBoxBg_3
+  - first:
+      213: -6977199678808380968
+    second: PopBoxBg_4
+  - first:
+      213: -7569904376286115696
+    second: PopBoxBg_5
+  - first:
+      213: -486167509146246571
+    second: PopBoxBg_6
+  - first:
+      213: 5976022648698449760
+    second: PopBoxBg_7
+  - first:
+      213: 4458107956188152082
+    second: PopBoxBg_8
+  - first:
+      213: 4313569218394331626
+    second: PopBoxBg_9
+  - first:
+      213: 836681752216007905
+    second: PopBoxBg_10
+  - first:
+      213: -3883308336938186137
+    second: PopBoxBg_11
+  - first:
+      213: 8583358826668718721
+    second: PopBoxBg_12
+  - first:
+      213: 679502278643901759
+    second: PopBoxBg_13
+  - first:
+      213: 7495095007884481556
+    second: PopBoxBg_14
+  - first:
+      213: -9040907548355400782
+    second: PopBoxBg_15
+  - first:
+      213: 6908994965798151187
+    second: PopBoxBg_16
+  - first:
+      213: 6606351096747591853
+    second: PopBoxBg_17
+  - first:
+      213: 1024460559923494334
+    second: PopBoxBg_18
+  - first:
+      213: -7768352725303196246
+    second: PopBoxBg_19
+  - first:
+      213: 1309805657649067454
+    second: PopBoxBg_20
+  - first:
+      213: 3726811930132769639
+    second: PopBoxBg_21
+  - first:
+      213: -4543603222426767024
+    second: PopBoxBg_22
+  - first:
+      213: -6683917175664616246
+    second: PopBoxBg_23
+  - first:
+      213: -7843172902498788403
+    second: PopBoxBg_24
+  - first:
+      213: -6165862600707231154
+    second: PopBoxBg_25
+  - first:
+      213: 3357919532272007663
+    second: PopBoxBg_26
+  - first:
+      213: 3192906692554153081
+    second: PopBoxBg_27
+  - first:
+      213: 3530234891852885763
+    second: PopBoxBg_28
+  - first:
+      213: -8346896133793399019
+    second: PopBoxBg_29
+  - first:
+      213: 4358029776656573127
+    second: PopBoxBg_30
+  - first:
+      213: -7246457146132042575
+    second: PopBoxBg_31
+  - first:
+      213: 4269920221770846768
+    second: PopBoxBg_32
+  - first:
+      213: -7272408098256893066
+    second: PopBoxBg_33
+  - first:
+      213: 1659567701857094072
+    second: PopBoxBg_34
+  - first:
+      213: 41151955512792490
+    second: PopBoxBg_35
+  - first:
+      213: -4045919874705550295
+    second: PopBoxBg_36
+  - first:
+      213: -6873822466997088195
+    second: PopBoxBg_37
+  - first:
+      213: -1984711140431302035
+    second: PopBoxBg_38
+  - first:
+      213: -5686306084564589802
+    second: PopBoxBg_39
+  - first:
+      213: 654561498929246217
+    second: PopBoxBg_40
+  - first:
+      213: 5684528085362990397
+    second: PopBoxBg_41
+  - first:
+      213: -2354181797153204027
+    second: PopBoxBg_42
+  - first:
+      213: -8918050118313666608
+    second: PopBoxBg_43
+  - first:
+      213: 4571651348235434029
+    second: PopBoxBg_44
+  - first:
+      213: -1449525029818005525
+    second: PopBoxBg_45
+  - first:
+      213: 5560213953458617080
+    second: PopBoxBg_46
+  - first:
+      213: 7456888988055890525
+    second: PopBoxBg_47
+  - first:
+      213: 8015124028345839064
+    second: PopBoxBg_48
+  - first:
+      213: -3670323896822460179
+    second: PopBoxBg_49
+  - first:
+      213: 446405301507967350
+    second: PopBoxBg_50
+  - first:
+      213: -3793487459403113501
+    second: PopBoxBg_51
+  - first:
+      213: 5006196416721978387
+    second: PopBoxBg_52
+  - first:
+      213: -7678208807448921081
+    second: PopBoxBg_53
+  - first:
+      213: 4931499035783039204
+    second: PopBoxBg_54
+  - first:
+      213: -7850777912482547284
+    second: PopBoxBg_55
+  - first:
+      213: 3840947623637452528
+    second: PopBoxBg_56
+  - first:
+      213: 354108047078287837
+    second: PopBoxBg_57
+  - first:
+      213: -8742437369473709541
+    second: PopBoxBg_58
+  - first:
+      213: 7115772647151976464
+    second: PopBoxBg_59
+  - first:
+      213: 7210253030034799883
+    second: PopBoxBg_60
+  - first:
+      213: -4767837841264584593
+    second: PopBoxBg_61
+  - first:
+      213: -388397358676322142
+    second: PopBoxBg_62
+  - first:
+      213: 4819808171968431353
+    second: PopBoxBg_63
+  - first:
+      213: -361651765797256749
+    second: PopBoxBg_64
+  - first:
+      213: -4375160253702734029
+    second: PopBoxBg_65
+  - first:
+      213: -2629334554263300319
+    second: PopBoxBg_66
+  - first:
+      213: -4566724799527458815
+    second: PopBoxBg_67
+  - first:
+      213: 6461560631772310250
+    second: PopBoxBg_68
+  - first:
+      213: 1453773043551869906
+    second: PopBoxBg_69
+  - first:
+      213: 4981695914974311380
+    second: PopBoxBg_70
+  - first:
+      213: -5100566308218479011
+    second: PopBoxBg_71
+  - first:
+      213: 7413516771259280521
+    second: PopBoxBg_72
+  - first:
+      213: 4288836532190864606
+    second: PopBoxBg_73
+  - first:
+      213: -7150300053606881364
+    second: PopBoxBg_74
+  - first:
+      213: 3371806882521593829
+    second: PopBoxBg_75
+  - first:
+      213: 1690907003961875175
+    second: PopBoxBg_76
+  - first:
+      213: -9030101084264804188
+    second: PopBoxBg_77
+  - first:
+      213: 9120112455600647718
+    second: PopBoxBg_78
+  - first:
+      213: -4086624034057152664
+    second: PopBoxBg_79
+  - first:
+      213: -480537399669106864
+    second: PopBoxBg_80
+  - first:
+      213: -3907763576333591401
+    second: PopBoxBg_81
+  - first:
+      213: -1016116471264301566
+    second: PopBoxBg_82
+  - first:
+      213: 4808553537919309212
+    second: PopBoxBg_83
+  - first:
+      213: 8599536611715512074
+    second: PopBoxBg_84
+  - first:
+      213: 4013065727198544620
+    second: PopBoxBg_85
+  - first:
+      213: 2217088446116991419
+    second: PopBoxBg_86
+  - first:
+      213: 2895596425199542017
+    second: PopBoxBg_87
+  - first:
+      213: 7930935285262577352
+    second: PopBoxBg_88
+  - first:
+      213: -6103380792079961289
+    second: PopBoxBg_89
+  - first:
+      213: 2820608542698972982
+    second: PopBoxBg_90
+  - first:
+      213: 7411460396941260018
+    second: PopBoxBg_91
+  - first:
+      213: 5410658037365106108
+    second: PopBoxBg_92
+  - first:
+      213: -1973073663793790315
+    second: PopBoxBg_93
+  - first:
+      213: 8172540802926259044
+    second: PopBoxBg_94
+  - first:
+      213: -2519387659222860816
+    second: PopBoxBg_95
+  - first:
+      213: 8399153261113969736
+    second: PopBoxBg_96
+  - first:
+      213: -4939452573563685520
+    second: PopBoxBg_97
+  - first:
+      213: 3716633871407499558
+    second: PopBoxBg_98
+  - first:
+      213: -8995345620074529674
+    second: PopBoxBg_99
+  - first:
+      213: -2108903593793270587
+    second: PopBoxBg_100
+  - first:
+      213: -6479890321703635770
+    second: PopBoxBg_101
+  - first:
+      213: -7604154522470158448
+    second: PopBoxBg_102
+  - first:
+      213: -382416873332064828
+    second: PopBoxBg_103
+  - first:
+      213: -3755389863530856726
+    second: PopBoxBg_104
+  - first:
+      213: 4537138606764127573
+    second: PopBoxBg_105
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PopBoxBg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 492
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33df720c44e6a4f60800000000000000
+      internalID: 8019343328047267123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 493
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936269907843cfa80800000000000000
+      internalID: -8431806647758346695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 494
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ba5c686c83cb470800000000000000
+      internalID: 8411660629337025412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 495
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b350ba462dd832390800000000000000
+      internalID: -7844270191177693893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 496
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d928a1ebd10c2f90800000000000000
+      internalID: -6977199678808380968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_5
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 498
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0988acba31c42f690800000000000000
+      internalID: -7569904376286115696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_6
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 499
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552600ce939c049f0800000000000000
+      internalID: -486167509146246571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_7
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 501
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f2c59cfe81fe250800000000000000
+      internalID: 5976022648698449760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 502
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21100fae0916edd30800000000000000
+      internalID: 4458107956188152082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_9
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 504
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae914709950ecdb30800000000000000
+      internalID: 4313569218394331626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_10
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 506
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4f2e6ee9d7c9b00800000000000000
+      internalID: 836681752216007905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_11
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 509
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a8c7764a7bb1ac0800000000000000
+      internalID: -3883308336938186137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 451
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a7d4350673e1770800000000000000
+      internalID: 8583358826668718721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 452
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3563a6e8b31e6900800000000000000
+      internalID: 679502278643901759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 453
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41412cee23de30860800000000000000
+      internalID: 7495095007884481556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_15
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 454
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbe02d4c7e388280800000000000000
+      internalID: -9040907548355400782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_16
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 455
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3146c53e05ea1ef50800000000000000
+      internalID: 6908994965798151187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_17
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 456
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8072f02597eab50800000000000000
+      internalID: 6606351096747591853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_18
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 458
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd33a0937d973e00800000000000000
+      internalID: 1024460559923494334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_19
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 459
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa58d56da54413490800000000000000
+      internalID: -7768352725303196246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_20
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 461
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb538f45e4d5d2210800000000000000
+      internalID: 1309805657649067454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_21
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 463
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b604874bb48b330800000000000000
+      internalID: 3726811930132769639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_22
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 465
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051bee631f0e1f0c0800000000000000
+      internalID: -4543603222426767024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_23
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 409
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: accd06cddb4fd33a0800000000000000
+      internalID: -6683917175664616246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_24
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 409
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb1792dcc3772390800000000000000
+      internalID: -7843172902498788403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_25
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 410
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42bafef1a47e6aa0800000000000000
+      internalID: -6165862600707231154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_26
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe93b69060ab99e20800000000000000
+      internalID: 3357919532272007663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_27
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 413
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c58aa58bb7f4c20800000000000000
+      internalID: 3192906692554153081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_28
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 414
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fa49e1ee9edf030800000000000000
+      internalID: 3530234891852885763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_29
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 415
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51fb928a03ed92c80800000000000000
+      internalID: -8346896133793399019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_30
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 417
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2a036fdf4da7c30800000000000000
+      internalID: 4358029776656573127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_31
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 419
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc65b47e996f6b90800000000000000
+      internalID: -7246457146132042575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_32
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 421
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03298e591ddc14b30800000000000000
+      internalID: 4269920221770846768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_33
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 423
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b49b19d57331b90800000000000000
+      internalID: -7272408098256893066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_34
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 367
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b947e53808f70710800000000000000
+      internalID: 1659567701857094072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 368
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5172a4c73329000800000000000000
+      internalID: 41151955512792490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_36
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 369
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9249b766f410ad7c0800000000000000
+      internalID: -4045919874705550295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_37
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 370
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d301a85a2e64b90a0800000000000000
+      internalID: -6873822466997088195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_38
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 372
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62f4d4bbb3e474e0800000000000000
+      internalID: -1984711140431302035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_39
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 373
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613a2615ebe2611b0800000000000000
+      internalID: -5686306084564589802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_40
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 374
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900335b1738751900800000000000000
+      internalID: 654561498929246217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_41
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 376
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ddacbfc2083ee40800000000000000
+      internalID: 5684528085362990397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_42
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 378
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c81ef3e024445fd0800000000000000
+      internalID: -2354181797153204027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_43
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 380
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d798c0daa8bc3480800000000000000
+      internalID: -8918050118313666608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_44
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 383
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d283288fda4c17f30800000000000000
+      internalID: 4571651348235434029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_45
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 325
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be709a05aa042ebe0800000000000000
+      internalID: -1449525029818005525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_46
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa3213a129d92d40800000000000000
+      internalID: 5560213953458617080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_47
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 327
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ae79eb6013c7760800000000000000
+      internalID: 7456888988055890525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_48
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 328
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd604c76d07b3f60800000000000000
+      internalID: 8015124028345839064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_49
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 330
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0154facd3601dc0800000000000000
+      internalID: -3670323896822460179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_50
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 331
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679cb3ea143f13600800000000000000
+      internalID: 446405301507967350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_51
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 332
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ebd0622143da5bc0800000000000000
+      internalID: -3793487459403113501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_52
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 334
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3140c86fd15997540800000000000000
+      internalID: 5006196416721978387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_53
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 336
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c3bb045c5817590800000000000000
+      internalID: -7678208807448921081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_54
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 338
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8870eae34307440800000000000000
+      internalID: 4931499035783039204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_55
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 284
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9bef3751f6c0390800000000000000
+      internalID: -7850777912482547284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_56
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 285
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f68ac37389cd4530800000000000000
+      internalID: 3840947623637452528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_57
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 286
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd96536846b0ae400800000000000000
+      internalID: 354108047078287837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_58
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 287
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a4b69288f9ca680800000000000000
+      internalID: -8742437369473709541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_59
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 289
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0104fe7858d40c260800000000000000
+      internalID: 7115772647151976464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_60
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 290
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d78e3ede6ff0460800000000000000
+      internalID: 7210253030034799883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_61
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 291
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6852c49ebc35ddb0800000000000000
+      internalID: -4767837841264584593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_62
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 293
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8d56cf8a22c9af0800000000000000
+      internalID: -388397358676322142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_63
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 295
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f404b7fef563e240800000000000000
+      internalID: 4819808171968431353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_64
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 298
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1034792a72bfaf0800000000000000
+      internalID: -361651765797256749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_65
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 243
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ff3aa0eee4843c0800000000000000
+      internalID: -4375160253702734029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_66
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 243
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127d979572ab28bd0800000000000000
+      internalID: -2629334554263300319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_67
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 244
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108e2398dfbbf90c0800000000000000
+      internalID: -4566724799527458815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_68
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 246
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeaef67e8231ca950800000000000000
+      internalID: 6461560631772310250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_69
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 247
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db92f471e6dc2410800000000000000
+      internalID: 1453773043551869906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_70
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 248
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3fe0f5a0a822540800000000000000
+      internalID: 4981695914974311380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_71
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 250
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5edf4577f52739b0800000000000000
+      internalID: -5100566308218479011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_72
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 251
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c6f47993a12e660800000000000000
+      internalID: 7413516771259280521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_73
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 254
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed464f05a12058b30800000000000000
+      internalID: 4288836532190864606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_74
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 202
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca72e433cf705cc90800000000000000
+      internalID: -7150300053606881364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_75
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 203
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7baebbe701bce20800000000000000
+      internalID: 3371806882521593829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_76
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 204
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea1e5716fe477710800000000000000
+      internalID: 1690907003961875175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_77
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 205
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0d68a48e2aea280800000000000000
+      internalID: -9030101084264804188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_78
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 206
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e21bb35f5219e70800000000000000
+      internalID: 9120112455600647718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_79
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8671377c7156947c0800000000000000
+      internalID: -4086624034057152664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_80
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 209
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057de6fe7c9c459f0800000000000000
+      internalID: -480537399669106864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_81
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 211
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c1d664bb5d4c9c0800000000000000
+      internalID: -3907763576333591401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_82
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 161
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e2ed7f37706e1f0800000000000000
+      internalID: -1016116471264301566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_83
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 162
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95d02747f96bb240800000000000000
+      internalID: 4808553537919309212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_84
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 163
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07f44e6cf0b75770800000000000000
+      internalID: 8599536611715512074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_85
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 164
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2c6f9440641b730800000000000000
+      internalID: 4013065727198544620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_86
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 166
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb11d62f13ea4ce10800000000000000
+      internalID: 2217088446116991419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_87
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 167
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fd8e07b993f2820800000000000000
+      internalID: 2895596425199542017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_88
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 169
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ceefae3f97501e60800000000000000
+      internalID: 7930935285262577352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_89
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 120
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733b127b18f6c4ba0800000000000000
+      internalID: -6103380792079961289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_90
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 121
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637210e7680d42720800000000000000
+      internalID: 2820608542698972982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_91
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 122
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f43f82a6fbcad660800000000000000
+      internalID: 7411460396941260018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_92
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5624e61d4861b40800000000000000
+      internalID: 5410658037365106108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_93
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 124
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59284e1e4fb3e94e0800000000000000
+      internalID: -1973073663793790315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_94
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 126
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b2ece6f82ba6170800000000000000
+      internalID: 8172540802926259044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_95
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbb480b546590dd0800000000000000
+      internalID: -2519387659222860816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_96
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 80
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c03cee369cf8470800000000000000
+      internalID: 8399153261113969736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_97
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 82
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075f8dffd0a837bb0800000000000000
+      internalID: -4939452573563685520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_98
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 83
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629cd6180d2249330800000000000000
+      internalID: 3716633871407499558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_99
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 85
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c779361dc1a2380800000000000000
+      internalID: -8995345620074529674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_100
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 38
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc486ada5babb2e0800000000000000
+      internalID: -2108903593793270587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_101
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 39
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4fc57951ec216a0800000000000000
+      internalID: -6479890321703635770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_102
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 41
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f6cf610cd987690800000000000000
+      internalID: -7604154522470158448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_103
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 42
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd3dec31e161baf0800000000000000
+      internalID: -382416873332064828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_104
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeef327e0dc22ebc0800000000000000
+      internalID: -3755389863530856726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopBoxBg_105
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555f2e8268727fe30800000000000000
+      internalID: 4537138606764127573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PopBoxBg_0: 8019343328047267123
+      PopBoxBg_1: -8431806647758346695
+      PopBoxBg_10: 836681752216007905
+      PopBoxBg_100: -2108903593793270587
+      PopBoxBg_101: -6479890321703635770
+      PopBoxBg_102: -7604154522470158448
+      PopBoxBg_103: -382416873332064828
+      PopBoxBg_104: -3755389863530856726
+      PopBoxBg_105: 4537138606764127573
+      PopBoxBg_11: -3883308336938186137
+      PopBoxBg_12: 8583358826668718721
+      PopBoxBg_13: 679502278643901759
+      PopBoxBg_14: 7495095007884481556
+      PopBoxBg_15: -9040907548355400782
+      PopBoxBg_16: 6908994965798151187
+      PopBoxBg_17: 6606351096747591853
+      PopBoxBg_18: 1024460559923494334
+      PopBoxBg_19: -7768352725303196246
+      PopBoxBg_2: 8411660629337025412
+      PopBoxBg_20: 1309805657649067454
+      PopBoxBg_21: 3726811930132769639
+      PopBoxBg_22: -4543603222426767024
+      PopBoxBg_23: -6683917175664616246
+      PopBoxBg_24: -7843172902498788403
+      PopBoxBg_25: -6165862600707231154
+      PopBoxBg_26: 3357919532272007663
+      PopBoxBg_27: 3192906692554153081
+      PopBoxBg_28: 3530234891852885763
+      PopBoxBg_29: -8346896133793399019
+      PopBoxBg_3: -7844270191177693893
+      PopBoxBg_30: 4358029776656573127
+      PopBoxBg_31: -7246457146132042575
+      PopBoxBg_32: 4269920221770846768
+      PopBoxBg_33: -7272408098256893066
+      PopBoxBg_34: 1659567701857094072
+      PopBoxBg_35: 41151955512792490
+      PopBoxBg_36: -4045919874705550295
+      PopBoxBg_37: -6873822466997088195
+      PopBoxBg_38: -1984711140431302035
+      PopBoxBg_39: -5686306084564589802
+      PopBoxBg_4: -6977199678808380968
+      PopBoxBg_40: 654561498929246217
+      PopBoxBg_41: 5684528085362990397
+      PopBoxBg_42: -2354181797153204027
+      PopBoxBg_43: -8918050118313666608
+      PopBoxBg_44: 4571651348235434029
+      PopBoxBg_45: -1449525029818005525
+      PopBoxBg_46: 5560213953458617080
+      PopBoxBg_47: 7456888988055890525
+      PopBoxBg_48: 8015124028345839064
+      PopBoxBg_49: -3670323896822460179
+      PopBoxBg_5: -7569904376286115696
+      PopBoxBg_50: 446405301507967350
+      PopBoxBg_51: -3793487459403113501
+      PopBoxBg_52: 5006196416721978387
+      PopBoxBg_53: -7678208807448921081
+      PopBoxBg_54: 4931499035783039204
+      PopBoxBg_55: -7850777912482547284
+      PopBoxBg_56: 3840947623637452528
+      PopBoxBg_57: 354108047078287837
+      PopBoxBg_58: -8742437369473709541
+      PopBoxBg_59: 7115772647151976464
+      PopBoxBg_6: -486167509146246571
+      PopBoxBg_60: 7210253030034799883
+      PopBoxBg_61: -4767837841264584593
+      PopBoxBg_62: -388397358676322142
+      PopBoxBg_63: 4819808171968431353
+      PopBoxBg_64: -361651765797256749
+      PopBoxBg_65: -4375160253702734029
+      PopBoxBg_66: -2629334554263300319
+      PopBoxBg_67: -4566724799527458815
+      PopBoxBg_68: 6461560631772310250
+      PopBoxBg_69: 1453773043551869906
+      PopBoxBg_7: 5976022648698449760
+      PopBoxBg_70: 4981695914974311380
+      PopBoxBg_71: -5100566308218479011
+      PopBoxBg_72: 7413516771259280521
+      PopBoxBg_73: 4288836532190864606
+      PopBoxBg_74: -7150300053606881364
+      PopBoxBg_75: 3371806882521593829
+      PopBoxBg_76: 1690907003961875175
+      PopBoxBg_77: -9030101084264804188
+      PopBoxBg_78: 9120112455600647718
+      PopBoxBg_79: -4086624034057152664
+      PopBoxBg_8: 4458107956188152082
+      PopBoxBg_80: -480537399669106864
+      PopBoxBg_81: -3907763576333591401
+      PopBoxBg_82: -1016116471264301566
+      PopBoxBg_83: 4808553537919309212
+      PopBoxBg_84: 8599536611715512074
+      PopBoxBg_85: 4013065727198544620
+      PopBoxBg_86: 2217088446116991419
+      PopBoxBg_87: 2895596425199542017
+      PopBoxBg_88: 7930935285262577352
+      PopBoxBg_89: -6103380792079961289
+      PopBoxBg_9: 4313569218394331626
+      PopBoxBg_90: 2820608542698972982
+      PopBoxBg_91: 7411460396941260018
+      PopBoxBg_92: 5410658037365106108
+      PopBoxBg_93: -1973073663793790315
+      PopBoxBg_94: 8172540802926259044
+      PopBoxBg_95: -2519387659222860816
+      PopBoxBg_96: 8399153261113969736
+      PopBoxBg_97: -4939452573563685520
+      PopBoxBg_98: 3716633871407499558
+      PopBoxBg_99: -8995345620074529674
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

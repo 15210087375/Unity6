@@ -1,0 +1,1456 @@
+fileFormatVersion: 2
+guid: 8757d0feb43651449a55d9ef5b779206
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3328111564544430483
+    second: SetSoundBg2_0
+  - first:
+      213: -4896454491297694530
+    second: SetSoundBg2_1
+  - first:
+      213: 9126140744616457056
+    second: SetSoundBg2_2
+  - first:
+      213: -2071316028390553724
+    second: SetSoundBg2_3
+  - first:
+      213: -664104595823854648
+    second: SetSoundBg2_4
+  - first:
+      213: -1074735438302745433
+    second: SetSoundBg2_5
+  - first:
+      213: 6519160148439751752
+    second: SetSoundBg2_6
+  - first:
+      213: -5293168682884113403
+    second: SetSoundBg2_7
+  - first:
+      213: 3800433381403955504
+    second: SetSoundBg2_8
+  - first:
+      213: -2817809319094642097
+    second: SetSoundBg2_9
+  - first:
+      213: 3340616496174235474
+    second: SetSoundBg2_10
+  - first:
+      213: -4831312535461323711
+    second: SetSoundBg2_11
+  - first:
+      213: -356329143515290541
+    second: SetSoundBg2_12
+  - first:
+      213: -1274091815005947764
+    second: SetSoundBg2_13
+  - first:
+      213: -8053556665811647530
+    second: SetSoundBg2_14
+  - first:
+      213: -5186781556832511739
+    second: SetSoundBg2_15
+  - first:
+      213: -7511866104034441453
+    second: SetSoundBg2_16
+  - first:
+      213: 44115511266028626
+    second: SetSoundBg2_17
+  - first:
+      213: 4649219937636670625
+    second: SetSoundBg2_18
+  - first:
+      213: -5538537041107341390
+    second: SetSoundBg2_19
+  - first:
+      213: 680008989334421078
+    second: SetSoundBg2_20
+  - first:
+      213: -6468281443345721933
+    second: SetSoundBg2_21
+  - first:
+      213: -6732831421534003673
+    second: SetSoundBg2_22
+  - first:
+      213: -3739517038275697044
+    second: SetSoundBg2_23
+  - first:
+      213: -5647762545337878368
+    second: SetSoundBg2_24
+  - first:
+      213: -5020297261442910200
+    second: SetSoundBg2_25
+  - first:
+      213: 6119008658664299773
+    second: SetSoundBg2_26
+  - first:
+      213: 7926716338329796097
+    second: SetSoundBg2_27
+  - first:
+      213: -8989457976402457172
+    second: SetSoundBg2_28
+  - first:
+      213: 3962334027472862240
+    second: SetSoundBg2_29
+  - first:
+      213: 377656911697971119
+    second: SetSoundBg2_30
+  - first:
+      213: -3980224730170000318
+    second: SetSoundBg2_31
+  - first:
+      213: -7660239935872984909
+    second: SetSoundBg2_32
+  - first:
+      213: -3935244629675391457
+    second: SetSoundBg2_33
+  - first:
+      213: 3882999973794705636
+    second: SetSoundBg2_34
+  - first:
+      213: 3974171659409811936
+    second: SetSoundBg2_35
+  - first:
+      213: -8453295947844736500
+    second: SetSoundBg2_36
+  - first:
+      213: -8985972031862349520
+    second: SetSoundBg2_37
+  - first:
+      213: -4166298667516234479
+    second: SetSoundBg2_38
+  - first:
+      213: 5400846781633070448
+    second: SetSoundBg2_39
+  - first:
+      213: 1368096661074380219
+    second: SetSoundBg2_40
+  - first:
+      213: -7618927658719056640
+    second: SetSoundBg2_41
+  - first:
+      213: -2112685985833313462
+    second: SetSoundBg2_42
+  - first:
+      213: -454869934478265901
+    second: SetSoundBg2_43
+  - first:
+      213: 8817558533966252461
+    second: SetSoundBg2_44
+  - first:
+      213: -6664035366679620617
+    second: SetSoundBg2_45
+  - first:
+      213: 7726696021301692384
+    second: SetSoundBg2_46
+  - first:
+      213: 4967825599269285715
+    second: SetSoundBg2_47
+  - first:
+      213: 3517133999914857993
+    second: SetSoundBg2_48
+  - first:
+      213: -7817953271205593337
+    second: SetSoundBg2_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SetSoundBg2_0
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 419
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3915a89b5d3df2e20800000000000000
+      internalID: 3328111564544430483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_1
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 361
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebcb55b259c4c0cb0800000000000000
+      internalID: -4896454491297694530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_2
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 358
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0633515a7a096ae70800000000000000
+      internalID: 9126140744616457056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_3
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 356
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4874536eb053143e0800000000000000
+      internalID: -2071316028390553724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_4
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 302
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbf6308360a8c6f0800000000000000
+      internalID: -664104595823854648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_5
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 299
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ace07420d5c511f0800000000000000
+      internalID: -1074735438302745433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_6
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 297
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c52a17d95b87a50800000000000000
+      internalID: 6519160148439751752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_7
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 296
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c58789023ea86b0800000000000000
+      internalID: -5293168682884113403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_8
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 244
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0319e1b560addb430800000000000000
+      internalID: 3800433381403955504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_9
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 242
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a149a8a5125e8d0800000000000000
+      internalID: -2817809319094642097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_10
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 239
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f764101014c5e20800000000000000
+      internalID: 3340616496174235474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_11
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 238
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c9feca8dab3fcb0800000000000000
+      internalID: -4831312535461323711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_12
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 236
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354e6a928801e0bf0800000000000000
+      internalID: -356329143515290541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_13
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 235
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c887653ae34815ee0800000000000000
+      internalID: -1274091815005947764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_14
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 188
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d341dbc1e40c3090800000000000000
+      internalID: -8053556665811647530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_15
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 185
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5095371a7a9d408b0800000000000000
+      internalID: -5186781556832511739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_16
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 183
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317cab4f39d70c790800000000000000
+      internalID: -7511866104034441453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_17
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 181
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ca812e2dabc9000800000000000000
+      internalID: 44115511266028626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_18
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 179
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac5f7196e8558040800000000000000
+      internalID: 4649219937636670625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_19
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 178
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf2471d7e92323b0800000000000000
+      internalID: -5538537041107341390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_20
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 177
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65eb95da290ef6900800000000000000
+      internalID: 680008989334421078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_21
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 176
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b590263c4c0c36a0800000000000000
+      internalID: -6468281443345721933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_22
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 127
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e90e28e7d2092a0800000000000000
+      internalID: -6732831421534003673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_23
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 125
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c666e0601119a1cc0800000000000000
+      internalID: -3739517038275697044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_24
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 123
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8316d53ed1f91b0800000000000000
+      internalID: -5647762545337878368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 122
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80834d84d32545ab0800000000000000
+      internalID: -5020297261442910200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_26
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 120
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc993584f51be450800000000000000
+      internalID: 6119008658664299773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_27
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 118
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ebe6d138a510e60800000000000000
+      internalID: 7926716338329796097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_28
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 117
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadca3149970f3380800000000000000
+      internalID: -8989457976402457172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_29
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 116
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c76fcfdc90df630800000000000000
+      internalID: 3962334027472862240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_30
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 116
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa78ab4d5f4bd3500800000000000000
+      internalID: 377656911697971119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_31
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 71
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cfdff22b663c8c0800000000000000
+      internalID: -3980224730170000318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_32
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 69
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b897003d5c51b590800000000000000
+      internalID: -7660239935872984909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_33
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 66
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f164fefebd33369c0800000000000000
+      internalID: -3935244629675391457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_34
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 64
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e072e437ef23e530800000000000000
+      internalID: 3882999973794705636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_35
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 63
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9eb837118172730800000000000000
+      internalID: 3974171659409811936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_36
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 62
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a27777f1cdfaa80800000000000000
+      internalID: -8453295947844736500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_37
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 61
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031ef37fb0a6b4380800000000000000
+      internalID: -8985972031862349520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_38
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 59
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115f2869f655e26c0800000000000000
+      internalID: -4166298667516234479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_39
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 0
+        width: 170
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0750d817889a3fa40800000000000000
+      internalID: 5400846781633070448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb58cbd2aa47cf210800000000000000
+      internalID: 1368096661074380219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_41
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 11
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00de6a449a1244690800000000000000
+      internalID: -7618927658719056640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_42
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 9
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b95741a4b3ea2e0800000000000000
+      internalID: -2112685985833313462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_43
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 7
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1fa60643affa9f0800000000000000
+      internalID: -454869934478265901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_44
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 5
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9c54be4c24e5a70800000000000000
+      internalID: 8817558533966252461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_45
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 3
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3db6e34279483a0800000000000000
+      internalID: -6664035366679620617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_46
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 2
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e78c15f71dba3b60800000000000000
+      internalID: 7726696021301692384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_47
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fa986df0341f440800000000000000
+      internalID: 4967825599269285715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_48
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906bf540dbe5fc030800000000000000
+      internalID: 3517133999914857993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetSoundBg2_49
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 0
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fff2fcbec018390800000000000000
+      internalID: -7817953271205593337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SetSoundBg2_0: 3328111564544430483
+      SetSoundBg2_1: -4896454491297694530
+      SetSoundBg2_10: 3340616496174235474
+      SetSoundBg2_11: -4831312535461323711
+      SetSoundBg2_12: -356329143515290541
+      SetSoundBg2_13: -1274091815005947764
+      SetSoundBg2_14: -8053556665811647530
+      SetSoundBg2_15: -5186781556832511739
+      SetSoundBg2_16: -7511866104034441453
+      SetSoundBg2_17: 44115511266028626
+      SetSoundBg2_18: 4649219937636670625
+      SetSoundBg2_19: -5538537041107341390
+      SetSoundBg2_2: 9126140744616457056
+      SetSoundBg2_20: 680008989334421078
+      SetSoundBg2_21: -6468281443345721933
+      SetSoundBg2_22: -6732831421534003673
+      SetSoundBg2_23: -3739517038275697044
+      SetSoundBg2_24: -5647762545337878368
+      SetSoundBg2_25: -5020297261442910200
+      SetSoundBg2_26: 6119008658664299773
+      SetSoundBg2_27: 7926716338329796097
+      SetSoundBg2_28: -8989457976402457172
+      SetSoundBg2_29: 3962334027472862240
+      SetSoundBg2_3: -2071316028390553724
+      SetSoundBg2_30: 377656911697971119
+      SetSoundBg2_31: -3980224730170000318
+      SetSoundBg2_32: -7660239935872984909
+      SetSoundBg2_33: -3935244629675391457
+      SetSoundBg2_34: 3882999973794705636
+      SetSoundBg2_35: 3974171659409811936
+      SetSoundBg2_36: -8453295947844736500
+      SetSoundBg2_37: -8985972031862349520
+      SetSoundBg2_38: -4166298667516234479
+      SetSoundBg2_39: 5400846781633070448
+      SetSoundBg2_4: -664104595823854648
+      SetSoundBg2_40: 1368096661074380219
+      SetSoundBg2_41: -7618927658719056640
+      SetSoundBg2_42: -2112685985833313462
+      SetSoundBg2_43: -454869934478265901
+      SetSoundBg2_44: 8817558533966252461
+      SetSoundBg2_45: -6664035366679620617
+      SetSoundBg2_46: 7726696021301692384
+      SetSoundBg2_47: 4967825599269285715
+      SetSoundBg2_48: 3517133999914857993
+      SetSoundBg2_49: -7817953271205593337
+      SetSoundBg2_5: -1074735438302745433
+      SetSoundBg2_6: 6519160148439751752
+      SetSoundBg2_7: -5293168682884113403
+      SetSoundBg2_8: 3800433381403955504
+      SetSoundBg2_9: -2817809319094642097
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

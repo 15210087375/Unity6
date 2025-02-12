@@ -98,7 +98,7 @@ public class UIAutoGenerator : OdinEditorWindow
         // Close();
         showTip = true;
         tipDesc = $"UI Script and Prefab generated successfully: {className}";
-        // AssetDatabase.Refresh();
+        AssetDatabase.Refresh();
         if (!scriptSuc || !prefabSuc)
         {
             return;

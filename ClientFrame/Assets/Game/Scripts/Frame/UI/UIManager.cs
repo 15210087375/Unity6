@@ -22,8 +22,8 @@ public class UIManager : Singleton<UIManager>
     
     public void InitFirstScene()
     {
-       SwitchLayer(WindowID.LayerHome);
-        
+       // SwitchLayer(WindowID.LayerHome);
+       OpenView(WindowID.ViewTabBar,null,true);
     }
     private void OpenUI(WindowID windowID,Action<UIBase> action,bool isResident = false)
     {

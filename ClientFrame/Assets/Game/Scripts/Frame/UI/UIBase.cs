@@ -11,12 +11,12 @@ public abstract class UIBase : MonoBehaviour,IView
     
    
     
-    public void OnInit(object data = null)
+    public virtual void OnInit(object data = null)
     {
        
     }
 
-    public void OnOpen(object data = null)
+    public virtual void OnOpen(object data = null)
     {
      
     }
