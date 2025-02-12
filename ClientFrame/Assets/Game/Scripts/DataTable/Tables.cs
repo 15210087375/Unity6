@@ -15,11 +15,13 @@ public partial class Tables
 {
     public demo.GlobalSettingRecord GlobalSettingRecord {get; }
     public demo.ExdataRecord ExdataRecord {get; }
+    public demo.IconRecord IconRecord {get; }
 
     public Tables(System.Func<string, ByteBuf> loader)
     {
         GlobalSettingRecord = new demo.GlobalSettingRecord(loader("demo_globalsettingrecord"));
         ExdataRecord = new demo.ExdataRecord(loader("demo_exdatarecord"));
+        IconRecord = new demo.IconRecord(loader("demo_iconrecord"));
         ResolveRef();
     }
     
@@ -27,6 +29,7 @@ public partial class Tables
     {
         GlobalSettingRecord.ResolveRef(this);
         ExdataRecord.ResolveRef(this);
+        IconRecord.ResolveRef(this);
     }
 }
 

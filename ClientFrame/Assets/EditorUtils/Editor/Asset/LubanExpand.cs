@@ -10,25 +10,29 @@ public class LubanExpand
         // 获取上一级目录
         var parentPath = Path.GetDirectoryName(Path.GetDirectoryName(Application.dataPath));
         // 确定 .bat 文件的绝对路径
-        var batFilePath = Path.Combine(parentPath, "Luban/DataTables/gen.bat");
+        var batFilePath = Path.Combine(parentPath, "Luban/DataTables/gen.bat").Replace("\\", "/" );
        
         if (File.Exists(batFilePath))
         {
             // 配置 ProcessStartInfo
-            ProcessStartInfo startInfo = new ProcessStartInfo();
-            startInfo.FileName = batFilePath;  // 目标文件
-            startInfo.UseShellExecute = false; // 禁用使用外壳
-            startInfo.RedirectStandardOutput = true; // 重定向输出（如果需要查看输出）
-
+            ProcessStartInfo processInfo = new ProcessStartInfo();
+            processInfo.FileName = "cmd.exe"; // 使用 cmd.exe 打开命令行
+            processInfo.Arguments = $"/C \"{batFilePath}\""; // /C 参数让 cmd 执行完后关闭窗口
+            processInfo.UseShellExecute = false;      // 必须为 false 才能设置 Redirect 标志
+            processInfo.RedirectStandardOutput = true; // 获取输出信息
+            processInfo.RedirectStandardError = true;  // 获取错误信息
+            processInfo.CreateNoWindow = false;       // 打开一个控制台窗口
             try
             {
-                using (Process process = Process.Start(startInfo))
+                var process = Process.Start(processInfo);
+                if (process != null)
                 {
+                    process.WaitForExit(); // 等待进程结束
                     // 可选择读取输出（在需要时）
                     using (StreamReader reader = process.StandardOutput)
                     {
                         string result = reader.ReadToEnd();
-                        UnityEngine.Debug.Log(result);
+                          UnityEngine.Debug.Log(result);
                     }
                 }
             }
