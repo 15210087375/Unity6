@@ -23,10 +23,13 @@ public class HomeTabCell : MonoBehaviour
         _selectAction = selectAction;
         _isSelect = isSelect;
         InitSelect();
-       
+        InitUI();
     }
-    
 
+    private void InitUI()
+    {
+        
+    }
     public void OnClickSelect()
     {
         _selectAction.Invoke(_index);

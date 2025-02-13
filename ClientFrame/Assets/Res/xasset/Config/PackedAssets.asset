@@ -63,3 +63,48 @@ MonoBehaviour:
     addressMode: 0
     filter: 
     bundle: prefabs_home.bundle
+  - asset: Assets/Res/UI/Prefabs/Home/HomeTabCell.prefab
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: prefabs_home.bundle
+  - asset: Assets/Res/UI/Prefabs/Home/ViewSetting.prefab
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: prefabs_home.bundle
+  - asset: Assets/Res/UI/Prefabs/Home/ViewTabBar.prefab
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: prefabs_home.bundle
+  - asset: Assets/Res/UI/Image/HomeTabBar/setting0.png
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Res/UI/Image/HomeTabBar/BtnInactive.png
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Res/UI/Image/HomeTabBar/BtnActive.png
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Res/UI/Image/HomeTabBar/setting1.png
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/ThirdParty/RuntimeInspector/Sprites/close-50.png
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Art/Image/Common/ui_second_normal_bg.png
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 

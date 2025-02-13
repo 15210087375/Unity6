@@ -1,11 +1,12 @@
 using System;
+using cfg.demo;
 using UnityEngine;
 using UnityEngine.UI;
 
 //扩展UGUI的功能
 public static partial class GameUtils
 {
-    
+   
 }
 public static partial class GameExtensions
 {
@@ -16,8 +17,37 @@ public static partial class GameExtensions
         {
             return;
         }
-      
+        
+        var iconRecord = TableManager.Instance.Tables.IconRecord;
+        var data = iconRecord.GetOrDefault(iconId);
+        if (data == null)
+        {
+            Logger.Error($"IconId:{iconId} not found!");
+            return;
+        }
+        var path = $"Assets/Res/UI/Image/{data.Atlas}/{data.Sprite}.png";
+        LoadManager.Instance.LoadAsset<Sprite>(path, (res) =>
+        {
+            if (img == null)
+            {
+                return;
+            }
+            if (res != null)
+            {
+                img.sprite = res as Sprite;
+            }
+            else
+            {
+                Logger.Error($"{path} not found!");
+            }
 
+            if (isGray)
+            {
+                img.SetGrey(true);
+            }
+
+            callback?.Invoke();
+        });
     }
 
     //设置灰色

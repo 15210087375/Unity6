@@ -12,7 +12,7 @@ public class Launcher:MonoSingleton<Launcher>
     private IEnumerator Start()
     {
         yield return LoadManager.Instance.Init(null);
-        UIManager.Instance.InitFirstScene();
+        
         TableManager.Instance.InitTable();
         
         var global = TableManager.Instance.Tables.GlobalSettingRecord;
@@ -20,6 +20,9 @@ public class Launcher:MonoSingleton<Launcher>
         {
             Debug.Log(global.DataList[i].Id  +" " +  global.DataList[i].Value);
         }
+        
+        
+        UIManager.Instance.InitFirstScene();
     }
   
     
