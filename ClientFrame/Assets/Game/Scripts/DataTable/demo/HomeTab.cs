@@ -18,7 +18,8 @@ public sealed partial class HomeTab : Luban.BeanBase
     {
         Id = _buf.ReadInt();
         {int n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);IconIds = new System.Collections.Generic.List<int>(n0);for(var i0 = 0 ; i0 < n0 ; i0++) { int _e0;  _e0 = _buf.ReadInt(); IconIds.Add(_e0);}}
-        Name = _buf.ReadString();
+        Name = _buf.ReadInt();
+        Name_Ref = null;
     }
 
     public static HomeTab DeserializeHomeTab(ByteBuf _buf)
@@ -38,7 +39,8 @@ public sealed partial class HomeTab : Luban.BeanBase
     /// <summary>
     /// 图标
     /// </summary>
-    public readonly string Name;
+    public readonly int Name;
+    public demo.Dictionary Name_Ref;
    
     public const int __ID__ = 1533035787;
     public override int GetTypeId() => __ID__;
@@ -48,6 +50,7 @@ public sealed partial class HomeTab : Luban.BeanBase
         IconIds_Ref = new System.Collections.Generic.List<demo.Icon>();
         foreach (var _v in IconIds) { IconIds_Ref.Add(tables.IconRecord.GetOrDefault(_v)); }
 
+        Name_Ref = tables.DictionaryRecord.GetOrDefault(Name);
     }
 
     public override string ToString()

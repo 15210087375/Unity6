@@ -17,6 +17,7 @@ public partial class Tables
     public demo.ExdataRecord ExdataRecord {get; }
     public demo.IconRecord IconRecord {get; }
     public demo.HomeTabRecord HomeTabRecord {get; }
+    public demo.DictionaryRecord DictionaryRecord {get; }
 
     public Tables(System.Func<string, ByteBuf> loader)
     {
@@ -24,6 +25,7 @@ public partial class Tables
         ExdataRecord = new demo.ExdataRecord(loader("demo_exdatarecord"));
         IconRecord = new demo.IconRecord(loader("demo_iconrecord"));
         HomeTabRecord = new demo.HomeTabRecord(loader("demo_hometabrecord"));
+        DictionaryRecord = new demo.DictionaryRecord(loader("demo_dictionaryrecord"));
         ResolveRef();
     }
     
@@ -33,6 +35,7 @@ public partial class Tables
         ExdataRecord.ResolveRef(this);
         IconRecord.ResolveRef(this);
         HomeTabRecord.ResolveRef(this);
+        DictionaryRecord.ResolveRef(this);
     }
 }
 

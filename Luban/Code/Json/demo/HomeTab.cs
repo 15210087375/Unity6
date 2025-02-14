@@ -19,7 +19,8 @@ public sealed partial class HomeTab : Luban.BeanBase
     {
         { if(!_buf["id"].IsNumber) { throw new SerializationException(); }  Id = _buf["id"]; }
         { var __json0 = _buf["iconIds"]; if(!__json0.IsArray) { throw new SerializationException(); } IconIds = new System.Collections.Generic.List<int>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { int __v0;  { if(!__e0.IsNumber) { throw new SerializationException(); }  __v0 = __e0; }  IconIds.Add(__v0); }   }
-        { if(!_buf["name"].IsString) { throw new SerializationException(); }  Name = _buf["name"]; }
+        { if(!_buf["name"].IsNumber) { throw new SerializationException(); }  Name = _buf["name"]; }
+        Name_Ref = null;
     }
 
     public static HomeTab DeserializeHomeTab(JSONNode _buf)
@@ -39,7 +40,8 @@ public sealed partial class HomeTab : Luban.BeanBase
     /// <summary>
     /// 图标
     /// </summary>
-    public readonly string Name;
+    public readonly int Name;
+    public demo.Dictionary Name_Ref;
    
     public const int __ID__ = 1533035787;
     public override int GetTypeId() => __ID__;
@@ -49,6 +51,7 @@ public sealed partial class HomeTab : Luban.BeanBase
         IconIds_Ref = new System.Collections.Generic.List<demo.Icon>();
         foreach (var _v in IconIds) { IconIds_Ref.Add(tables.IconRecord.GetOrDefault(_v)); }
 
+        Name_Ref = tables.DictionaryRecord.GetOrDefault(Name);
     }
 
     public override string ToString()

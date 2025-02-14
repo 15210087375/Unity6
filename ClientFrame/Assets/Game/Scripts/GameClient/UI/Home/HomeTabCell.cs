@@ -33,7 +33,7 @@ public class HomeTabCell : MonoBehaviour
     {
         imgIconGrey.SetIconId(_homeTab.IconIds[0]);
         imgIconWhite.SetIconId(_homeTab.IconIds[1]);
-        txtName.text = _homeTab.Name;
+        txtName.SetText(_homeTab.Name);
     }
     public void OnClickSelect()
     {
