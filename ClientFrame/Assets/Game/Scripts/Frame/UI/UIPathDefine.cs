@@ -4,11 +4,15 @@ using UnityEngine;
 public enum WindowID
 {
     LayerShop,
+    LayerHero,
     LayerHome,
     LayerGame,
-    
+    LayerEvent,
+    LayerSetting,
     ViewSetting,
     ViewTabBar,
+    LayerTemp1,
+   
     //WindowID Tag 
     //请勿删除或修改，用于自动生成代码
 }
@@ -22,7 +26,10 @@ public static class UIPathDefine
         { WindowID.LayerShop, new UIPath(WindowID.LayerShop, "Home/LayerShop.prefab", LayerIndex.Layer) },
         { WindowID.LayerGame, new UIPath(WindowID.LayerGame, "Home/LayerGame.prefab", LayerIndex.Layer) },
         { WindowID.ViewSetting, new UIPath(WindowID.ViewSetting, "Home/ViewSetting.prefab", LayerIndex.View) },
-        { WindowID.ViewTabBar, new UIPath(WindowID.ViewSetting, "Home/ViewTabBar.prefab", LayerIndex.View) },
+        { WindowID.ViewTabBar, new UIPath(WindowID.ViewTabBar, "Home/ViewTabBar.prefab", LayerIndex.View) },
+        { WindowID.LayerHero, new UIPath(WindowID.LayerHero, "Home/LayerHero.prefab", LayerIndex.Layer) },
+        { WindowID.LayerEvent, new UIPath(WindowID.LayerEvent, "Home/LayerEvent.prefab", LayerIndex.Layer) },
+        { WindowID.LayerSetting, new UIPath(WindowID.LayerSetting, "Home/LayerSetting.prefab", LayerIndex.Layer) },
         //WindowPath Tag 
         //请勿删除或修改，用于自动生成代码
     };
@@ -31,7 +38,7 @@ public static class UIPathDefine
    
     public static WindowGroup Group(this WindowID id)
     {
-        if (id >= WindowID.LayerShop && id <= WindowID.LayerGame)
+        if (id >= WindowID.LayerShop && id <= WindowID.LayerSetting)
         {
             return WindowGroup.Home;
         }

@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using cfg.demo;
 using DG.Tweening;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,15 +13,16 @@ public class HomeTabCell : MonoBehaviour
     [SerializeField] private Image imgBgWhite;
     [SerializeField] private Image imgIconGrey;
     [SerializeField] private Image imgIconWhite;
+    [SerializeField] private TextMeshProUGUI txtName;
 
     private Action<int> _selectAction;
-    private int _index;
+    private HomeTab _homeTab;
     private bool _isSelect = false;
 
     private Tweener _anim;
-    public void InitCell(int index,bool isSelect,Action<int> selectAction)
+    public void InitCell(HomeTab homeTab,bool isSelect,Action<int> selectAction)
     {
-        _index = index;
+        _homeTab = homeTab;
         _selectAction = selectAction;
         _isSelect = isSelect;
         InitSelect();
@@ -28,17 +31,19 @@ public class HomeTabCell : MonoBehaviour
 
     private void InitUI()
     {
-        
+        imgIconGrey.SetIconId(_homeTab.IconIds[0]);
+        imgIconWhite.SetIconId(_homeTab.IconIds[1]);
+        txtName.text = _homeTab.Name;
     }
     public void OnClickSelect()
     {
-        _selectAction.Invoke(_index);
+        _selectAction.Invoke(_homeTab.Id);
     }
 
     public void OnSelect(int index)
     {
        
-        if(index == _index)
+        if(index == _homeTab.Id)
         {
             ShowAnim();
         }

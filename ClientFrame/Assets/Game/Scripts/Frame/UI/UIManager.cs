@@ -27,14 +27,17 @@ public class UIManager : Singleton<UIManager>
     }
     private void OpenUI(WindowID windowID,Action<UIBase> action,bool isResident = false)
     {
+        var pathData = UIPathDefine.WindowPath[windowID];
+        var parent = UIRoot.Instance.nodeLayers[(int)pathData.LayerIndex].transform;
         if(_uiDic.ContainsKey(windowID))
         {
             var t = _uiDic[windowID];
+            t.transform.SetParent(parent);
             OpenUI(t,action,isResident);
         }
         else
         {
-            var pathData = UIPathDefine.WindowPath[windowID];
+           
             var path = UIPathDefine.FrontPath + pathData.Path;
             LoadManager.Instance.LoadAsset<GameObject>(path, (obj) =>
             {

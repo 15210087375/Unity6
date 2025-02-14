@@ -11,8 +11,10 @@ public class ViewTabBar : ViewBase
     private readonly List<WindowID> _tabWindowIDs = new List<WindowID>
     {
         WindowID.LayerShop,
-        WindowID.LayerHome,
+        WindowID.LayerHero,
         WindowID.LayerGame,
+        WindowID.LayerEvent,
+        WindowID.LayerSetting
     };
     
     
@@ -25,11 +27,13 @@ public class ViewTabBar : ViewBase
 
     private void InitCells()
     {
-        var initIndex = 1;
+        var initIndex = 2;
+        var homeTabRecord = TableManager.Instance.Tables.HomeTabRecord;
         for (var i = 0; i < tabCells.Count; i++)
         {
+            var homeTab = homeTabRecord.Get(i);
             var cell = tabCells[i];
-            cell.InitCell(i,initIndex == i, OnSelect);
+            cell.InitCell(homeTab,initIndex == i, OnSelect);
         }
         OnSelect(initIndex);
     }
@@ -50,10 +54,16 @@ public class ViewTabBar : ViewBase
             case WindowID.LayerShop:
                 UIManager.Instance.SwitchLayer(id);
                 break;
-            case WindowID.LayerHome:
+            case WindowID.LayerHero:
                 UIManager.Instance.SwitchLayer(id);
                 break;
             case WindowID.LayerGame:
+                UIManager.Instance.SwitchLayer(id);
+                break;
+            case WindowID.LayerEvent:
+                UIManager.Instance.SwitchLayer(id);
+                break;
+            case WindowID.LayerSetting:
                 UIManager.Instance.SwitchLayer(id);
                 break;
             default:

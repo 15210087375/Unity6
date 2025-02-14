@@ -11,20 +11,20 @@ using Luban;
 using SimpleJSON;
 
 
-namespace cfg.demp
+namespace cfg.demo
 {
 public sealed partial class HomeTab : Luban.BeanBase
 {
     public HomeTab(JSONNode _buf) 
     {
         { if(!_buf["id"].IsNumber) { throw new SerializationException(); }  Id = _buf["id"]; }
-        { if(!_buf["atlas"].IsString) { throw new SerializationException(); }  Atlas = _buf["atlas"]; }
-        { if(!_buf["sprite"].IsString) { throw new SerializationException(); }  Sprite = _buf["sprite"]; }
+        { var __json0 = _buf["iconIds"]; if(!__json0.IsArray) { throw new SerializationException(); } IconIds = new System.Collections.Generic.List<int>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { int __v0;  { if(!__e0.IsNumber) { throw new SerializationException(); }  __v0 = __e0; }  IconIds.Add(__v0); }   }
+        { if(!_buf["name"].IsString) { throw new SerializationException(); }  Name = _buf["name"]; }
     }
 
     public static HomeTab DeserializeHomeTab(JSONNode _buf)
     {
-        return new demp.HomeTab(_buf);
+        return new demo.HomeTab(_buf);
     }
 
     /// <summary>
@@ -34,25 +34,29 @@ public sealed partial class HomeTab : Luban.BeanBase
     /// <summary>
     /// 图集
     /// </summary>
-    public readonly string Atlas;
+    public readonly System.Collections.Generic.List<int> IconIds;
+    public System.Collections.Generic.List<demo.Icon> IconIds_Ref;
     /// <summary>
     /// 图标
     /// </summary>
-    public readonly string Sprite;
+    public readonly string Name;
    
-    public const int __ID__ = -274418676;
+    public const int __ID__ = 1533035787;
     public override int GetTypeId() => __ID__;
 
     public  void ResolveRef(Tables tables)
     {
+        IconIds_Ref = new System.Collections.Generic.List<demo.Icon>();
+        foreach (var _v in IconIds) { IconIds_Ref.Add(tables.IconRecord.GetOrDefault(_v)); }
+
     }
 
     public override string ToString()
     {
         return "{ "
         + "id:" + Id + ","
-        + "atlas:" + Atlas + ","
-        + "sprite:" + Sprite + ","
+        + "iconIds:" + Luban.StringUtil.CollectionToString(IconIds) + ","
+        + "name:" + Name + ","
         + "}";
     }
 }

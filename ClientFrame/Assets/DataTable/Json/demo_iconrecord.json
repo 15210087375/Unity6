@@ -12,12 +12,12 @@
   {
     "id": 1003,
     "atlas": "HomeTabBar",
-    "sprite": "setting0"
+    "sprite": "player0"
   },
   {
     "id": 1004,
     "atlas": "HomeTabBar",
-    "sprite": "setting1"
+    "sprite": "player1"
   },
   {
     "id": 1005,
@@ -32,11 +32,21 @@
   {
     "id": 1007,
     "atlas": "HomeTabBar",
-    "sprite": "player0"
+    "sprite": "event0"
   },
   {
     "id": 1008,
     "atlas": "HomeTabBar",
-    "sprite": "player1"
+    "sprite": "event1"
+  },
+  {
+    "id": 1009,
+    "atlas": "HomeTabBar",
+    "sprite": "setting0"
+  },
+  {
+    "id": 1011,
+    "atlas": "HomeTabBar",
+    "sprite": "setting1"
   }
 ]

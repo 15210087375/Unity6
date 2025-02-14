@@ -115,7 +115,7 @@ public class UIAutoGenerator : OdinEditorWindow
         var tempPath = EditorUtilsDefine.UIPathDefinePath;
         var scriptContent = File.ReadAllText(tempPath);
         string searchText = "//WindowPath Tag";
-        string replaceText = $@"{{ WindowID.{className}, new UIPath(WindowID.ViewSetting, ""{loadPath}"", LayerIndex.{(uiType == UIType.Layer?"Layer":"View")}) }},
+        string replaceText = $@"{{ WindowID.{className}, new UIPath(WindowID.{className}, ""{loadPath}"", LayerIndex.{(uiType == UIType.Layer?"Layer":"View")}) }},
         //WindowPath Tag";
         
         var searchText1 = "//WindowID Tag";

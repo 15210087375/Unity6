@@ -10,20 +10,20 @@
 using Luban;
 
 
-namespace cfg.demp
+namespace cfg.demo
 {
 public sealed partial class HomeTab : Luban.BeanBase
 {
     public HomeTab(ByteBuf _buf) 
     {
         Id = _buf.ReadInt();
-        Atlas = _buf.ReadString();
-        Sprite = _buf.ReadString();
+        {int n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);IconIds = new System.Collections.Generic.List<int>(n0);for(var i0 = 0 ; i0 < n0 ; i0++) { int _e0;  _e0 = _buf.ReadInt(); IconIds.Add(_e0);}}
+        Name = _buf.ReadString();
     }
 
     public static HomeTab DeserializeHomeTab(ByteBuf _buf)
     {
-        return new demp.HomeTab(_buf);
+        return new demo.HomeTab(_buf);
     }
 
     /// <summary>
@@ -33,25 +33,29 @@ public sealed partial class HomeTab : Luban.BeanBase
     /// <summary>
     /// 图集
     /// </summary>
-    public readonly string Atlas;
+    public readonly System.Collections.Generic.List<int> IconIds;
+    public System.Collections.Generic.List<demo.Icon> IconIds_Ref;
     /// <summary>
     /// 图标
     /// </summary>
-    public readonly string Sprite;
+    public readonly string Name;
    
-    public const int __ID__ = -274418676;
+    public const int __ID__ = 1533035787;
     public override int GetTypeId() => __ID__;
 
     public  void ResolveRef(Tables tables)
     {
+        IconIds_Ref = new System.Collections.Generic.List<demo.Icon>();
+        foreach (var _v in IconIds) { IconIds_Ref.Add(tables.IconRecord.GetOrDefault(_v)); }
+
     }
 
     public override string ToString()
     {
         return "{ "
         + "id:" + Id + ","
-        + "atlas:" + Atlas + ","
-        + "sprite:" + Sprite + ","
+        + "iconIds:" + Luban.StringUtil.CollectionToString(IconIds) + ","
+        + "name:" + Name + ","
         + "}";
     }
 }

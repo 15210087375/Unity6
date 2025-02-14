@@ -1,42 +1,42 @@
 [
   {
-    "id": 1001,
-    "atlas": "HomeTabBar",
-    "sprite": "shop0"
+    "id": 0,
+    "iconIds": [
+      1001,
+      1002
+    ],
+    "name": "商店"
   },
   {
-    "id": 1002,
-    "atlas": "HomeTabBar",
-    "sprite": "shop1"
+    "id": 1,
+    "iconIds": [
+      1003,
+      1004
+    ],
+    "name": "英雄"
   },
   {
-    "id": 1003,
-    "atlas": "HomeTabBar",
-    "sprite": "setting0"
+    "id": 2,
+    "iconIds": [
+      1005,
+      1006
+    ],
+    "name": "游戏"
   },
   {
-    "id": 1004,
-    "atlas": "HomeTabBar",
-    "sprite": "setting1"
+    "id": 3,
+    "iconIds": [
+      1007,
+      1008
+    ],
+    "name": "事件"
   },
   {
-    "id": 1005,
-    "atlas": "HomeTabBar",
-    "sprite": "game0"
-  },
-  {
-    "id": 1006,
-    "atlas": "HomeTabBar",
-    "sprite": "game1"
-  },
-  {
-    "id": 1007,
-    "atlas": "HomeTabBar",
-    "sprite": "player0"
-  },
-  {
-    "id": 1008,
-    "atlas": "HomeTabBar",
-    "sprite": "player1"
+    "id": 4,
+    "iconIds": [
+      1009,
+      1010
+    ],
+    "name": "设置"
   }
 ]

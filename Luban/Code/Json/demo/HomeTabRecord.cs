@@ -15,29 +15,29 @@ namespace cfg.demo
 {
 public partial class HomeTabRecord
 {
-    private readonly System.Collections.Generic.Dictionary<int, demp.HomeTab> _dataMap;
-    private readonly System.Collections.Generic.List<demp.HomeTab> _dataList;
+    private readonly System.Collections.Generic.Dictionary<int, demo.HomeTab> _dataMap;
+    private readonly System.Collections.Generic.List<demo.HomeTab> _dataList;
     
     public HomeTabRecord(JSONNode _buf)
     {
-        _dataMap = new System.Collections.Generic.Dictionary<int, demp.HomeTab>();
-        _dataList = new System.Collections.Generic.List<demp.HomeTab>();
+        _dataMap = new System.Collections.Generic.Dictionary<int, demo.HomeTab>();
+        _dataList = new System.Collections.Generic.List<demo.HomeTab>();
         
         foreach(JSONNode _ele in _buf.Children)
         {
-            demp.HomeTab _v;
-            { if(!_ele.IsObject) { throw new SerializationException(); }  _v = demp.HomeTab.DeserializeHomeTab(_ele);  }
+            demo.HomeTab _v;
+            { if(!_ele.IsObject) { throw new SerializationException(); }  _v = demo.HomeTab.DeserializeHomeTab(_ele);  }
             _dataList.Add(_v);
             _dataMap.Add(_v.Id, _v);
         }
     }
 
-    public System.Collections.Generic.Dictionary<int, demp.HomeTab> DataMap => _dataMap;
-    public System.Collections.Generic.List<demp.HomeTab> DataList => _dataList;
+    public System.Collections.Generic.Dictionary<int, demo.HomeTab> DataMap => _dataMap;
+    public System.Collections.Generic.List<demo.HomeTab> DataList => _dataList;
 
-    public demp.HomeTab GetOrDefault(int key) => _dataMap.TryGetValue(key, out var v) ? v : null;
-    public demp.HomeTab Get(int key) => _dataMap[key];
-    public demp.HomeTab this[int key] => _dataMap[key];
+    public demo.HomeTab GetOrDefault(int key) => _dataMap.TryGetValue(key, out var v) ? v : null;
+    public demo.HomeTab Get(int key) => _dataMap[key];
+    public demo.HomeTab this[int key] => _dataMap[key];
 
     public void ResolveRef(Tables tables)
     {
