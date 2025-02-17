@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class ViewTabBar : ViewBase
 {
-    [SerializeField] private List<HomeTabCell> tabCells;
+    [SerializeField] private List<ViewTabBarCell> tabCells;
 
     private readonly List<WindowID> _tabWindowIDs = new List<WindowID>
     {

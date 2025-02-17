@@ -6,7 +6,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HomeTabCell : MonoBehaviour
+public class ViewTabBarCell : MonoBehaviour
 {
     [SerializeField] private Transform nodeAnim;
     [SerializeField] private Image imgBgGrey;

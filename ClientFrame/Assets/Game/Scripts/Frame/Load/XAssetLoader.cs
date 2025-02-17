@@ -23,8 +23,11 @@ public class XAssetLoader:ILoader
 
     public UniTask LoadAssetAsync<T>(string path, Action<T> callback) where T : Object
     {
-        throw new NotImplementedException();
-        
+        var request = Asset.LoadAsync(path, typeof(T));
+        UniTask.WaitUntil(() => request.isDone);
+        var asset = request.asset as T;
+        callback?.Invoke(asset);
+        return UniTask.CompletedTask;
     }
 
     public void UnloadAsset(Object go)
