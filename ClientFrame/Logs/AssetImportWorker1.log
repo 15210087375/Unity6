@@ -1998,3 +1998,148 @@ Memory consumption went from 181.9 MB to 175.4 MB.
 Total: 18.290500 ms (FindLiveObjects: 0.561500 ms CreateObjectMapping: 0.519500 ms MarkObjects: 14.684300 ms  DeleteObjects: 2.524100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly with name 'StompyRobot.SRF' already exists (Assets/ThirdParty/StompyRobot/SRF/StompyRobot.SRF.asmdef)
+Assembly with name 'StompyRobot.SRF' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRF/StompyRobot.SRF.asmdef)
+Assembly with name 'StompyRobot.SRF.Editor' already exists (Assets/ThirdParty/SRDebugger/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef)
+Assembly with name 'StompyRobot.SRF.Editor' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef)
+Assembly with name 'StompyRobot.SRF.Editor' already exists (Assets/ThirdParty/StompyRobot/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef)
+Assembly with name 'StompyRobot.SRF.Editor' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef)
+Assembly with name 'StompyRobot.SRDebugger.Editor' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef)
+Assembly with name 'StompyRobot.SRDebugger.Editor' already exists (Assets/ThirdParty/SRDebugger/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef)
+Assembly with name 'StompyRobot.SRF' already exists (Assets/ThirdParty/SRDebugger/SRF/StompyRobot.SRF.asmdef)
+Assembly with name 'StompyRobot.SRF' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRF/StompyRobot.SRF.asmdef)
+Assembly with name 'StompyRobot.SRDebugger.Editor' already exists (Assets/ThirdParty/StompyRobot/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef)
+Assembly with name 'StompyRobot.SRDebugger.Editor' already exists (Assets/ThirdParty/SRDebugger/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef)
+Assembly with name 'StompyRobot.SRDebugger' already exists (Assets/ThirdParty/SRDebugger/SRDebugger/StompyRobot.SRDebugger.asmdef)
+Assembly with name 'StompyRobot.SRDebugger' already exists (Assets/ThirdParty/StompyRobot/SRDebugger/StompyRobot.SRDebugger.asmdef)
+Assembly with name 'StompyRobot.SRDebugger' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRDebugger/StompyRobot.SRDebugger.asmdef)
+Assembly with name 'StompyRobot.SRDebugger' already exists (Assets/ThirdParty/StompyRobot/SRDebugger/StompyRobot.SRDebugger.asmdef)
+Assembly with name 'StompyRobot.SRF' already exists (Assets/ThirdParty/StompyRobot/SRF/StompyRobot.SRF.asmdef)
+Assembly with name 'StompyRobot.SRF' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRF/StompyRobot.SRF.asmdef)
+Assembly with name 'StompyRobot.SRF.Editor' already exists (Assets/ThirdParty/SRDebugger/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef)
+Assembly with name 'StompyRobot.SRF.Editor' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef)
+Assembly with name 'StompyRobot.SRF.Editor' already exists (Assets/ThirdParty/StompyRobot/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef)
+Assembly with name 'StompyRobot.SRF.Editor' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef)
+Assembly with name 'StompyRobot.SRDebugger.Editor' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef)
+Assembly with name 'StompyRobot.SRDebugger.Editor' already exists (Assets/ThirdParty/SRDebugger/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef)
+Assembly with name 'StompyRobot.SRF' already exists (Assets/ThirdParty/SRDebugger/SRF/StompyRobot.SRF.asmdef)
+Assembly with name 'StompyRobot.SRF' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRF/StompyRobot.SRF.asmdef)
+Assembly with name 'StompyRobot.SRDebugger.Editor' already exists (Assets/ThirdParty/StompyRobot/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef)
+Assembly with name 'StompyRobot.SRDebugger.Editor' already exists (Assets/ThirdParty/SRDebugger/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef)
+Assembly with name 'StompyRobot.SRDebugger' already exists (Assets/ThirdParty/SRDebugger/SRDebugger/StompyRobot.SRDebugger.asmdef)
+Assembly with name 'StompyRobot.SRDebugger' already exists (Assets/ThirdParty/StompyRobot/SRDebugger/StompyRobot.SRDebugger.asmdef)
+Assembly with name 'StompyRobot.SRDebugger' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRDebugger/StompyRobot.SRDebugger.asmdef)
+Assembly with name 'StompyRobot.SRDebugger' already exists (Assets/ThirdParty/StompyRobot/SRDebugger/StompyRobot.SRDebugger.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file data-00000250FD16C020 doesn't match image G:\Unity6\ClientFrame\Assets\ThirdParty\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.775 seconds
+Assembly with name 'StompyRobot.SRF' already exists (Assets/ThirdParty/StompyRobot/SRF/StompyRobot.SRF.asmdef)
+Assembly with name 'StompyRobot.SRF' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRF/StompyRobot.SRF.asmdef)
+Assembly with name 'StompyRobot.SRF.Editor' already exists (Assets/ThirdParty/SRDebugger/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef)
+Assembly with name 'StompyRobot.SRF.Editor' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef)
+Assembly with name 'StompyRobot.SRF.Editor' already exists (Assets/ThirdParty/StompyRobot/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef)
+Assembly with name 'StompyRobot.SRF.Editor' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef)
+Assembly with name 'StompyRobot.SRDebugger.Editor' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef)
+Assembly with name 'StompyRobot.SRDebugger.Editor' already exists (Assets/ThirdParty/SRDebugger/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef)
+Assembly with name 'StompyRobot.SRF' already exists (Assets/ThirdParty/SRDebugger/SRF/StompyRobot.SRF.asmdef)
+Assembly with name 'StompyRobot.SRF' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRF/StompyRobot.SRF.asmdef)
+Assembly with name 'StompyRobot.SRDebugger.Editor' already exists (Assets/ThirdParty/StompyRobot/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef)
+Assembly with name 'StompyRobot.SRDebugger.Editor' already exists (Assets/ThirdParty/SRDebugger/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef)
+Assembly with name 'StompyRobot.SRDebugger' already exists (Assets/ThirdParty/SRDebugger/SRDebugger/StompyRobot.SRDebugger.asmdef)
+Assembly with name 'StompyRobot.SRDebugger' already exists (Assets/ThirdParty/StompyRobot/SRDebugger/StompyRobot.SRDebugger.asmdef)
+Assembly with name 'StompyRobot.SRDebugger' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRDebugger/StompyRobot.SRDebugger.asmdef)
+Assembly with name 'StompyRobot.SRDebugger' already exists (Assets/ThirdParty/StompyRobot/SRDebugger/StompyRobot.SRDebugger.asmdef)
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'StompyRobot.SRF' already exists (Assets/ThirdParty/StompyRobot/SRF/StompyRobot.SRF.asmdef)
+Assembly with name 'StompyRobot.SRF' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRF/StompyRobot.SRF.asmdef)
+Assembly with name 'StompyRobot.SRF.Editor' already exists (Assets/ThirdParty/SRDebugger/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef)
+Assembly with name 'StompyRobot.SRF.Editor' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef)
+Assembly with name 'StompyRobot.SRF.Editor' already exists (Assets/ThirdParty/StompyRobot/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef)
+Assembly with name 'StompyRobot.SRF.Editor' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef)
+Assembly with name 'StompyRobot.SRDebugger.Editor' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef)
+Assembly with name 'StompyRobot.SRDebugger.Editor' already exists (Assets/ThirdParty/SRDebugger/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef)
+Assembly with name 'StompyRobot.SRF' already exists (Assets/ThirdParty/SRDebugger/SRF/StompyRobot.SRF.asmdef)
+Assembly with name 'StompyRobot.SRF' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRF/StompyRobot.SRF.asmdef)
+Assembly with name 'StompyRobot.SRDebugger.Editor' already exists (Assets/ThirdParty/StompyRobot/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef)
+Assembly with name 'StompyRobot.SRDebugger.Editor' already exists (Assets/ThirdParty/SRDebugger/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef)
+Assembly with name 'StompyRobot.SRDebugger' already exists (Assets/ThirdParty/SRDebugger/SRDebugger/StompyRobot.SRDebugger.asmdef)
+Assembly with name 'StompyRobot.SRDebugger' already exists (Assets/ThirdParty/StompyRobot/SRDebugger/StompyRobot.SRDebugger.asmdef)
+Assembly with name 'StompyRobot.SRDebugger' already exists (Assets/ThirdParty/LeanPool/StompyRobot/SRDebugger/StompyRobot.SRDebugger.asmdef)
+Assembly with name 'StompyRobot.SRDebugger' already exists (Assets/ThirdParty/StompyRobot/SRDebugger/StompyRobot.SRDebugger.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.218 seconds
+Domain Reload Profiling: 1996ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (496ms)
+		LoadAssemblies (378ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (179ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1219ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1051ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (701ms)
+			ProcessInitializeOnLoadMethodAttributes (171ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7232 unused Assets / (7.3 MB). Loaded Objects now: 8030.
+Memory consumption went from 185.8 MB to 178.5 MB.
+Total: 23.461100 ms (FindLiveObjects: 0.947400 ms CreateObjectMapping: 0.699400 ms MarkObjects: 17.674400 ms  DeleteObjects: 4.137300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1651.537298 seconds.
+  path: Assets/Res/UI/Font/AlibabaPuHuiTi-3500-Heavy SDF.asset
+  artifactKey: Guid(ff5fc9d4e49fba34591446787c555094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/UI/Font/AlibabaPuHuiTi-3500-Heavy SDF.asset using Guid(ff5fc9d4e49fba34591446787c555094) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0da37589b662c76bae9467fcec87126c') in 0.8131381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Res/UI/Image/HomeTabBar/BtnInactive.png
+  artifactKey: Guid(4dc96d8dfee4b0b4489c151446a373c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/UI/Image/HomeTabBar/BtnInactive.png using Guid(4dc96d8dfee4b0b4489c151446a373c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66fdc04c136a5ff4c3970b97facfb999') in 0.0351888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Res/UI/Font/AlibabaPuHuiTi-3500-Heavy SDF_redglow.mat
+  artifactKey: Guid(68174c7793954634dbfa12f04f122b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/UI/Font/AlibabaPuHuiTi-3500-Heavy SDF_redglow.mat using Guid(68174c7793954634dbfa12f04f122b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aef53f6b4b91a01b66e1bafa19e3afeb') in 0.0829385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

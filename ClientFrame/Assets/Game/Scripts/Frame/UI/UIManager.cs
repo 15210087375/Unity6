@@ -111,13 +111,13 @@ public class UIManager : Singleton<UIManager>
             {
                 var left = _previousLayer.windowID > layer.windowID;
                 var animType = left ? WindowAnimType.MoveToRight : WindowAnimType.MoveToLeft;
-                _previousLayer.LayerAnim(animType, false, () =>
+                _previousLayer.UIAnim(animType, false, () =>
                 {
                     _previousLayer.gameObject.SetActive(false);
                     CloseUI(_previousLayer.windowID, null);
                     action?.Invoke();
                 });
-                _curLayer.LayerAnim(animType, true);
+                _curLayer.UIAnim(animType, true);
             }else
             {
                 if (_previousLayer)
