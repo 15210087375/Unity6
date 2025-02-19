@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ui_fruit_icon_duration2_0: 9157181349013827553
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

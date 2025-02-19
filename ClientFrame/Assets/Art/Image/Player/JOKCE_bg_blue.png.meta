@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      JOKCE_bg_blue_0: 6767615854394000653
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

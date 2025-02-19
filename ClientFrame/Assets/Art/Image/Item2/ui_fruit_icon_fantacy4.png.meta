@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ui_fruit_icon_fantacy4_0: -8333381711576692918
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

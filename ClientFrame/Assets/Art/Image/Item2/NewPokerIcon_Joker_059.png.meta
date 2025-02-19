@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NewPokerIcon_Joker_059_0: -6180924884770728112
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

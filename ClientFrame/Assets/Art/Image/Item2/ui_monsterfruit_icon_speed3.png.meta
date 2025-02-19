@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ui_monsterfruit_icon_speed3_0: 7891760828698114200
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

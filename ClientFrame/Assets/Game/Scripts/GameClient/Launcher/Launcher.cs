@@ -7,21 +7,21 @@ using UnityEngine;
 
 public class Launcher:MonoSingleton<Launcher>
 {
-    public UIRoot uiRoot;
-
+ 
     private IEnumerator Start()
     {
         yield return LoadManager.Instance.Init(null);
         
+        //读表
         TableManager.Instance.InitTable();
         
-        var global = TableManager.Instance.Tables.GlobalSettingRecord;
-        for (var i = 0; i < global.DataList.Count; i++)
+        //GM
+        if (GameDefine.GameMode == GameMode.Dev)
         {
-            Debug.Log(global.DataList[i].Id  +" " +  global.DataList[i].Value);
+            SRDebug.Init();
         }
         
-        
+        //UI
         UIManager.Instance.InitFirstScene();
     }
   

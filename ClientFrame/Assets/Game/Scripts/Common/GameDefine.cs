@@ -5,11 +5,9 @@ using System.IO;
 
 public class GameDefine
 {
-    public static bool IsEffectEnable = false;
-    public static bool IsCameraShakeEnable = false;
-    public static bool UseZoneManager = false;
-    public static bool AutoPlay = false;
-
+   
+    public static GameMode GameMode = GameMode.Dev;
+    
     private static string _CacheResPath = string.Empty;
 
     public const int DesignWidth = 1080;
@@ -38,4 +36,10 @@ public class GameDefine
             return _CacheResPath;
         }
     }
+}
+
+public enum GameMode
+{
+    Dev,
+    Rel,
 }

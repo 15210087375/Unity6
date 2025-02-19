@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ui_monsterfruit_icon_magic2_0: -2258357039113578917
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

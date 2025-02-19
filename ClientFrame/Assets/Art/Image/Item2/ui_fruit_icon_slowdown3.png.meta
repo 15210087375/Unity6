@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ui_fruit_icon_slowdown3_0: 4734643179198235004
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

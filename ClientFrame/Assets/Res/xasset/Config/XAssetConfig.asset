@@ -30,6 +30,16 @@ MonoBehaviour:
     enabled: 1
     deliveryMode: 0
     assets:
+    - asset: Assets/Res/UI/Font
+      bundleMode: 3
+      addressMode: 0
+      filter: 
+      bundle: 
+    - asset: Assets/Res/UI/Image
+      bundleMode: 3
+      addressMode: 0
+      filter: 
+      bundle: 
     - asset: Assets/Res/UI/Prefabs
       bundleMode: 3
       addressMode: 0

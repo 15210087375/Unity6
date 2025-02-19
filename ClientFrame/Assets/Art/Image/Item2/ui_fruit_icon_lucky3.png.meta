@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ui_fruit_icon_lucky3_0: -7456711596552228841
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

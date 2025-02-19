@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ui_monsterfruit_icon_criticaldamage1_0: 2132286848080486393
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

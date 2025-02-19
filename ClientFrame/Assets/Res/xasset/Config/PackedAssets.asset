@@ -63,7 +63,7 @@ MonoBehaviour:
     addressMode: 0
     filter: 
     bundle: prefabs_home.bundle
-  - asset: Assets/Res/UI/Prefabs/Home/HomeTabCell.prefab
+  - asset: 
     bundleMode: 3
     addressMode: 0
     filter: 
@@ -79,25 +79,25 @@ MonoBehaviour:
     filter: 
     bundle: prefabs_home.bundle
   - asset: Assets/Res/UI/Image/HomeTabBar/setting0.png
-    bundleMode: 0
+    bundleMode: 3
     addressMode: 0
     filter: 
-    bundle: 
+    bundle: image_hometabbar.bundle
   - asset: Assets/Res/UI/Image/HomeTabBar/BtnInactive.png
-    bundleMode: 0
+    bundleMode: 3
     addressMode: 0
     filter: 
-    bundle: 
+    bundle: image_hometabbar.bundle
   - asset: Assets/Res/UI/Image/HomeTabBar/BtnActive.png
-    bundleMode: 0
+    bundleMode: 3
     addressMode: 0
     filter: 
-    bundle: 
+    bundle: image_hometabbar.bundle
   - asset: Assets/Res/UI/Image/HomeTabBar/setting1.png
-    bundleMode: 0
+    bundleMode: 3
     addressMode: 0
     filter: 
-    bundle: 
+    bundle: image_hometabbar.bundle
   - asset: Assets/ThirdParty/RuntimeInspector/Sprites/close-50.png
     bundleMode: 0
     addressMode: 0
@@ -108,3 +108,303 @@ MonoBehaviour:
     addressMode: 0
     filter: 
     bundle: 
+  - asset: Assets/Res/UI/Prefabs/Home/LayerEvent.prefab
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: prefabs_home.bundle
+  - asset: Assets/Res/UI/Prefabs/Home/LayerHero.prefab
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: prefabs_home.bundle
+  - asset: Assets/Res/UI/Prefabs/Home/LayerSetting.prefab
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: prefabs_home.bundle
+  - asset: Assets/Res/UI/Prefabs/Home/ViewTabBarCell.prefab
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: prefabs_home.bundle
+  - asset: Assets/Res/UI/Image/HomeTabBar/player1.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_hometabbar.bundle
+  - asset: Assets/Res/UI/Image/HomeTabBar/event0.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_hometabbar.bundle
+  - asset: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Res/UI/Image/HomeTabBar/game1.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_hometabbar.bundle
+  - asset: Assets/Res/UI/Image/HomeTabBar/game0.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_hometabbar.bundle
+  - asset: Assets/Res/UI/Image/HomeTabBar/shop0.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_hometabbar.bundle
+  - asset: Assets/Res/UI/Image/HomeTabBar/event1.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_hometabbar.bundle
+  - asset: Assets/Res/UI/Image/HomeTabBar/player0.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_hometabbar.bundle
+  - asset: Assets/Res/UI/Font/AlibabaPuHuiTi-3500-Heavy SDF.asset
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: font.bundle
+  - asset: Assets/Res/UI/Image/HomeTabBar/shop1.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_hometabbar.bundle
+  - asset: Assets/Res/UI/Font/AlibabaPuHuiTi-2-105-Heavy.ttf
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: font.bundle
+  - asset: Assets/Res/UI/Font/AlibabaPuHuiTi-3500-Heavy SDF_greenglow.mat
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: font.bundle
+  - asset: Assets/Res/UI/Font/AlibabaPuHuiTi-3500-Heavy SDF_noline.mat
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: font.bundle
+  - asset: Assets/Res/UI/Font/AlibabaPuHuiTi-3500-Heavy SDF_redglow.mat
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: font.bundle
+  - asset: Assets/Res/UI/Image/Atlas/HomeTabBar.spriteatlasv2
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_atlas.bundle
+  - asset: Assets/Res/UI/Image/HomeTabBar/diamonds_icon.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_hometabbar.bundle
+  - asset: Assets/Res/UI/Image/HomeTabBar/gold_coin_icon.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_hometabbar.bundle
+  - asset: Assets/Res/UI/Image/HomeTabBar/lock.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_hometabbar.bundle
+  - asset: Assets/Res/UI/Image/HomeTabBar
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Res/UI/Font/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/Shaders/TMP_Bitmap-Mobile.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/Shaders/TMP_Bitmap.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/Shaders/TMP_SDF Overlay.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/Shaders/TMP_SDF SSD.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/Shaders/TMP_SDF-HDRP LIT.shadergraph
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: font_shaders.bundle
+  - asset: Assets/Res/UI/Font/Shaders/TMP_SDF-HDRP UNLIT.shadergraph
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: font_shaders.bundle
+  - asset: Assets/Res/UI/Font/Shaders/TMP_SDF-Mobile Masking.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/Shaders/TMP_SDF-Mobile Overlay.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/Shaders/TMP_SDF-Mobile SSD.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/Shaders/TMP_SDF-Mobile-2-Pass.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/Shaders/TMP_SDF-Mobile.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/Shaders/TMP_SDF-Surface-Mobile.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/Shaders/TMP_SDF-Surface.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/Shaders/TMP_SDF-URP Lit.shadergraph
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: font_shaders.bundle
+  - asset: Assets/Res/UI/Font/Shaders/TMP_SDF-URP Unlit.shadergraph
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: font_shaders.bundle
+  - asset: Assets/Res/UI/Font/Shaders/TMP_SDF.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/Shaders/TMP_Sprite.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Res/UI/Font/TMP_Bitmap-Custom-Atlas.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/TMP_Bitmap-Mobile.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/TMP_Bitmap.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/TMP_SDF Overlay.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/TMP_SDF SSD.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/TMP_SDF-HDRP LIT.shadergraph
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: font.bundle
+  - asset: Assets/Res/UI/Font/TMP_SDF-HDRP UNLIT.shadergraph
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: font.bundle
+  - asset: Assets/Res/UI/Font/TMP_SDF-Mobile Masking.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/TMP_SDF-Mobile Overlay.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/TMP_SDF-Mobile SSD.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/TMP_SDF-Mobile-2-Pass.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/TMP_SDF-Mobile.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/TMP_SDF-Surface-Mobile.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/TMP_SDF-Surface.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/TMP_SDF-URP Lit.shadergraph
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: font.bundle
+  - asset: Assets/Res/UI/Font/TMP_SDF-URP Unlit.shadergraph
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: font.bundle
+  - asset: Assets/Res/UI/Font/TMP_SDF.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle
+  - asset: Assets/Res/UI/Font/TMP_Sprite.shader
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: shaders.bundle

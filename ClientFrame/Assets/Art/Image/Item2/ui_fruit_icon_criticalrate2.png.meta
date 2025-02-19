@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ui_fruit_icon_criticalrate2_0: -3470922511811836200
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
