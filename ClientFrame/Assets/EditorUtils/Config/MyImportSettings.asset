@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c824ca1a12e264a9c2239a0a96b22e, type: 3}
+  m_Name: MyImportSettings
+  m_EditorClassIdentifier: 
+  textureData:
+  - path: Assets/Res/UI/Image
+    textureImporterType: 8
+    isReadable: 0
+    mipmapEnabled: 0
+    maxSize: 1024
+    androidFormat: 4
+    iOSFormat: 4
+  - path: Assets/Res/UI/Texture
+    textureImporterType: 0
+    isReadable: 0
+    mipmapEnabled: 0
+    maxSize: 2048
+    androidFormat: 50
+    iOSFormat: 50
+  audioData:
+  - path: Assets/Res/Music/Audio
+    minTime: 0
+    maxTime: 10
+  - path: Assets/Res/Music/Bgm
+    minTime: 10
+    maxTime: 300

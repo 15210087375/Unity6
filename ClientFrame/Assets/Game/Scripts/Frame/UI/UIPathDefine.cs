@@ -13,6 +13,7 @@ public enum WindowID
     ViewTabBar,
     LayerTemp1,
    
+    ViewTopBar,
     //WindowID Tag 
     //请勿删除或修改，用于自动生成代码
 }
@@ -30,6 +31,7 @@ public static class UIPathDefine
         { WindowID.LayerHero, new UIPath(WindowID.LayerHero, "Home/LayerHero.prefab", LayerIndex.Layer) },
         { WindowID.LayerEvent, new UIPath(WindowID.LayerEvent, "Home/LayerEvent.prefab", LayerIndex.Layer) },
         { WindowID.LayerSetting, new UIPath(WindowID.LayerSetting, "Home/LayerSetting.prefab", LayerIndex.Layer) },
+        { WindowID.ViewTopBar, new UIPath(WindowID.ViewTopBar, "Home/ViewTopBar.prefab", LayerIndex.View) },
         //WindowPath Tag 
         //请勿删除或修改，用于自动生成代码
     };
