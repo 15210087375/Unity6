@@ -59,6 +59,7 @@ public class ViewTabBar : ViewBase
                 break;
             case WindowID.LayerGame:
                 UIManager.Instance.SwitchLayer(id);
+                UIManager.Instance.OpenView(WindowID.ViewTopBar);
                 break;
             case WindowID.LayerEvent:
                 UIManager.Instance.SwitchLayer(id);

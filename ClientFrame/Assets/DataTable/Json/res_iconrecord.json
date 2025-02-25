@@ -1,0 +1,102 @@
+[
+  {
+    "id": 0,
+    "atlas": "",
+    "sprite": ""
+  },
+  {
+    "id": 1001,
+    "atlas": "Common",
+    "sprite": "ui_res_lv"
+  },
+  {
+    "id": 1002,
+    "atlas": "Common",
+    "sprite": "ui_res_exp"
+  },
+  {
+    "id": 1010,
+    "atlas": "Common",
+    "sprite": "ui_res_coin"
+  },
+  {
+    "id": 1011,
+    "atlas": "Common",
+    "sprite": "ui_res_gem"
+  },
+  {
+    "id": 1012,
+    "atlas": "Common",
+    "sprite": "ui_res_flower1"
+  },
+  {
+    "id": 1013,
+    "atlas": "Common",
+    "sprite": "ui_res_flower2"
+  },
+  {
+    "id": 1014,
+    "atlas": "Common",
+    "sprite": "ui_res_leaf"
+  },
+  {
+    "id": 1015,
+    "atlas": "Common",
+    "sprite": "ui_res_star1"
+  },
+  {
+    "id": 1016,
+    "atlas": "Common",
+    "sprite": "ui_res_star2"
+  },
+  {
+    "id": 100001,
+    "atlas": "HomeTabBar",
+    "sprite": "shop0"
+  },
+  {
+    "id": 100002,
+    "atlas": "HomeTabBar",
+    "sprite": "shop1"
+  },
+  {
+    "id": 100003,
+    "atlas": "HomeTabBar",
+    "sprite": "player0"
+  },
+  {
+    "id": 100004,
+    "atlas": "HomeTabBar",
+    "sprite": "player1"
+  },
+  {
+    "id": 100005,
+    "atlas": "HomeTabBar",
+    "sprite": "game0"
+  },
+  {
+    "id": 100006,
+    "atlas": "HomeTabBar",
+    "sprite": "game1"
+  },
+  {
+    "id": 100007,
+    "atlas": "HomeTabBar",
+    "sprite": "event0"
+  },
+  {
+    "id": 100008,
+    "atlas": "HomeTabBar",
+    "sprite": "event1"
+  },
+  {
+    "id": 100009,
+    "atlas": "HomeTabBar",
+    "sprite": "setting0"
+  },
+  {
+    "id": 100010,
+    "atlas": "HomeTabBar",
+    "sprite": "setting1"
+  }
+]

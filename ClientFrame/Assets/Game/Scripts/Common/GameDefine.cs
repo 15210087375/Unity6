@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 
-public class GameDefine
+public partial class GameDefine
 {
    
     public static GameMode GameMode = GameMode.Dev;

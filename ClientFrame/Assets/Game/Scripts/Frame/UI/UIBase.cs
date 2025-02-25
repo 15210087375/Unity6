@@ -3,6 +3,12 @@ using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
 
+public enum UIState
+{
+    None,
+    Open,
+    Close
+}
 public abstract class UIBase : MonoBehaviour,IView
 {
     //窗口ID
@@ -12,7 +18,7 @@ public abstract class UIBase : MonoBehaviour,IView
     [HideInInspector]
     public bool isResident = false;
     
-   
+    public UIState uiState = UIState.None;
     
     public virtual void OnInit(object data = null)
     {

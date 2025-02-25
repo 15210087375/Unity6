@@ -1,5 +1,4 @@
 using System;
-using cfg.demo;
 using UnityEngine;
 using UnityEngine.UI;
 

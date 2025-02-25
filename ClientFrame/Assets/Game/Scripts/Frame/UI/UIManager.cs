@@ -13,8 +13,10 @@ public enum UIType
 }
 public class UIManager : Singleton<UIManager>
 {
+    //缓存所有打开过的UI  todo:是否需要缓存 todo:缓存时间
     private Dictionary<WindowID, UIBase> _uiDic = new Dictionary<WindowID, UIBase>();
-    private List<ViewBase> _viewList = new List<ViewBase>();
+    //缓存所有打开过的View 用于统一操作
+    private Dictionary<WindowID,ViewBase> _viewDic = new Dictionary<WindowID,ViewBase>();
 
     
     private LayerBase _previousLayer;
@@ -81,12 +83,14 @@ public class UIManager : Singleton<UIManager>
     
     private void CloseAllView()
     {
-        for (var i = 0; i < _viewList.Count; i++)
+        foreach (var keyValuePair in _viewDic)
         {
-            if(_viewList[i].isResident) continue;
-            _viewList[i].Close();
+            var view = keyValuePair.Value;
+            if(view.isResident) continue;
+            view.Close();
         }
-        _viewList.Clear();
+        _viewDic.Clear();
+       
     }
     
 
@@ -133,12 +137,16 @@ public class UIManager : Singleton<UIManager>
     
     public void OpenView(WindowID id,Action action = null,bool isResident = false)
     {
+        if (_viewDic.ContainsKey(id))
+        {
+            return;
+        }
         OpenUI(id, (view) =>
         {
             var panel = view as ViewBase;
             if (panel != null)
             {
-                _viewList.Add(panel);
+                _viewDic.Add(id,panel);
             }
             action?.Invoke();
         },isResident);

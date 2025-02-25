@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using cfg.demo;
+using cfg.UI;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;

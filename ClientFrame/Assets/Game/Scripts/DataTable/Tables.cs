@@ -13,19 +13,21 @@ namespace cfg
 {
 public partial class Tables
 {
-    public demo.GlobalSettingRecord GlobalSettingRecord {get; }
-    public demo.ExdataRecord ExdataRecord {get; }
-    public demo.IconRecord IconRecord {get; }
-    public demo.HomeTabRecord HomeTabRecord {get; }
-    public demo.DictionaryRecord DictionaryRecord {get; }
+    public Common.GlobalSettingRecord GlobalSettingRecord {get; }
+    public Common.ExdataRecord ExdataRecord {get; }
+    public Common.TextRecord TextRecord {get; }
+    public Res.ItemRecord ItemRecord {get; }
+    public Res.IconRecord IconRecord {get; }
+    public UI.HomeTabRecord HomeTabRecord {get; }
 
     public Tables(System.Func<string, ByteBuf> loader)
     {
-        GlobalSettingRecord = new demo.GlobalSettingRecord(loader("demo_globalsettingrecord"));
-        ExdataRecord = new demo.ExdataRecord(loader("demo_exdatarecord"));
-        IconRecord = new demo.IconRecord(loader("demo_iconrecord"));
-        HomeTabRecord = new demo.HomeTabRecord(loader("demo_hometabrecord"));
-        DictionaryRecord = new demo.DictionaryRecord(loader("demo_dictionaryrecord"));
+        GlobalSettingRecord = new Common.GlobalSettingRecord(loader("common_globalsettingrecord"));
+        ExdataRecord = new Common.ExdataRecord(loader("common_exdatarecord"));
+        TextRecord = new Common.TextRecord(loader("common_textrecord"));
+        ItemRecord = new Res.ItemRecord(loader("res_itemrecord"));
+        IconRecord = new Res.IconRecord(loader("res_iconrecord"));
+        HomeTabRecord = new UI.HomeTabRecord(loader("ui_hometabrecord"));
         ResolveRef();
     }
     
@@ -33,9 +35,10 @@ public partial class Tables
     {
         GlobalSettingRecord.ResolveRef(this);
         ExdataRecord.ResolveRef(this);
+        TextRecord.ResolveRef(this);
+        ItemRecord.ResolveRef(this);
         IconRecord.ResolveRef(this);
         HomeTabRecord.ResolveRef(this);
-        DictionaryRecord.ResolveRef(this);
     }
 }
 
