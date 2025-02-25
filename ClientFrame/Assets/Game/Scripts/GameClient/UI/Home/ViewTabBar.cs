@@ -49,17 +49,19 @@ public class ViewTabBar : ViewBase
         
         //打开对应界面
         var id = _tabWindowIDs[index];
+        var foldTopCell = false;
         switch (id)
         {
             case WindowID.LayerShop:
                 UIManager.Instance.SwitchLayer(id);
+                foldTopCell = true;
                 break;
             case WindowID.LayerHero:
                 UIManager.Instance.SwitchLayer(id);
                 break;
             case WindowID.LayerGame:
                 UIManager.Instance.SwitchLayer(id);
-                UIManager.Instance.OpenView(WindowID.ViewTopBar);
+                UIManager.Instance.OpenView(WindowID.ViewTopBar,null,true);
                 break;
             case WindowID.LayerEvent:
                 UIManager.Instance.SwitchLayer(id);
@@ -70,6 +72,7 @@ public class ViewTabBar : ViewBase
             default:
                 throw new ArgumentOutOfRangeException();
         }
+        EventCenter.Broadcast(EventCetnerType.TopViewFoldAnim,foldTopCell);
         
     }
     
