@@ -2,9 +2,11 @@ using UnityEngine;
 
 public class LayerGame:LayerBase
 {
-    public void OnHomeClick()
+
+
+    public void OnClickTestData()
     {
-        UIManager.Instance.SwitchLayer(WindowID.LayerHome);
+        UIManager.Instance.OpenView(WindowID.ViewTestData);
     }
     
 }

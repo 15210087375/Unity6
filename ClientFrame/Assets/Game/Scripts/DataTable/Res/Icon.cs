@@ -12,48 +12,40 @@ using Luban;
 
 namespace cfg.Res
 {
-public sealed partial class Icon : Luban.BeanBase
+public partial class Icon
 {
-    public Icon(ByteBuf _buf) 
+    private readonly System.Collections.Generic.Dictionary<int, Res.IconRecord> _dataMap;
+    private readonly System.Collections.Generic.List<Res.IconRecord> _dataList;
+    
+    public Icon(ByteBuf _buf)
     {
-        Id = _buf.ReadInt();
-        Atlas = _buf.ReadString();
-        Sprite = _buf.ReadString();
+        _dataMap = new System.Collections.Generic.Dictionary<int, Res.IconRecord>();
+        _dataList = new System.Collections.Generic.List<Res.IconRecord>();
+        
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
+        {
+            Res.IconRecord _v;
+            _v = Res.IconRecord.DeserializeIconRecord(_buf);
+            _dataList.Add(_v);
+            _dataMap.Add(_v.Id, _v);
+        }
     }
 
-    public static Icon DeserializeIcon(ByteBuf _buf)
+    public System.Collections.Generic.Dictionary<int, Res.IconRecord> DataMap => _dataMap;
+    public System.Collections.Generic.List<Res.IconRecord> DataList => _dataList;
+
+    public Res.IconRecord GetOrDefault(int key) => _dataMap.TryGetValue(key, out var v) ? v : null;
+    public Res.IconRecord Get(int key) => _dataMap[key];
+    public Res.IconRecord this[int key] => _dataMap[key];
+
+    public void ResolveRef(Tables tables)
     {
-        return new Res.Icon(_buf);
+        foreach(var _v in _dataList)
+        {
+            _v.ResolveRef(tables);
+        }
     }
 
-    /// <summary>
-    /// id
-    /// </summary>
-    public readonly int Id;
-    /// <summary>
-    /// 图集
-    /// </summary>
-    public readonly string Atlas;
-    /// <summary>
-    /// 图标
-    /// </summary>
-    public readonly string Sprite;
-   
-    public const int __ID__ = -337774265;
-    public override int GetTypeId() => __ID__;
-
-    public  void ResolveRef(Tables tables)
-    {
-    }
-
-    public override string ToString()
-    {
-        return "{ "
-        + "id:" + Id + ","
-        + "atlas:" + Atlas + ","
-        + "sprite:" + Sprite + ","
-        + "}";
-    }
 }
 
 }

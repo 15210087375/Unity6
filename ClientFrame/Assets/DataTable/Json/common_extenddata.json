@@ -1,0 +1,281 @@
+[
+  {
+    "id": 0,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": 0,
+    "refreshTime": 0,
+    "canClientChange": 0,
+    "condition": 0
+  },
+  {
+    "id": 1,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": 1,
+    "condition": -1
+  },
+  {
+    "id": 2,
+    "initValue": 1000,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": 1,
+    "condition": -1
+  },
+  {
+    "id": 3,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 4,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 5,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 6,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 7,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 8,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 9,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 10,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 11,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 12,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 13,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 14,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 15,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 16,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 17,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 18,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 19,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 20,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 21,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 22,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 23,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 24,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 25,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 26,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 27,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 28,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 29,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  },
+  {
+    "id": 30,
+    "initValue": 0,
+    "maxValue": -1,
+    "refreshRule": -1,
+    "refreshTime": -1,
+    "canClientChange": -1,
+    "condition": -1
+  }
+]

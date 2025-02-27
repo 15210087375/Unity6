@@ -12,40 +12,48 @@ using Luban;
 
 namespace cfg.Res
 {
-public partial class IconRecord
+public sealed partial class IconRecord : Luban.BeanBase
 {
-    private readonly System.Collections.Generic.Dictionary<int, Res.Icon> _dataMap;
-    private readonly System.Collections.Generic.List<Res.Icon> _dataList;
-    
-    public IconRecord(ByteBuf _buf)
+    public IconRecord(ByteBuf _buf) 
     {
-        _dataMap = new System.Collections.Generic.Dictionary<int, Res.Icon>();
-        _dataList = new System.Collections.Generic.List<Res.Icon>();
-        
-        for(int n = _buf.ReadSize() ; n > 0 ; --n)
-        {
-            Res.Icon _v;
-            _v = Res.Icon.DeserializeIcon(_buf);
-            _dataList.Add(_v);
-            _dataMap.Add(_v.Id, _v);
-        }
+        Id = _buf.ReadInt();
+        Atlas = _buf.ReadString();
+        Sprite = _buf.ReadString();
     }
 
-    public System.Collections.Generic.Dictionary<int, Res.Icon> DataMap => _dataMap;
-    public System.Collections.Generic.List<Res.Icon> DataList => _dataList;
-
-    public Res.Icon GetOrDefault(int key) => _dataMap.TryGetValue(key, out var v) ? v : null;
-    public Res.Icon Get(int key) => _dataMap[key];
-    public Res.Icon this[int key] => _dataMap[key];
-
-    public void ResolveRef(Tables tables)
+    public static IconRecord DeserializeIconRecord(ByteBuf _buf)
     {
-        foreach(var _v in _dataList)
-        {
-            _v.ResolveRef(tables);
-        }
+        return new Res.IconRecord(_buf);
     }
 
+    /// <summary>
+    /// id
+    /// </summary>
+    public readonly int Id;
+    /// <summary>
+    /// 图集
+    /// </summary>
+    public readonly string Atlas;
+    /// <summary>
+    /// 图标
+    /// </summary>
+    public readonly string Sprite;
+   
+    public const int __ID__ = -12255112;
+    public override int GetTypeId() => __ID__;
+
+    public  void ResolveRef(Tables tables)
+    {
+    }
+
+    public override string ToString()
+    {
+        return "{ "
+        + "id:" + Id + ","
+        + "atlas:" + Atlas + ","
+        + "sprite:" + Sprite + ","
+        + "}";
+    }
 }
 
 }

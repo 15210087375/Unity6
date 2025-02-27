@@ -17,7 +17,7 @@ public static partial class GameExtensions
             return;
         }
         
-        var iconRecord = TableManager.Instance.Tables.IconRecord;
+        var iconRecord = TableManager.Instance.Tables.Icon;
         var data = iconRecord.GetOrDefault(iconId);
         if (data == null)
         {

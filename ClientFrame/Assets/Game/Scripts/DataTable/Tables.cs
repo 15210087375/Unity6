@@ -13,32 +13,38 @@ namespace cfg
 {
 public partial class Tables
 {
-    public Common.GlobalSettingRecord GlobalSettingRecord {get; }
-    public Common.ExdataRecord ExdataRecord {get; }
-    public Common.TextRecord TextRecord {get; }
-    public Res.ItemRecord ItemRecord {get; }
-    public Res.IconRecord IconRecord {get; }
-    public UI.HomeTabRecord HomeTabRecord {get; }
+    public Common.GlobalSetting GlobalSetting {get; }
+    public Common.Flag Flag {get; }
+    public Common.ExtendData ExtendData {get; }
+    public Common.Condition Condition {get; }
+    public Common.Dictionary Dictionary {get; }
+    public Res.Item Item {get; }
+    public Res.Icon Icon {get; }
+    public UI.HomeTab HomeTab {get; }
 
     public Tables(System.Func<string, ByteBuf> loader)
     {
-        GlobalSettingRecord = new Common.GlobalSettingRecord(loader("common_globalsettingrecord"));
-        ExdataRecord = new Common.ExdataRecord(loader("common_exdatarecord"));
-        TextRecord = new Common.TextRecord(loader("common_textrecord"));
-        ItemRecord = new Res.ItemRecord(loader("res_itemrecord"));
-        IconRecord = new Res.IconRecord(loader("res_iconrecord"));
-        HomeTabRecord = new UI.HomeTabRecord(loader("ui_hometabrecord"));
+        GlobalSetting = new Common.GlobalSetting(loader("common_globalsetting"));
+        Flag = new Common.Flag(loader("common_flag"));
+        ExtendData = new Common.ExtendData(loader("common_extenddata"));
+        Condition = new Common.Condition(loader("common_condition"));
+        Dictionary = new Common.Dictionary(loader("common_dictionary"));
+        Item = new Res.Item(loader("res_item"));
+        Icon = new Res.Icon(loader("res_icon"));
+        HomeTab = new UI.HomeTab(loader("ui_hometab"));
         ResolveRef();
     }
     
     private void ResolveRef()
     {
-        GlobalSettingRecord.ResolveRef(this);
-        ExdataRecord.ResolveRef(this);
-        TextRecord.ResolveRef(this);
-        ItemRecord.ResolveRef(this);
-        IconRecord.ResolveRef(this);
-        HomeTabRecord.ResolveRef(this);
+        GlobalSetting.ResolveRef(this);
+        Flag.ResolveRef(this);
+        ExtendData.ResolveRef(this);
+        Condition.ResolveRef(this);
+        Dictionary.ResolveRef(this);
+        Item.ResolveRef(this);
+        Icon.ResolveRef(this);
+        HomeTab.ResolveRef(this);
     }
 }
 

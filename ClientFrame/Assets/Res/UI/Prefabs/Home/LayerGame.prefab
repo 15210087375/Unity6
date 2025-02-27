@@ -275,6 +275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowID: 2
   isResident: 0
+  uiState: 0
 --- !u!1 &5773633520581985127
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,7 +403,7 @@ GameObject:
   - component: {fileID: 7387972973614524272}
   - component: {fileID: 4621358472931593806}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: btnTestData
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -424,7 +425,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -17, y: -258}
+  m_AnchoredPosition: {x: 460, y: 623}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &414176405797299122
@@ -455,7 +456,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 12ba4a970ee256f4ea93ac5f983edf10, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -511,7 +512,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3377069685475343595}
         m_TargetAssemblyTypeName: LayerGame, Assembly-CSharp
-        m_MethodName: OnHomeClick
+        m_MethodName: OnClickTestData
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

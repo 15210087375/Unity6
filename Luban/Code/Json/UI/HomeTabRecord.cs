@@ -13,40 +13,55 @@ using SimpleJSON;
 
 namespace cfg.UI
 {
-public partial class HomeTabRecord
+public sealed partial class HomeTabRecord : Luban.BeanBase
 {
-    private readonly System.Collections.Generic.Dictionary<int, UI.HomeTab> _dataMap;
-    private readonly System.Collections.Generic.List<UI.HomeTab> _dataList;
-    
-    public HomeTabRecord(JSONNode _buf)
+    public HomeTabRecord(JSONNode _buf) 
     {
-        _dataMap = new System.Collections.Generic.Dictionary<int, UI.HomeTab>();
-        _dataList = new System.Collections.Generic.List<UI.HomeTab>();
-        
-        foreach(JSONNode _ele in _buf.Children)
-        {
-            UI.HomeTab _v;
-            { if(!_ele.IsObject) { throw new SerializationException(); }  _v = UI.HomeTab.DeserializeHomeTab(_ele);  }
-            _dataList.Add(_v);
-            _dataMap.Add(_v.Id, _v);
-        }
+        { if(!_buf["id"].IsNumber) { throw new SerializationException(); }  Id = _buf["id"]; }
+        { var __json0 = _buf["iconIds"]; if(!__json0.IsArray) { throw new SerializationException(); } IconIds = new System.Collections.Generic.List<int>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { int __v0;  { if(!__e0.IsNumber) { throw new SerializationException(); }  __v0 = __e0; }  IconIds.Add(__v0); }   }
+        { if(!_buf["name"].IsNumber) { throw new SerializationException(); }  Name = _buf["name"]; }
+        Name_Ref = null;
     }
 
-    public System.Collections.Generic.Dictionary<int, UI.HomeTab> DataMap => _dataMap;
-    public System.Collections.Generic.List<UI.HomeTab> DataList => _dataList;
-
-    public UI.HomeTab GetOrDefault(int key) => _dataMap.TryGetValue(key, out var v) ? v : null;
-    public UI.HomeTab Get(int key) => _dataMap[key];
-    public UI.HomeTab this[int key] => _dataMap[key];
-
-    public void ResolveRef(Tables tables)
+    public static HomeTabRecord DeserializeHomeTabRecord(JSONNode _buf)
     {
-        foreach(var _v in _dataList)
-        {
-            _v.ResolveRef(tables);
-        }
+        return new UI.HomeTabRecord(_buf);
     }
 
+    /// <summary>
+    /// id
+    /// </summary>
+    public readonly int Id;
+    /// <summary>
+    /// 图集
+    /// </summary>
+    public readonly System.Collections.Generic.List<int> IconIds;
+    public System.Collections.Generic.List<Res.IconRecord> IconIds_Ref;
+    /// <summary>
+    /// 字典
+    /// </summary>
+    public readonly int Name;
+    public Common.DictionaryRecord Name_Ref;
+   
+    public const int __ID__ = 547941421;
+    public override int GetTypeId() => __ID__;
+
+    public  void ResolveRef(Tables tables)
+    {
+        IconIds_Ref = new System.Collections.Generic.List<Res.IconRecord>();
+        foreach (var _v in IconIds) { IconIds_Ref.Add(tables.Icon.GetOrDefault(_v)); }
+
+        Name_Ref = tables.Dictionary.GetOrDefault(Name);
+    }
+
+    public override string ToString()
+    {
+        return "{ "
+        + "id:" + Id + ","
+        + "iconIds:" + Luban.StringUtil.CollectionToString(IconIds) + ","
+        + "name:" + Name + ","
+        + "}";
+    }
 }
 
 }

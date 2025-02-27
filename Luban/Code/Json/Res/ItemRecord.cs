@@ -13,40 +13,93 @@ using SimpleJSON;
 
 namespace cfg.Res
 {
-public partial class ItemRecord
+public sealed partial class ItemRecord : Luban.BeanBase
 {
-    private readonly System.Collections.Generic.Dictionary<int, Res.Item> _dataMap;
-    private readonly System.Collections.Generic.List<Res.Item> _dataList;
-    
-    public ItemRecord(JSONNode _buf)
+    public ItemRecord(JSONNode _buf) 
     {
-        _dataMap = new System.Collections.Generic.Dictionary<int, Res.Item>();
-        _dataList = new System.Collections.Generic.List<Res.Item>();
-        
-        foreach(JSONNode _ele in _buf.Children)
-        {
-            Res.Item _v;
-            { if(!_ele.IsObject) { throw new SerializationException(); }  _v = Res.Item.DeserializeItem(_ele);  }
-            _dataList.Add(_v);
-            _dataMap.Add(_v.Id, _v);
-        }
+        { if(!_buf["id"].IsNumber) { throw new SerializationException(); }  Id = _buf["id"]; }
+        { if(!_buf["name"].IsNumber) { throw new SerializationException(); }  Name = _buf["name"]; }
+        Name_Ref = null;
+        { if(!_buf["icon"].IsNumber) { throw new SerializationException(); }  Icon = _buf["icon"]; }
+        Icon_Ref = null;
+        { if(!_buf["desc"].IsNumber) { throw new SerializationException(); }  Desc = _buf["desc"]; }
+        { if(!_buf["type"].IsNumber) { throw new SerializationException(); }  Type = _buf["type"]; }
+        { if(!_buf["bagType"].IsNumber) { throw new SerializationException(); }  BagType = _buf["bagType"]; }
+        { if(!_buf["maxCount"].IsNumber) { throw new SerializationException(); }  MaxCount = _buf["maxCount"]; }
+        { if(!_buf["quality"].IsNumber) { throw new SerializationException(); }  Quality = _buf["quality"]; }
+        { var __json0 = _buf["from"]; if(!__json0.IsArray) { throw new SerializationException(); } From = new System.Collections.Generic.List<int>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { int __v0;  { if(!__e0.IsNumber) { throw new SerializationException(); }  __v0 = __e0; }  From.Add(__v0); }   }
+        { var __json0 = _buf["exdata"]; if(!__json0.IsArray) { throw new SerializationException(); } Exdata = new System.Collections.Generic.List<int>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { int __v0;  { if(!__e0.IsNumber) { throw new SerializationException(); }  __v0 = __e0; }  Exdata.Add(__v0); }   }
     }
 
-    public System.Collections.Generic.Dictionary<int, Res.Item> DataMap => _dataMap;
-    public System.Collections.Generic.List<Res.Item> DataList => _dataList;
-
-    public Res.Item GetOrDefault(int key) => _dataMap.TryGetValue(key, out var v) ? v : null;
-    public Res.Item Get(int key) => _dataMap[key];
-    public Res.Item this[int key] => _dataMap[key];
-
-    public void ResolveRef(Tables tables)
+    public static ItemRecord DeserializeItemRecord(JSONNode _buf)
     {
-        foreach(var _v in _dataList)
-        {
-            _v.ResolveRef(tables);
-        }
+        return new Res.ItemRecord(_buf);
     }
 
+    /// <summary>
+    /// id
+    /// </summary>
+    public readonly int Id;
+    /// <summary>
+    /// 物品名
+    /// </summary>
+    public readonly int Name;
+    public Common.DictionaryRecord Name_Ref;
+    /// <summary>
+    /// 图标表ID
+    /// </summary>
+    public readonly int Icon;
+    public Res.IconRecord Icon_Ref;
+    /// <summary>
+    /// 描述
+    /// </summary>
+    public readonly int Desc;
+    /// <summary>
+    /// 物品类型
+    /// </summary>
+    public readonly int Type;
+    /// <summary>
+    /// 包裹类型
+    /// </summary>
+    public readonly int BagType;
+    /// <summary>
+    /// 最大数量
+    /// </summary>
+    public readonly int MaxCount;
+    /// <summary>
+    /// 品质
+    /// </summary>
+    public readonly int Quality;
+    /// <summary>
+    /// 获取途径
+    /// </summary>
+    public readonly System.Collections.Generic.List<int> From;
+    public readonly System.Collections.Generic.List<int> Exdata;
+   
+    public const int __ID__ = -1809947758;
+    public override int GetTypeId() => __ID__;
+
+    public  void ResolveRef(Tables tables)
+    {
+        Name_Ref = tables.Dictionary.GetOrDefault(Name);
+        Icon_Ref = tables.Icon.GetOrDefault(Icon);
+    }
+
+    public override string ToString()
+    {
+        return "{ "
+        + "id:" + Id + ","
+        + "name:" + Name + ","
+        + "icon:" + Icon + ","
+        + "desc:" + Desc + ","
+        + "type:" + Type + ","
+        + "bagType:" + BagType + ","
+        + "maxCount:" + MaxCount + ","
+        + "quality:" + Quality + ","
+        + "from:" + Luban.StringUtil.CollectionToString(From) + ","
+        + "exdata:" + Luban.StringUtil.CollectionToString(Exdata) + ","
+        + "}";
+    }
 }
 
 }

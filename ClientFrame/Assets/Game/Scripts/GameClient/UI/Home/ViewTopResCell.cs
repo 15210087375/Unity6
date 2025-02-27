@@ -13,7 +13,7 @@ public class ViewTopResCell : MonoBehaviour
     [SerializeField] private Image imgBtn;
     
     //数据
-    private Item _item;
+    private ItemRecord _item;
     private int _index;
     
     // 折叠动画
@@ -22,7 +22,7 @@ public class ViewTopResCell : MonoBehaviour
     public void InitCell(ResType type,int index)
     {
         _index = index;
-        _item = TableManager.Instance.Tables.ItemRecord.Get((int)type);
+        _item = TableManager.Instance.Tables.Item.Get((int)type);
         InitUI();
     }
 
@@ -34,7 +34,12 @@ public class ViewTopResCell : MonoBehaviour
     public void OnClickCell()
     {
         Debug.Log("OnClickCell");
-        
+        if (_index == 0)
+        {
+            Player.Instance.Flag.SetFlag(1);
+        }
+       
+        Debug.Log(Player.Instance.Flag.GetFlag(1));
     }
 
     #region 动画

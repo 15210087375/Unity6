@@ -12,40 +12,72 @@ using Luban;
 
 namespace cfg.Common
 {
-public partial class ExdataRecord
+public sealed partial class ExDataRecord : Luban.BeanBase
 {
-    private readonly System.Collections.Generic.Dictionary<int, Common.Exdata> _dataMap;
-    private readonly System.Collections.Generic.List<Common.Exdata> _dataList;
-    
-    public ExdataRecord(ByteBuf _buf)
+    public ExDataRecord(ByteBuf _buf) 
     {
-        _dataMap = new System.Collections.Generic.Dictionary<int, Common.Exdata>();
-        _dataList = new System.Collections.Generic.List<Common.Exdata>();
-        
-        for(int n = _buf.ReadSize() ; n > 0 ; --n)
-        {
-            Common.Exdata _v;
-            _v = Common.Exdata.DeserializeExdata(_buf);
-            _dataList.Add(_v);
-            _dataMap.Add(_v.Id, _v);
-        }
+        Id = _buf.ReadInt();
+        InitValue = _buf.ReadInt();
+        MaxValue = _buf.ReadInt();
+        RefreshRule = _buf.ReadInt();
+        RefreshTime = _buf.ReadInt();
+        CanClientChange = _buf.ReadInt();
+        Condition = _buf.ReadInt();
     }
 
-    public System.Collections.Generic.Dictionary<int, Common.Exdata> DataMap => _dataMap;
-    public System.Collections.Generic.List<Common.Exdata> DataList => _dataList;
-
-    public Common.Exdata GetOrDefault(int key) => _dataMap.TryGetValue(key, out var v) ? v : null;
-    public Common.Exdata Get(int key) => _dataMap[key];
-    public Common.Exdata this[int key] => _dataMap[key];
-
-    public void ResolveRef(Tables tables)
+    public static ExDataRecord DeserializeExDataRecord(ByteBuf _buf)
     {
-        foreach(var _v in _dataList)
-        {
-            _v.ResolveRef(tables);
-        }
+        return new Common.ExDataRecord(_buf);
     }
 
+    /// <summary>
+    /// id
+    /// </summary>
+    public readonly int Id;
+    /// <summary>
+    /// 初始值
+    /// </summary>
+    public readonly int InitValue;
+    /// <summary>
+    /// 最大值
+    /// </summary>
+    public readonly int MaxValue;
+    /// <summary>
+    /// 刷新规则
+    /// </summary>
+    public readonly int RefreshRule;
+    /// <summary>
+    /// 刷新时间
+    /// </summary>
+    public readonly int RefreshTime;
+    /// <summary>
+    /// client可修改
+    /// </summary>
+    public readonly int CanClientChange;
+    /// <summary>
+    /// 计入条件
+    /// </summary>
+    public readonly int Condition;
+   
+    public const int __ID__ = -273147695;
+    public override int GetTypeId() => __ID__;
+
+    public  void ResolveRef(Tables tables)
+    {
+    }
+
+    public override string ToString()
+    {
+        return "{ "
+        + "id:" + Id + ","
+        + "initValue:" + InitValue + ","
+        + "maxValue:" + MaxValue + ","
+        + "refreshRule:" + RefreshRule + ","
+        + "refreshTime:" + RefreshTime + ","
+        + "canClientChange:" + CanClientChange + ","
+        + "condition:" + Condition + ","
+        + "}";
+    }
 }
 
 }

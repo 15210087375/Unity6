@@ -5,6 +5,7 @@ using UnityEngine;
 public enum EventCetnerType
 {
   
+   ExDataValueChange,
     
    TopViewFoldAnim,
 }

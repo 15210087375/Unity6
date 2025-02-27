@@ -13,40 +13,48 @@ using SimpleJSON;
 
 namespace cfg.Res
 {
-public partial class IconRecord
+public sealed partial class IconRecord : Luban.BeanBase
 {
-    private readonly System.Collections.Generic.Dictionary<int, Res.Icon> _dataMap;
-    private readonly System.Collections.Generic.List<Res.Icon> _dataList;
-    
-    public IconRecord(JSONNode _buf)
+    public IconRecord(JSONNode _buf) 
     {
-        _dataMap = new System.Collections.Generic.Dictionary<int, Res.Icon>();
-        _dataList = new System.Collections.Generic.List<Res.Icon>();
-        
-        foreach(JSONNode _ele in _buf.Children)
-        {
-            Res.Icon _v;
-            { if(!_ele.IsObject) { throw new SerializationException(); }  _v = Res.Icon.DeserializeIcon(_ele);  }
-            _dataList.Add(_v);
-            _dataMap.Add(_v.Id, _v);
-        }
+        { if(!_buf["id"].IsNumber) { throw new SerializationException(); }  Id = _buf["id"]; }
+        { if(!_buf["atlas"].IsString) { throw new SerializationException(); }  Atlas = _buf["atlas"]; }
+        { if(!_buf["sprite"].IsString) { throw new SerializationException(); }  Sprite = _buf["sprite"]; }
     }
 
-    public System.Collections.Generic.Dictionary<int, Res.Icon> DataMap => _dataMap;
-    public System.Collections.Generic.List<Res.Icon> DataList => _dataList;
-
-    public Res.Icon GetOrDefault(int key) => _dataMap.TryGetValue(key, out var v) ? v : null;
-    public Res.Icon Get(int key) => _dataMap[key];
-    public Res.Icon this[int key] => _dataMap[key];
-
-    public void ResolveRef(Tables tables)
+    public static IconRecord DeserializeIconRecord(JSONNode _buf)
     {
-        foreach(var _v in _dataList)
-        {
-            _v.ResolveRef(tables);
-        }
+        return new Res.IconRecord(_buf);
     }
 
+    /// <summary>
+    /// id
+    /// </summary>
+    public readonly int Id;
+    /// <summary>
+    /// 图集
+    /// </summary>
+    public readonly string Atlas;
+    /// <summary>
+    /// 图标
+    /// </summary>
+    public readonly string Sprite;
+   
+    public const int __ID__ = -12255112;
+    public override int GetTypeId() => __ID__;
+
+    public  void ResolveRef(Tables tables)
+    {
+    }
+
+    public override string ToString()
+    {
+        return "{ "
+        + "id:" + Id + ","
+        + "atlas:" + Atlas + ","
+        + "sprite:" + Sprite + ","
+        + "}";
+    }
 }
 
 }

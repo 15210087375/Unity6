@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1001,
+    "name": 1001,
+    "icon": 1001,
+    "desc": 0,
+    "type": 0,
+    "bagType": 0,
+    "maxCount": 0,
+    "quality": 0,
+    "from": [],
+    "exdata": []
+  },
+  {
+    "id": 1002,
+    "name": 1002,
+    "icon": 1002,
+    "desc": 0,
+    "type": 0,
+    "bagType": 0,
+    "maxCount": 0,
+    "quality": 0,
+    "from": [],
+    "exdata": []
+  },
+  {
+    "id": 1010,
+    "name": 1010,
+    "icon": 1010,
+    "desc": 0,
+    "type": 1,
+    "bagType": -1,
+    "maxCount": 0,
+    "quality": 0,
+    "from": [],
+    "exdata": []
+  },
+  {
+    "id": 1011,
+    "name": 1011,
+    "icon": 1011,
+    "desc": 0,
+    "type": 1,
+    "bagType": -1,
+    "maxCount": 0,
+    "quality": 0,
+    "from": [],
+    "exdata": []
+  },
+  {
+    "id": 1012,
+    "name": 1012,
+    "icon": 1012,
+    "desc": 0,
+    "type": 1,
+    "bagType": -1,
+    "maxCount": 0,
+    "quality": 0,
+    "from": [],
+    "exdata": []
+  },
+  {
+    "id": 1013,
+    "name": 1013,
+    "icon": 1013,
+    "desc": 0,
+    "type": 1,
+    "bagType": -1,
+    "maxCount": 0,
+    "quality": 0,
+    "from": [],
+    "exdata": []
+  },
+  {
+    "id": 1014,
+    "name": 1014,
+    "icon": 1014,
+    "desc": 0,
+    "type": 1,
+    "bagType": -1,
+    "maxCount": 0,
+    "quality": 0,
+    "from": [],
+    "exdata": []
+  },
+  {
+    "id": 1015,
+    "name": 1015,
+    "icon": 1015,
+    "desc": 0,
+    "type": 1,
+    "bagType": -1,
+    "maxCount": 0,
+    "quality": 0,
+    "from": [],
+    "exdata": []
+  },
+  {
+    "id": 1016,
+    "name": 1016,
+    "icon": 1016,
+    "desc": 0,
+    "type": 1,
+    "bagType": -1,
+    "maxCount": 0,
+    "quality": 0,
+    "from": [],
+    "exdata": []
+  }
+]

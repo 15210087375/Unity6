@@ -15,4 +15,5 @@ public enum ResType
     Leaf1 = 1014,
     Star1 = 1015,
     Star2 = 1016,
+    Max = 1017,
 }

@@ -28,7 +28,7 @@ public class ViewTabBar : ViewBase
     private void InitCells()
     {
         var initIndex = 2;
-        var homeTabRecord = TableManager.Instance.Tables.HomeTabRecord;
+        var homeTabRecord = TableManager.Instance.Tables.HomeTab;
         for (var i = 0; i < tabCells.Count; i++)
         {
             var homeTab = homeTabRecord.Get(i);

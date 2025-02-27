@@ -13,57 +13,40 @@ using SimpleJSON;
 
 namespace cfg.Res
 {
-public sealed partial class Item : Luban.BeanBase
+public partial class Item
 {
-    public Item(JSONNode _buf) 
+    private readonly System.Collections.Generic.Dictionary<int, Res.ItemRecord> _dataMap;
+    private readonly System.Collections.Generic.List<Res.ItemRecord> _dataList;
+    
+    public Item(JSONNode _buf)
     {
-        { if(!_buf["id"].IsNumber) { throw new SerializationException(); }  Id = _buf["id"]; }
-        { if(!_buf["name"].IsNumber) { throw new SerializationException(); }  Name = _buf["name"]; }
-        Name_Ref = null;
-        { if(!_buf["icon"].IsNumber) { throw new SerializationException(); }  Icon = _buf["icon"]; }
-        Icon_Ref = null;
-        { if(!_buf["type"].IsNumber) { throw new SerializationException(); }  Type = _buf["type"]; }
+        _dataMap = new System.Collections.Generic.Dictionary<int, Res.ItemRecord>();
+        _dataList = new System.Collections.Generic.List<Res.ItemRecord>();
+        
+        foreach(JSONNode _ele in _buf.Children)
+        {
+            Res.ItemRecord _v;
+            { if(!_ele.IsObject) { throw new SerializationException(); }  _v = Res.ItemRecord.DeserializeItemRecord(_ele);  }
+            _dataList.Add(_v);
+            _dataMap.Add(_v.Id, _v);
+        }
     }
 
-    public static Item DeserializeItem(JSONNode _buf)
+    public System.Collections.Generic.Dictionary<int, Res.ItemRecord> DataMap => _dataMap;
+    public System.Collections.Generic.List<Res.ItemRecord> DataList => _dataList;
+
+    public Res.ItemRecord GetOrDefault(int key) => _dataMap.TryGetValue(key, out var v) ? v : null;
+    public Res.ItemRecord Get(int key) => _dataMap[key];
+    public Res.ItemRecord this[int key] => _dataMap[key];
+
+    public void ResolveRef(Tables tables)
     {
-        return new Res.Item(_buf);
+        foreach(var _v in _dataList)
+        {
+            _v.ResolveRef(tables);
+        }
     }
 
-    /// <summary>
-    /// id
-    /// </summary>
-    public readonly int Id;
-    public readonly int Name;
-    public Common.Text Name_Ref;
-    /// <summary>
-    /// 图标表ID
-    /// </summary>
-    public readonly int Icon;
-    public Res.Icon Icon_Ref;
-    /// <summary>
-    /// 物品类型
-    /// </summary>
-    public readonly int Type;
-   
-    public const int __ID__ = -337758239;
-    public override int GetTypeId() => __ID__;
-
-    public  void ResolveRef(Tables tables)
-    {
-        Name_Ref = tables.TextRecord.GetOrDefault(Name);
-        Icon_Ref = tables.IconRecord.GetOrDefault(Icon);
-    }
-
-    public override string ToString()
-    {
-        return "{ "
-        + "id:" + Id + ","
-        + "name:" + Name + ","
-        + "icon:" + Icon + ","
-        + "type:" + Type + ","
-        + "}";
-    }
 }
 
 }

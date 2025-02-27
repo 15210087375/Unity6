@@ -13,40 +13,72 @@ using SimpleJSON;
 
 namespace cfg.Common
 {
-public partial class ExdataRecord
+public sealed partial class ExDataRecord : Luban.BeanBase
 {
-    private readonly System.Collections.Generic.Dictionary<int, Common.Exdata> _dataMap;
-    private readonly System.Collections.Generic.List<Common.Exdata> _dataList;
-    
-    public ExdataRecord(JSONNode _buf)
+    public ExDataRecord(JSONNode _buf) 
     {
-        _dataMap = new System.Collections.Generic.Dictionary<int, Common.Exdata>();
-        _dataList = new System.Collections.Generic.List<Common.Exdata>();
-        
-        foreach(JSONNode _ele in _buf.Children)
-        {
-            Common.Exdata _v;
-            { if(!_ele.IsObject) { throw new SerializationException(); }  _v = Common.Exdata.DeserializeExdata(_ele);  }
-            _dataList.Add(_v);
-            _dataMap.Add(_v.Id, _v);
-        }
+        { if(!_buf["id"].IsNumber) { throw new SerializationException(); }  Id = _buf["id"]; }
+        { if(!_buf["initValue"].IsNumber) { throw new SerializationException(); }  InitValue = _buf["initValue"]; }
+        { if(!_buf["maxValue"].IsNumber) { throw new SerializationException(); }  MaxValue = _buf["maxValue"]; }
+        { if(!_buf["refreshRule"].IsNumber) { throw new SerializationException(); }  RefreshRule = _buf["refreshRule"]; }
+        { if(!_buf["refreshTime"].IsNumber) { throw new SerializationException(); }  RefreshTime = _buf["refreshTime"]; }
+        { if(!_buf["canClientChange"].IsNumber) { throw new SerializationException(); }  CanClientChange = _buf["canClientChange"]; }
+        { if(!_buf["condition"].IsNumber) { throw new SerializationException(); }  Condition = _buf["condition"]; }
     }
 
-    public System.Collections.Generic.Dictionary<int, Common.Exdata> DataMap => _dataMap;
-    public System.Collections.Generic.List<Common.Exdata> DataList => _dataList;
-
-    public Common.Exdata GetOrDefault(int key) => _dataMap.TryGetValue(key, out var v) ? v : null;
-    public Common.Exdata Get(int key) => _dataMap[key];
-    public Common.Exdata this[int key] => _dataMap[key];
-
-    public void ResolveRef(Tables tables)
+    public static ExDataRecord DeserializeExDataRecord(JSONNode _buf)
     {
-        foreach(var _v in _dataList)
-        {
-            _v.ResolveRef(tables);
-        }
+        return new Common.ExDataRecord(_buf);
     }
 
+    /// <summary>
+    /// id
+    /// </summary>
+    public readonly int Id;
+    /// <summary>
+    /// 初始值
+    /// </summary>
+    public readonly int InitValue;
+    /// <summary>
+    /// 最大值
+    /// </summary>
+    public readonly int MaxValue;
+    /// <summary>
+    /// 刷新规则
+    /// </summary>
+    public readonly int RefreshRule;
+    /// <summary>
+    /// 刷新时间
+    /// </summary>
+    public readonly int RefreshTime;
+    /// <summary>
+    /// client可修改
+    /// </summary>
+    public readonly int CanClientChange;
+    /// <summary>
+    /// 计入条件
+    /// </summary>
+    public readonly int Condition;
+   
+    public const int __ID__ = -273147695;
+    public override int GetTypeId() => __ID__;
+
+    public  void ResolveRef(Tables tables)
+    {
+    }
+
+    public override string ToString()
+    {
+        return "{ "
+        + "id:" + Id + ","
+        + "initValue:" + InitValue + ","
+        + "maxValue:" + MaxValue + ","
+        + "refreshRule:" + RefreshRule + ","
+        + "refreshTime:" + RefreshTime + ","
+        + "canClientChange:" + CanClientChange + ","
+        + "condition:" + Condition + ","
+        + "}";
+    }
 }
 
 }

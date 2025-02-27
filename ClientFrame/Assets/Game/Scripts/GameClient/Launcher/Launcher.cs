@@ -15,6 +15,7 @@ public class Launcher:MonoSingleton<Launcher>
         //读表
         TableManager.Instance.InitTable();
         
+        Player.Instance.Init();
         //GM
         if (GameDefine.GameMode == GameMode.Dev)
         {
@@ -24,6 +25,9 @@ public class Launcher:MonoSingleton<Launcher>
         //UI
         UIManager.Instance.InitFirstScene();
     }
-  
-    
+
+    private void Update()
+    {
+        Player.Instance.Update();
+    }
 }

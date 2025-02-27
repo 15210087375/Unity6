@@ -7,7 +7,7 @@ public partial class GameDefine
 {
    
     public static GameMode GameMode = GameMode.Dev;
-    
+    public static GameEnv GameEnv = GameEnv.Local;
     private static string _CacheResPath = string.Empty;
 
     public const int DesignWidth = 1080;
@@ -42,4 +42,10 @@ public enum GameMode
 {
     Dev,
     Rel,
+}
+
+public enum GameEnv
+{
+    Local,
+    Net,
 }

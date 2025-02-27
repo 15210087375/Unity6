@@ -16,11 +16,11 @@ public class ViewTabBarCell : MonoBehaviour
     [SerializeField] private TextMeshProUGUI txtName;
 
     private Action<int> _selectAction;
-    private HomeTab _homeTab;
+    private HomeTabRecord _homeTab;
     private bool _isSelect = false;
 
     private Tweener _anim;
-    public void InitCell(HomeTab homeTab,bool isSelect,Action<int> selectAction)
+    public void InitCell(HomeTabRecord homeTab,bool isSelect,Action<int> selectAction)
     {
         _homeTab = homeTab;
         _selectAction = selectAction;

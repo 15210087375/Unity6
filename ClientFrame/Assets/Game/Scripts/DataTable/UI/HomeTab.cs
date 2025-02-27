@@ -12,55 +12,40 @@ using Luban;
 
 namespace cfg.UI
 {
-public sealed partial class HomeTab : Luban.BeanBase
+public partial class HomeTab
 {
-    public HomeTab(ByteBuf _buf) 
+    private readonly System.Collections.Generic.Dictionary<int, UI.HomeTabRecord> _dataMap;
+    private readonly System.Collections.Generic.List<UI.HomeTabRecord> _dataList;
+    
+    public HomeTab(ByteBuf _buf)
     {
-        Id = _buf.ReadInt();
-        {int n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);IconIds = new System.Collections.Generic.List<int>(n0);for(var i0 = 0 ; i0 < n0 ; i0++) { int _e0;  _e0 = _buf.ReadInt(); IconIds.Add(_e0);}}
-        Name = _buf.ReadInt();
-        Name_Ref = null;
+        _dataMap = new System.Collections.Generic.Dictionary<int, UI.HomeTabRecord>();
+        _dataList = new System.Collections.Generic.List<UI.HomeTabRecord>();
+        
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
+        {
+            UI.HomeTabRecord _v;
+            _v = UI.HomeTabRecord.DeserializeHomeTabRecord(_buf);
+            _dataList.Add(_v);
+            _dataMap.Add(_v.Id, _v);
+        }
     }
 
-    public static HomeTab DeserializeHomeTab(ByteBuf _buf)
+    public System.Collections.Generic.Dictionary<int, UI.HomeTabRecord> DataMap => _dataMap;
+    public System.Collections.Generic.List<UI.HomeTabRecord> DataList => _dataList;
+
+    public UI.HomeTabRecord GetOrDefault(int key) => _dataMap.TryGetValue(key, out var v) ? v : null;
+    public UI.HomeTabRecord Get(int key) => _dataMap[key];
+    public UI.HomeTabRecord this[int key] => _dataMap[key];
+
+    public void ResolveRef(Tables tables)
     {
-        return new UI.HomeTab(_buf);
+        foreach(var _v in _dataList)
+        {
+            _v.ResolveRef(tables);
+        }
     }
 
-    /// <summary>
-    /// id
-    /// </summary>
-    public readonly int Id;
-    /// <summary>
-    /// 图集
-    /// </summary>
-    public readonly System.Collections.Generic.List<int> IconIds;
-    public System.Collections.Generic.List<Res.Icon> IconIds_Ref;
-    /// <summary>
-    /// 字典
-    /// </summary>
-    public readonly int Name;
-    public Common.Text Name_Ref;
-   
-    public const int __ID__ = -1296691012;
-    public override int GetTypeId() => __ID__;
-
-    public  void ResolveRef(Tables tables)
-    {
-        IconIds_Ref = new System.Collections.Generic.List<Res.Icon>();
-        foreach (var _v in IconIds) { IconIds_Ref.Add(tables.IconRecord.GetOrDefault(_v)); }
-
-        Name_Ref = tables.TextRecord.GetOrDefault(Name);
-    }
-
-    public override string ToString()
-    {
-        return "{ "
-        + "id:" + Id + ","
-        + "iconIds:" + Luban.StringUtil.CollectionToString(IconIds) + ","
-        + "name:" + Name + ","
-        + "}";
-    }
 }
 
 }

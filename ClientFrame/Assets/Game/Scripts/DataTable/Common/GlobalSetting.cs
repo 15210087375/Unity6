@@ -12,42 +12,40 @@ using Luban;
 
 namespace cfg.Common
 {
-public sealed partial class GlobalSetting : Luban.BeanBase
+public partial class GlobalSetting
 {
-    public GlobalSetting(ByteBuf _buf) 
+    private readonly System.Collections.Generic.Dictionary<int, Common.GlobalSettingRecord> _dataMap;
+    private readonly System.Collections.Generic.List<Common.GlobalSettingRecord> _dataList;
+    
+    public GlobalSetting(ByteBuf _buf)
     {
-        Id = _buf.ReadInt();
-        Value = _buf.ReadInt();
+        _dataMap = new System.Collections.Generic.Dictionary<int, Common.GlobalSettingRecord>();
+        _dataList = new System.Collections.Generic.List<Common.GlobalSettingRecord>();
+        
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
+        {
+            Common.GlobalSettingRecord _v;
+            _v = Common.GlobalSettingRecord.DeserializeGlobalSettingRecord(_buf);
+            _dataList.Add(_v);
+            _dataMap.Add(_v.Id, _v);
+        }
     }
 
-    public static GlobalSetting DeserializeGlobalSetting(ByteBuf _buf)
+    public System.Collections.Generic.Dictionary<int, Common.GlobalSettingRecord> DataMap => _dataMap;
+    public System.Collections.Generic.List<Common.GlobalSettingRecord> DataList => _dataList;
+
+    public Common.GlobalSettingRecord GetOrDefault(int key) => _dataMap.TryGetValue(key, out var v) ? v : null;
+    public Common.GlobalSettingRecord Get(int key) => _dataMap[key];
+    public Common.GlobalSettingRecord this[int key] => _dataMap[key];
+
+    public void ResolveRef(Tables tables)
     {
-        return new Common.GlobalSetting(_buf);
+        foreach(var _v in _dataList)
+        {
+            _v.ResolveRef(tables);
+        }
     }
 
-    /// <summary>
-    /// id
-    /// </summary>
-    public readonly int Id;
-    /// <summary>
-    /// 数据
-    /// </summary>
-    public readonly int Value;
-   
-    public const int __ID__ = 706831978;
-    public override int GetTypeId() => __ID__;
-
-    public  void ResolveRef(Tables tables)
-    {
-    }
-
-    public override string ToString()
-    {
-        return "{ "
-        + "id:" + Id + ","
-        + "value:" + Value + ","
-        + "}";
-    }
 }
 
 }

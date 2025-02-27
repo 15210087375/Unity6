@@ -12,57 +12,40 @@ using Luban;
 
 namespace cfg.Res
 {
-public sealed partial class Item : Luban.BeanBase
+public partial class Item
 {
-    public Item(ByteBuf _buf) 
+    private readonly System.Collections.Generic.Dictionary<int, Res.ItemRecord> _dataMap;
+    private readonly System.Collections.Generic.List<Res.ItemRecord> _dataList;
+    
+    public Item(ByteBuf _buf)
     {
-        Id = _buf.ReadInt();
-        Name = _buf.ReadInt();
-        Name_Ref = null;
-        Icon = _buf.ReadInt();
-        Icon_Ref = null;
-        Type = _buf.ReadInt();
+        _dataMap = new System.Collections.Generic.Dictionary<int, Res.ItemRecord>();
+        _dataList = new System.Collections.Generic.List<Res.ItemRecord>();
+        
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
+        {
+            Res.ItemRecord _v;
+            _v = Res.ItemRecord.DeserializeItemRecord(_buf);
+            _dataList.Add(_v);
+            _dataMap.Add(_v.Id, _v);
+        }
     }
 
-    public static Item DeserializeItem(ByteBuf _buf)
+    public System.Collections.Generic.Dictionary<int, Res.ItemRecord> DataMap => _dataMap;
+    public System.Collections.Generic.List<Res.ItemRecord> DataList => _dataList;
+
+    public Res.ItemRecord GetOrDefault(int key) => _dataMap.TryGetValue(key, out var v) ? v : null;
+    public Res.ItemRecord Get(int key) => _dataMap[key];
+    public Res.ItemRecord this[int key] => _dataMap[key];
+
+    public void ResolveRef(Tables tables)
     {
-        return new Res.Item(_buf);
+        foreach(var _v in _dataList)
+        {
+            _v.ResolveRef(tables);
+        }
     }
 
-    /// <summary>
-    /// id
-    /// </summary>
-    public readonly int Id;
-    public readonly int Name;
-    public Common.Text Name_Ref;
-    /// <summary>
-    /// 图标表ID
-    /// </summary>
-    public readonly int Icon;
-    public Res.Icon Icon_Ref;
-    /// <summary>
-    /// 物品类型
-    /// </summary>
-    public readonly int Type;
-   
-    public const int __ID__ = -337758239;
-    public override int GetTypeId() => __ID__;
-
-    public  void ResolveRef(Tables tables)
-    {
-        Name_Ref = tables.TextRecord.GetOrDefault(Name);
-        Icon_Ref = tables.IconRecord.GetOrDefault(Icon);
-    }
-
-    public override string ToString()
-    {
-        return "{ "
-        + "id:" + Id + ","
-        + "name:" + Name + ","
-        + "icon:" + Icon + ","
-        + "type:" + Type + ","
-        + "}";
-    }
 }
 
 }

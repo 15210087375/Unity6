@@ -12,40 +12,42 @@ using Luban;
 
 namespace cfg.Common
 {
-public partial class GlobalSettingRecord
+public sealed partial class GlobalSettingRecord : Luban.BeanBase
 {
-    private readonly System.Collections.Generic.Dictionary<int, Common.GlobalSetting> _dataMap;
-    private readonly System.Collections.Generic.List<Common.GlobalSetting> _dataList;
-    
-    public GlobalSettingRecord(ByteBuf _buf)
+    public GlobalSettingRecord(ByteBuf _buf) 
     {
-        _dataMap = new System.Collections.Generic.Dictionary<int, Common.GlobalSetting>();
-        _dataList = new System.Collections.Generic.List<Common.GlobalSetting>();
-        
-        for(int n = _buf.ReadSize() ; n > 0 ; --n)
-        {
-            Common.GlobalSetting _v;
-            _v = Common.GlobalSetting.DeserializeGlobalSetting(_buf);
-            _dataList.Add(_v);
-            _dataMap.Add(_v.Id, _v);
-        }
+        Id = _buf.ReadInt();
+        Value = _buf.ReadInt();
     }
 
-    public System.Collections.Generic.Dictionary<int, Common.GlobalSetting> DataMap => _dataMap;
-    public System.Collections.Generic.List<Common.GlobalSetting> DataList => _dataList;
-
-    public Common.GlobalSetting GetOrDefault(int key) => _dataMap.TryGetValue(key, out var v) ? v : null;
-    public Common.GlobalSetting Get(int key) => _dataMap[key];
-    public Common.GlobalSetting this[int key] => _dataMap[key];
-
-    public void ResolveRef(Tables tables)
+    public static GlobalSettingRecord DeserializeGlobalSettingRecord(ByteBuf _buf)
     {
-        foreach(var _v in _dataList)
-        {
-            _v.ResolveRef(tables);
-        }
+        return new Common.GlobalSettingRecord(_buf);
     }
 
+    /// <summary>
+    /// id
+    /// </summary>
+    public readonly int Id;
+    /// <summary>
+    /// 数据
+    /// </summary>
+    public readonly int Value;
+   
+    public const int __ID__ = -2114140325;
+    public override int GetTypeId() => __ID__;
+
+    public  void ResolveRef(Tables tables)
+    {
+    }
+
+    public override string ToString()
+    {
+        return "{ "
+        + "id:" + Id + ","
+        + "value:" + Value + ","
+        + "}";
+    }
 }
 
 }
