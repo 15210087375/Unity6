@@ -6,7 +6,7 @@ using Sirenix.OdinInspector;
 using UnityEditor;
 using UnityEngine;
 
-public class Test : MonoBehaviour
+public class TestPovitAnchor : MonoBehaviour
 {
     [SerializeField] private RectTransform nodeRect;
     [ProgressBar(-10f,10f),OnValueChanged("Btn")]
