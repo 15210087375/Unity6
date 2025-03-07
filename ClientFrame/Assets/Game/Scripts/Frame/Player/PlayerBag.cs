@@ -8,7 +8,7 @@ public enum eBagType
     Card = 1,       //卡牌
     Count ,
 }
-
+[Serializable]
 public class PlayerBag
 {
     public Dictionary<int, BagOne> Bags = new Dictionary<int, BagOne>();
@@ -45,6 +45,7 @@ public class PlayerBag
         return Bags.TryGetValue(id, out var one) ? one : null;
     }
 }
+[Serializable]
 public class BagOne
 {
     public int BagId;

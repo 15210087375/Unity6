@@ -1,4 +1,3 @@
-
 //工具类
 
 using System;
@@ -9,21 +8,25 @@ using System.Text;
 
 public static partial class GameUtils
 {
-    public static class  IO
+    public static class IO
     {
         public static string[] ReadFileLine(string filePath)
         {
             using (var tr = new StreamReader(filePath))
             {
                 var s = tr.ReadToEnd();
-                var ret = s.Split(new[] { "\r\n", "\n" }, StringSplitOptions.None);
+                var ret = s.Split(new[] {"\r\n", "\n"}, StringSplitOptions.None);
                 return ret;
             }
         }
-        
+
         public static string ReadFile(string file)
         {
             var path = Path.Combine(GameDefine.CacheResPath, file);
+            if (!File.Exists(path))
+            {
+                return "";
+            }
             using (var tr = new StreamReader(path))
             {
                 var s = tr.ReadToEnd();
@@ -31,13 +34,23 @@ public static partial class GameUtils
             }
         }
         
+        //删除文件
+        public static void DeleteFile(string file)
+        {
+            var path = Path.Combine(GameDefine.CacheResPath, file);
+            if (!File.Exists(path))
+            {
+                return ;
+            }
+            File.Delete(path);
+        }
         /// <summary>
         /// 写文件
         /// </summary>
         /// <param name="filePath">完整目录</param>
         /// <param name="data"></param>
         /// <param name="append"></param>
-        public static void WritePath(string filePath, string data,bool append = false)
+        public static void WritePath(string filePath, string data, bool append = false)
         {
             using (var file = new StreamWriter(filePath, append, Encoding.UTF8))
             {
@@ -46,7 +59,14 @@ public static partial class GameUtils
                 Logger.Info($"WriteFile {filePath} OK");
             }
         }
-
+        public static string ReadPath(string file)
+        {
+            using (var tr = new StreamReader(file))
+            {
+                var s = tr.ReadToEnd();
+                return s;
+            }
+        }
         /// <summary>
         /// 写文件，到缓存目录
         /// </summary>
@@ -58,7 +78,7 @@ public static partial class GameUtils
             var path = Path.Combine(GameDefine.CacheResPath, filePath);
             WritePath(path, data, append);
         }
-        
+
         //把对象序列化为字符串
         public static string Serialize<T>(T obj)
         {
@@ -88,7 +108,7 @@ public static partial class GameUtils
         /// <typeparam name="T"></typeparam>
         /// <returns></returns>
         /// <exception cref="Exception"></exception>
-        public static T Deserialize<T>( string str)
+        public static T Deserialize<T>(string str)
         {
             try
             {
@@ -105,22 +125,21 @@ public static partial class GameUtils
                 throw new Exception(ex.Message);
             }
         }
-        
+
         public static T Load<T>(string file)
         {
             var path = Path.Combine(GameDefine.CacheResPath, file);
-         
+
             if (File.Exists(path) == false)
             {
                 return default(T);
             }
-            var s= ReadFile(file);
+
+            var s = ReadFile(file);
 
             var ret = Deserialize<T>(s);
             return ret;
         }
-
-       
     }
 }
 

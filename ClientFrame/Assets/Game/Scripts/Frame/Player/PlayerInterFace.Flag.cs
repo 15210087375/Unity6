@@ -5,29 +5,16 @@ public partial class PlayerInterFace
 {
     public static void SetFlag(int flag)
     {
-        if (GameDefine.GameEnv == GameEnv.Local)
-        {
-            Player.Instance.Flag.SetFlag(flag);
-        }
+        Player.Instance.Flag.SetFlag(flag);
       
     }
-    public static void GetFlag(int flag,out int value)
+    public static int GetFlag(int flag)
     {
-        if (GameDefine.GameEnv == GameEnv.Local)
-        {
-            value = Player.Instance.Flag.GetFlag(flag);
-        }
-        else
-        {
-            value = 0;
-        }
+        return Player.Instance.Flag.GetFlag(flag);
     }
     public static void ClearFlag(int flag)
     {
-        if (GameDefine.GameEnv == GameEnv.Local)
-        {
-            Player.Instance.Flag.CleanFlag(flag);
-        }
+        Player.Instance.Flag.CleanFlag(flag);
     }
     
     

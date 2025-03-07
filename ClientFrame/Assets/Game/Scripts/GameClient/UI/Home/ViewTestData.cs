@@ -19,7 +19,6 @@ public class ViewTestData : ViewBase
     private void OnNumChange(string t)
     {
         key = int.Parse(t);
-        Debug.Log("key:"+key);
     }
     public void SetFlag()
     {
@@ -28,7 +27,7 @@ public class ViewTestData : ViewBase
 
     public void GetFlag()
     {
-        PlayerInterFace.GetFlag(key, out var value);
+        var value = PlayerInterFace.GetFlag(key);
         text.text = value.ToString();
     }
     
@@ -39,13 +38,13 @@ public class ViewTestData : ViewBase
     
     public void SetExData()
     {
-        PlayerInterFace.GetExData(key, out var value);
+        var value = PlayerInterFace.GetExData(key);
         PlayerInterFace.SetExData(key, value+1);
     }
     
     public void GetExData()
     {
-        PlayerInterFace.GetExData(key, out var value);
+        var value = PlayerInterFace.GetExData(key);
         text.text = value.ToString();
     }
     

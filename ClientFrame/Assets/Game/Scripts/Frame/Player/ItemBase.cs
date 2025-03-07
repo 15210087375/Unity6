@@ -1,14 +1,17 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using cfg.Res;
 public enum ItemType
 {
     Res = 0,        //资源
 }
+[Serializable]
 public class ItemBase
 {
     public int ItemId;
     public int Count;
     public List<int> mExdata = new List<int>();
+    [NonSerialized]
     public ItemRecord ItemRecord;
     public ItemBase(int id,int count)
     {

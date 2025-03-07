@@ -8,6 +8,7 @@ using UnityEngine;
 /// <summary>
 /// 标记位集合
 /// </summary>
+[Serializable]
 public class BitFlag
 {
     private readonly List<int> _flag;

@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Text;
 using cfg.Common;
 using UnityEngine;
-
+[Serializable]
 public class ExData
 {
     public List<int> Data = new List<int>();
+    [NonSerialized]
     private ExtendData _table;
 
     private ExtendData Record
