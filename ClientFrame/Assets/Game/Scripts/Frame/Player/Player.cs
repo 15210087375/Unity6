@@ -61,25 +61,22 @@ public class Player
             InitByBase();
             return;
         }
-
-        ExData.ReadExdataData();
-        Flag.ReadFlagData();
-        // PlayerInterFace.ReadExdata64Data();
-        // PlayerInterFace.ReadResData();
-        // PlayerInterFace.ReadItemData();
-        // PlayerInterFace.ReadFlagData();
+        Bag = PlayerInterFace.ReadData<PlayerBag>(eCacheDataType.Item);
+        Flag = PlayerInterFace.ReadData<BitFlag>(eCacheDataType.Flag);
+        ExData = PlayerInterFace.ReadData<ExData>(eCacheDataType.Exdata);
+        ExData64 = PlayerInterFace.ReadData<Exdata64>(eCacheDataType.Exdata64);
+        Res = PlayerInterFace.ReadData<long[]>(eCacheDataType.Res);
     }
 
     
    
     private void Save()
     {
-        Flag.SaveFlagData();
-        ExData.SaveExdataData();
-        // PlayerInterFace.SaveExdata64Data();
-        // PlayerInterFace.SaveResData();
-        // PlayerInterFace.SaveItemData();
-        // PlayerInterFace.SavePlayerID();
+        PlayerInterFace.SaveData(Bag, eCacheDataType.Item);
+        PlayerInterFace.SaveData(Flag, eCacheDataType.Flag);
+        PlayerInterFace.SaveData(ExData, eCacheDataType.Exdata);
+        PlayerInterFace.SaveData(ExData64, eCacheDataType.Exdata64);
+        PlayerInterFace.SaveData(Res, eCacheDataType.Res);
         
         PlayerPrefs.Save();
     }
@@ -91,47 +88,36 @@ public class Player
         {
             return;
         }
-        var isSave = false;
-        
         if (FlagDirty)
         {
             FlagDirty = false;
-            Flag.SaveFlagData();
-            isSave = true;
+            PlayerInterFace.SaveData(Flag, eCacheDataType.Flag);
         }
 
         if (ExDataDirty)
         {
             ExDataDirty = false;
-            ExData.SaveExdataData();
-            isSave = true;
+            PlayerInterFace.SaveData(ExData, eCacheDataType.Exdata);
         }
 
         if (ExData64Dirty)
         {
             ExData64Dirty = false;
-            ExData64.SaveExdata64Data();
-            isSave = true;
+            PlayerInterFace.SaveData(ExData64, eCacheDataType.Exdata64);
         }
 
         if (ResDirty)
         {
             ResDirty = false;
-            PlayerInterFace.SaveResData();
-            isSave = true;
+            PlayerInterFace.SaveData(Res, eCacheDataType.Res);
         }
 
         if (BagDirty)
         {
             BagDirty = false;
-            PlayerInterFace.SaveItemData();
-            isSave = true;
+            PlayerInterFace.SaveData(Bag, eCacheDataType.Item);
         }
 
-        if (isSave)
-        {
-            PlayerPrefs.Save();
-        }
     }
 
 

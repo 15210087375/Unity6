@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using cfg.Res;
+
 public enum eBagType
 {
     Res = 0,        //资源
-   
+    Card = 1,       //卡牌
     Count ,
 }
 
@@ -35,7 +37,7 @@ public class PlayerBag
             AddBag(tbItem.BagType);
             Logger.Error("not find bagId = {0}", tbItem.BagType);
         }
-        Bags[tbItem.BagType].AddItem(id, count);
+        Bags[tbItem.BagType].AddItem(tbItem, count);
         return true;
     }
     public BagOne GetBag(int id)
@@ -51,7 +53,7 @@ public class BagOne
     {
         BagId = id;
     }
-    public ItemBase GetItemId(int id)
+    private ItemBase GetItemById(int id)
     {
         foreach (var item in Items)
         {
@@ -64,23 +66,18 @@ public class BagOne
     }
 
     
-    public void AddItem(int id,int count)
+    public void AddItem(ItemRecord tbItem,int count)
     {
-        var tbItem = TableManager.Instance.Tables.Item.Get(id);
-        if(tbItem == null)
-        {
-            Logger.Error("AddItem not find item id={0}", id);
-            return;
-        }
-      
+        
+        Player.Instance.BagDirty = true;
         //查询相同id（是否可堆叠）
         if (tbItem.MaxCount == -1)
         {
             //无限堆叠
-            var theItem = GetItemId(id);
+            var theItem = GetItemById(tbItem.Id);
             if(theItem == null)
             {
-                var item = ItemBase.CreateItem( id, count);//new ItemBase(id, count);
+                var item = ItemBase.CreateItem( tbItem, count);//new ItemBase(id, count);
                 Items.Add(item);
             }
             else
@@ -95,7 +92,7 @@ public class BagOne
                 //不可堆叠
                 for (int i = 0; i < count; i++)
                 {
-                    ItemBase item = ItemBase.CreateItem(id, 1);// new ItemBase(id, 1);
+                    ItemBase item = ItemBase.CreateItem(tbItem, 1);// new ItemBase(id, 1);
                     Items.Add(item);
                 }
             }
@@ -104,7 +101,7 @@ public class BagOne
                 //可堆叠(先堆叠满已有格）
                 foreach (var item in Items)
                 {
-                    if (item.ItemId == id)
+                    if (item.ItemId == tbItem.Id)
                     {
                         if(item.Count < tbItem.MaxCount)
                         {
@@ -127,7 +124,7 @@ public class BagOne
     }
     public void ChangeItem(int id, int count)
     {
-        var item = GetItemId(id);
+        var item = GetItemById(id);
         if (item != null)
         {
             var curCount = item.Count+ count;
@@ -143,7 +140,7 @@ public class BagOne
     }
     public bool DeleteItem(int itemId)
     {
-        var item = GetItemId(itemId);
+        var item = GetItemById(itemId);
         if (item == null)
         {
             Logger.Error("当前背包{0}中不存在物品item id={1}",BagId, itemId);

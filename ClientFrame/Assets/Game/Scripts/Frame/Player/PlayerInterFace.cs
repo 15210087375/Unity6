@@ -1,13 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using UnityEngine;
-
+public enum eCacheDataType
+{
+    Item,
+    Res,
+    Flag,
+    Exdata,
+    Exdata64
+}
 public partial class PlayerInterFace
 {
    
-   
+    private static readonly List<string> _saveList = new List<string>()
+    {
+        "Item.bin",
+        "Res.bin",
+        "Flag.bin",
+        "Exdata.bin",
+        "Exdata64.bin"
+    };
     // public static bool CheckCondition(int conId)
     // {
     //     if(conId == -1)
@@ -163,152 +178,44 @@ public partial class PlayerInterFace
         return true;
     }
     
-    public static void SaveResData()
-    {
-        StringBuilder s = new StringBuilder();
-        bool isfirst = true;
-        foreach (var item in Player.Instance.Res)
-        {
-            if(!isfirst)
-            {
-                s.Append("|");
-            }
-            s.Append(item);
-            isfirst = false;
-        }
-
-        Logger.LogWarn(s.ToString());
-        PlayerPrefs.SetString("Res", s.ToString());
-    }
-    public static void ReadResData()
-    {
-        var s = PlayerPrefs.GetString("Res");
-        if (string.IsNullOrEmpty(s))
-        {
-            Logger.Info("没有资源数据");
-            return;
-        }
-        var t = s.Split('|');
-        int index = 0;
-        foreach (var item in t)
-        {
-            Player.Instance.Res[index] = long.Parse(item);
-            index++;
-        }
-    }
 
  
-   
-    //1:i|id|count|exdata0|exdata1|i|id|count|exdata0|exdata1:2:i|id|count
-    public static void SaveItemData()
-    {
-        StringBuilder s = new StringBuilder();
-        bool isfirst = true;
-        foreach (var bag in Player.Instance.Bag.Bags)
-        {
-            if (!isfirst)
-            {
-                s.Append(":");
-            }
-            s.Append(bag.Key);
-            s.Append(":");
-            bool isItemFirst = true;
-            foreach (var item in bag.Value.Items)
-            {
-                if (!isItemFirst)
-                {
-                    s.Append("|");
-                }
-                s.Append("i");
-                s.Append("|");
-                s.Append(item.ItemId);
-                s.Append("|");
-                s.Append(item.Count);
-                for (int i = 0; i < item.DataList.Count; i++)
-                {
-                    s.Append("|");
-                    s.Append(item.DataList[i]);
-                }
-                isItemFirst = false;
-            }
-            isfirst = false;
-        }
-        Logger.LogWarn(s.ToString());
-        PlayerPrefs.SetString("Item", s.ToString());
-    }
-    public static bool ReadItemData()
-    {
-        var s = PlayerPrefs.GetString("Item");
-        if(string.IsNullOrEmpty(s))
-        {            
-            return false;
-        }
-        var t = s.Split(':');
-        bool waitId = true;
-        BagOne one = null;
-        foreach (var bag in t)
-        {
-            if (waitId)
-            {
-                one = Player.Instance.Bag.AddBag(int.Parse(bag));
-                waitId = false;
-            }
-            else
-            {
-                var t2 = bag.Split('|');
-                ItemBase item = null;
-                int itemid = 0;
-                int count = 0;
-                int index = -1;
-                foreach (var i in t2)
-                {
-                    if(i == "i")
-                    {
-                        if(item!= null)
-                        {
-                            one.Items.Add(item);
-                            item = null;
-                        }
-                        index = 0;
-                    }
-                    else
-                    {
-                        switch (index)
-                        {
-                            case 0:
-                                {
-                                    itemid = int.Parse(i);
-                                    index++;
-                                    break;
-                                }
-                            case 1:
-                                {
-                                    count = int.Parse(i);
-                                    item = new ItemBase(itemid, count);
-                                    index++;
-                                    break;
-                                }
-                            case 2:
-                                {
-                                    item.DataList.Add(int.Parse(i));
-                                    break;
-                                }
-                            default:
-                                Logger.Error("Item is Null");
-                                break;
-                        }
-                    }
-                }
-                if(item != null)
-                {
-                    one.Items.Add(item);
-                }
-                waitId = true;
-            }
-        }
-        return true;
-    }
+
+ 
+ 
     #endregion
+
+    
+    public static void ClearData()
+    {
+       
+        for (var i = 0; i < _saveList.Count; i++)
+        {
+            var filePath = $"{Define.AutoUpdateDownLoadPath}/{_saveList[i]}";
+            if (File.Exists(filePath))
+            {
+                File.Delete(filePath);
+            }
+        }
+        
+    }
+
+    public static void SaveData<T>(T t,eCacheDataType type)
+    {
+        var desc = GameUtils.IO.Serialize<T>(t);
+        GameUtils.IO.WriteFile($"{Define.AutoUpdateDownLoadPath}/{_saveList[(int)type]}", desc);
+    }
+
+    public static T ReadData<T>(eCacheDataType type)
+    {
+        var desc = GameUtils.IO.ReadFile($"{Define.AutoUpdateDownLoadPath}/{_saveList[(int)type]}");
+        if (!string.IsNullOrEmpty(desc))
+        {
+            return GameUtils.IO.Deserialize<T>(desc);
+        }
+        return default(T);
+    }
+
 
 
    

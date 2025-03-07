@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 
+[Serializable]
 public class Exdata64
 {
     public List<long> Data = new List<long>();
@@ -45,34 +46,5 @@ public class Exdata64
         Data[nIndex] = nValue;
         Player.Instance.ExData64Dirty = true;
     }
-    public void SaveExdata64Data()
-    {
-        StringBuilder s = new StringBuilder();
-        bool isfirst = true;
-        foreach (var item in Player.Instance.ExData64.Data)
-        {
-            if (!isfirst)
-            {
-                s.Append("|");
-            }
-            s.Append(item);
-            isfirst = false;
-        }
-
-        Logger.LogWarn(s.ToString());
-        PlayerPrefs.SetString("Exdata64", s.ToString());
-    }
-    public void ReadExdata64Data()
-    {
-        var s = PlayerPrefs.GetString("Exdata64");
-        if (string.IsNullOrEmpty(s))
-        {
-            return;
-        }
-        var t = s.Split('|');
-        foreach (var item in t)
-        {
-            Player.Instance.ExData64.Data.Add(long.Parse(item));
-        }
-    }
+ 
 }
