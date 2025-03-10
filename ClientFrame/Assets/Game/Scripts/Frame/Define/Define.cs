@@ -37,7 +37,7 @@ public static class Define
     }
 
     //Application.temporaryCachePat 目录下，里存放资源的目录
-    public static string CacheResDir = "temporaryCacheRes";
+    public static string CacheResDir = "temporaryCache";
     
 
 }
