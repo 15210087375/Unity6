@@ -23,7 +23,7 @@ MonoBehaviour:
     addressMode: 0
     filter: 
     bundle: 
-  - asset: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  - asset: 
     bundleMode: 0
     addressMode: 0
     filter: 
@@ -33,22 +33,22 @@ MonoBehaviour:
     addressMode: 0
     filter: 
     bundle: 
-  - asset: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  - asset: 
     bundleMode: 0
     addressMode: 0
     filter: 
     bundle: 
-  - asset: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  - asset: 
     bundleMode: 0
     addressMode: 0
     filter: 
     bundle: 
-  - asset: Assets/Res/Table/demo_exdatarecord.bytes
+  - asset: 
     bundleMode: 3
     addressMode: 0
     filter: 
     bundle: table.bundle
-  - asset: Assets/Res/Table/demo_globalsettingrecord.bytes
+  - asset: 
     bundleMode: 3
     addressMode: 0
     filter: 
@@ -408,3 +408,265 @@ MonoBehaviour:
     addressMode: 0
     filter: 
     bundle: shaders.bundle
+  - asset: Assets/Res/UI/Image/Atlas/Common.spriteatlasv2
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_atlas.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_common_data_bg1.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_cup_lv_bg.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_icon_step.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_res_berry.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_res_coin.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_res_energy.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_res_exp.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_res_flower1.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_res_flower2.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_res_gem.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_res_leaf.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_res_lv.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_res_power.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_res_star1.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_res_star2.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_resAdd.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_resBg.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_titlebar_plus.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_tollgate_finish_gou.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Image/Common/ui_topbar_setting.png
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: image_common.bundle
+  - asset: Assets/Res/UI/Prefabs/Home/ViewGameCell.prefab
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: prefabs_home.bundle
+  - asset: Assets/Res/UI/Prefabs/Home/ViewGameDragCell.prefab
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: prefabs_home.bundle
+  - asset: Assets/Res/UI/Prefabs/Home/ViewTestData.prefab
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: prefabs_home.bundle
+  - asset: Assets/Res/UI/Prefabs/Home/ViewTopBar.prefab
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: prefabs_home.bundle
+  - asset: Assets/Res/UI/Prefabs/Home/ViewTopResCell.prefab
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: prefabs_home.bundle
+  - asset: Assets/Res/UI/Prefabs/Test/RectStretchPivotMoveTest.prefab
+    bundleMode: 3
+    addressMode: 0
+    filter: 
+    bundle: prefabs_test.bundle
+  - asset: Assets/ThirdParty/TextMesh Pro/Shaders/TMP_SDF.shader
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Res/UI/Image/Common
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Art/Texture/fullBG.png
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Art/Image1/Img/aperture_1.png
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Fallback.asset
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/ThirdParty/RuntimeInspector/Sprites/DragAndDropBg.psd
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Art/Image1/Img/AdjustBtn.png
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF.asset
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Art/Image1/Tip/eff_butten_01_lalva.png
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/ThirdParty/TextMesh Pro/Fonts/LiberationSans.ttf
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Art/Image1/Img/aperture_2.png
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Art/Image1/Common/ui_second_normal_bg.png
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Art/Image1/Number/ui_forging_quality_white.png
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Art/Image1/Img/AttackBlockExpand_2.png
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Packages/com.unity.ugui/Editor Resources/Gizmos/TMP - Input Field Icon.psd
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Art/Image1/Number/A.png
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 
+  - asset: Assets/Res/Table/common_condition.bytes
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: gameplay.bundle
+  - asset: Assets/Res/Table/common_dictionary.bytes
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: gameplay.bundle
+  - asset: Assets/Res/Table/common_extenddata.bytes
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: gameplay.bundle
+  - asset: Assets/Res/Table/common_flag.bytes
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: gameplay.bundle
+  - asset: Assets/Res/Table/common_globalsetting.bytes
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: gameplay.bundle
+  - asset: Assets/Res/Table/res_icon.bytes
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: gameplay.bundle
+  - asset: Assets/Res/Table/res_item.bytes
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: gameplay.bundle
+  - asset: Assets/Res/Table/ui_hometab.bytes
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: gameplay.bundle
