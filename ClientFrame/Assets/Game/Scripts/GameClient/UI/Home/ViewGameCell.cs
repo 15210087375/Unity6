@@ -22,4 +22,9 @@ public class ViewGameCell:MonoBehaviour
             img.gameObject.SetActive(i == data.Value);
         }
     }
+
+    public void ShowPreView(bool show)
+    {
+        imgs[2].gameObject.SetActive(show);
+    }
 }

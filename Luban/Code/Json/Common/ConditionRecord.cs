@@ -18,9 +18,7 @@ public sealed partial class ConditionRecord : Luban.BeanBase
     public ConditionRecord(JSONNode _buf) 
     {
         { if(!_buf["id"].IsNumber) { throw new SerializationException(); }  Id = _buf["id"]; }
-        { if(!_buf["Cn"].IsString) { throw new SerializationException(); }  Cn = _buf["Cn"]; }
-        { if(!_buf["En"].IsString) { throw new SerializationException(); }  En = _buf["En"]; }
-        { if(!_buf["Cn1"].IsString) { throw new SerializationException(); }  Cn1 = _buf["Cn1"]; }
+        { if(!_buf["Flags"].IsNumber) { throw new SerializationException(); }  Flags = _buf["Flags"]; }
     }
 
     public static ConditionRecord DeserializeConditionRecord(JSONNode _buf)
@@ -33,17 +31,9 @@ public sealed partial class ConditionRecord : Luban.BeanBase
     /// </summary>
     public readonly int Id;
     /// <summary>
-    /// 中文
+    /// flag1
     /// </summary>
-    public readonly string Cn;
-    /// <summary>
-    /// 英文
-    /// </summary>
-    public readonly string En;
-    /// <summary>
-    /// 繁中
-    /// </summary>
-    public readonly string Cn1;
+    public readonly int Flags;
    
     public const int __ID__ = 618953545;
     public override int GetTypeId() => __ID__;
@@ -56,9 +46,7 @@ public sealed partial class ConditionRecord : Luban.BeanBase
     {
         return "{ "
         + "id:" + Id + ","
-        + "Cn:" + Cn + ","
-        + "En:" + En + ","
-        + "Cn1:" + Cn1 + ","
+        + "Flags:" + Flags + ","
         + "}";
     }
 }

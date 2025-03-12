@@ -24,7 +24,7 @@ public class CubsManager : Singleton<CubsManager>
     {
         var data = dataTempList[Random.Range(0, dataTempList.Count)];
         var randomRotate = Random.Range(0, 4);
-        var tempData = LogicUtil.GetRotateData(data, randomRotate);
+        var tempData = LogicUtil.GetRotateData(data, (RotateAngle)(randomRotate));
         return tempData;
     }
 

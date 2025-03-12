@@ -17,9 +17,7 @@ public sealed partial class ConditionRecord : Luban.BeanBase
     public ConditionRecord(ByteBuf _buf) 
     {
         Id = _buf.ReadInt();
-        Cn = _buf.ReadString();
-        En = _buf.ReadString();
-        Cn1 = _buf.ReadString();
+        Flags = _buf.ReadInt();
     }
 
     public static ConditionRecord DeserializeConditionRecord(ByteBuf _buf)
@@ -32,17 +30,9 @@ public sealed partial class ConditionRecord : Luban.BeanBase
     /// </summary>
     public readonly int Id;
     /// <summary>
-    /// 中文
+    /// flag1
     /// </summary>
-    public readonly string Cn;
-    /// <summary>
-    /// 英文
-    /// </summary>
-    public readonly string En;
-    /// <summary>
-    /// 繁中
-    /// </summary>
-    public readonly string Cn1;
+    public readonly int Flags;
    
     public const int __ID__ = 618953545;
     public override int GetTypeId() => __ID__;
@@ -55,9 +45,7 @@ public sealed partial class ConditionRecord : Luban.BeanBase
     {
         return "{ "
         + "id:" + Id + ","
-        + "Cn:" + Cn + ","
-        + "En:" + En + ","
-        + "Cn1:" + Cn1 + ","
+        + "Flags:" + Flags + ","
         + "}";
     }
 }

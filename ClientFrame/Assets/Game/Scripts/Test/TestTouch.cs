@@ -8,13 +8,14 @@ public class TestTouch : MonoBehaviour
     public float zoomSpeed = 2f;
     public float minZoom = 1f;
     public float maxZoom = 2.5f;
+    private Vector3 lastPos = new Vector3(0, 0, 0);
     public Vector3 basePos = new Vector3(0, 0, 0);
     private float lastS = 1f;
-    private Vector3 lastPos = new Vector3(0, 0, 0);
     private bool firstPress = false;
-    private float initDis = 0;
     private Vector3 initScale ;
 
+    private int _continueSacleTick = 0;
+    private int _continueMoveTick = 0;
     private void Start()
     {
         uiCamera = Camera.main;
@@ -36,47 +37,84 @@ public class TestTouch : MonoBehaviour
             // 触摸开始：记录初始距离和缩放值
             if (touch2.phase == TouchPhase.Began)
             {
-                initDis = Vector2.Distance(touch1.position, touch2.position);
                 initScale = scaleNode.localScale;
+                Debug.LogError("初始" + initScale);
             }
 
             // 触摸移动：计算缩放
             if (touch1.phase == TouchPhase.Moved || touch2.phase == TouchPhase.Moved)
             {
-                if (touch1.phase == TouchPhase.Moved && touch2.phase == TouchPhase.Moved &&Vector3.Angle(touch1.deltaPosition, touch2.deltaPosition) < 45)
+                Debug.LogError($"{touch1.phase}  {touch2.phase}  Dir1:{touch1.deltaPosition}  Dir2:{touch2.deltaPosition}  Angle:{Vector3.Angle(touch1.deltaPosition, touch2.deltaPosition)}");
+
+                if (touch1.phase == TouchPhase.Moved && touch2.phase == TouchPhase.Stationary ||
+                    touch1.phase == TouchPhase.Stationary && touch2.phase == TouchPhase.Moved ||
+                    touch1.phase == TouchPhase.Moved && touch2.phase == TouchPhase.Moved &&
+                    Vector3.Angle(touch1.deltaPosition, touch2.deltaPosition) > 30)
                 {
-                    //双指同时移动且同方向，拖拽
-                    var input = uiCamera.ScreenToWorldPoint(touch1.position);
-                    var localPos = scaleNode.parent.InverseTransformPoint(input);
-                    scaleNode.localPosition = SetPos(scaleNode.localPosition + (localPos - lastPos),scaleNode.localScale.x);
+                    //缩放
+                    if (_continueSacleTick > 2)
+                    {
+                        Vector2 touch0PrevPos = touch1.position - touch1.deltaPosition;
+                        Vector2 touch1PrevPos = touch2.position - touch2.deltaPosition;
+                    
+                        float prevMagnitude = (touch0PrevPos - touch1PrevPos).magnitude;
+                        float currentMagnitude = (touch1.position - touch2.position).magnitude;
+                    
+                        float difference = currentMagnitude - prevMagnitude;
+                        // Debug.LogError($"{difference}   {touch1.position}  {touch1.deltaPosition}  {touch2.position}  {currentMagnitude}  {prevMagnitude} ");
+                        Zoom(difference/100 * zoomSpeed);
+                    }
+                    
+                    
+                    _continueSacleTick++;
+                }
+                else if(touch1.phase == TouchPhase.Moved && touch2.phase == TouchPhase.Moved )
+                {
+                    if (_continueMoveTick > 2)
+                    {
+                        var input = uiCamera.ScreenToWorldPoint(Input.mousePosition);
+                        var localPos = scaleNode.parent.InverseTransformPoint(input);
+                        if (!firstPress)
+                        {
+                            lastPos = localPos;
+                            firstPress = true;
+                        }
+                        var newPos = scaleNode.localPosition + (localPos - lastPos);
+                        lastPos = localPos;
+                        scaleNode.localPosition = SetPos(newPos,lastS);
+                    }
+                    _continueMoveTick++;
+                    
                 }
                 else
                 {
-                    //缩放
-                    
-                    Vector2 currentTouch1Pos = touch1.position;
-                    Vector2 currentTouch2Pos = touch2.position;
-                    float currentDistance = Vector2.Distance(currentTouch1Pos, currentTouch2Pos);
-
-                    // 避免初始距离为0导致除零错误
-                    if (initDis == 0) initDis = currentDistance;
-
-                    // 计算缩放比例
-                    float scaleFactor = (currentDistance / initDis) * zoomSpeed;
-                    Vector3 newScale = initScale * scaleFactor;
-
-                    // 限制缩放范围
-                    newScale.x = Mathf.Clamp(newScale.x, minZoom, maxZoom);
-                    newScale.y = Mathf.Clamp(newScale.y, minZoom, maxZoom);
-                    newScale.z = 1; // 保持Z轴不变
-
-                    // 应用缩放
-                    scaleNode.localScale = newScale;
+                    _continueSacleTick = 0;
+                    _continueMoveTick = 0;
                 }
+               
               
             }
+            else
+            {
+                _continueSacleTick = 0;
+                _continueMoveTick = 0;
+            }
         }
+      
     }
+     void Zoom(float increment)
+     {
+         var lastScale = scaleNode.localScale.x;
+         float s = Mathf.Clamp(lastScale + increment, minZoom, maxZoom);
+         scaleNode.localScale = new Vector3(s,s,0);
+
+         var input = uiCamera.ScreenToWorldPoint(Input.mousePosition);
+         var localPos = scaleNode.parent.InverseTransformPoint(input);
+         var diff = (scaleNode.localPosition - localPos) / lastS;
+         var newPos = localPos + diff * s;
+         lastS = s;
+         scaleNode.localPosition = SetPos(newPos,s);
+     }
      Vector3 SetPos(Vector3 newPos,float nowScale)
      {
          var size = scaleNode.parent.GetComponent<RectTransform>().sizeDelta;

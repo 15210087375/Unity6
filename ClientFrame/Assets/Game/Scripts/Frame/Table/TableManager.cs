@@ -15,6 +15,12 @@ public class TableManager:Singleton<TableManager>
 
     private static ByteBuf LoadByteBuf(string file)
     {
+        var filePath1 = $"Assets/Res/Table/{file}.bytes";
+        var textAsset = LoadManager.Instance.LoadAsset<TextAsset>(filePath1, (textAsset) =>
+        {
+            
+        });
+        return new ByteBuf(textAsset.bytes);
         try
         {
             var filePath = $"{Application.dataPath}/Res/Table/{file}.bytes";
