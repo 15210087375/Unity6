@@ -93,6 +93,8 @@ public partial class CubsManager
     public void InputGroup(CubeCellGroup group, int startX, int startY)
     {
         InputB2A(Cells, group.cells, startX, startY);
+        DragGroups.Remove(group);
+        
     }
     //使用前需确保检测过能放入
     private void InputB2A(CubeCell[,] a, CubeCell[,] b,int startX,int startY)
