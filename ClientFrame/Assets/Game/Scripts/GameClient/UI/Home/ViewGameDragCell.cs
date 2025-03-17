@@ -1,6 +1,7 @@
 
 using System;
 using System.Collections.Generic;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -10,17 +11,19 @@ public class ViewGameDragCell:MonoBehaviour,IBeginDragHandler,IEndDragHandler,ID
 {
 
     [SerializeField] private ViewGameCell cellPrefab;
-    [SerializeField] private RectTransform nodeCell;
+    [SerializeField] public RectTransform nodeCell;
     
     private LayerGame _layerGame;
-    
-    private int[,] _data;
+
+    public CubeCellGroup _cellGroup;
+    private CubeCell[,] _data;
 
     private Vector3 _dragStartPos;
     private Vector3 _dragOffset;
-    public void Init(int[,] cellData,LayerGame layer)
+    public void Init(CubeCellGroup data,LayerGame layer)
     {
-        _data = cellData;
+        _cellGroup = data;
+        _data = _cellGroup.cells;
         _layerGame = layer;
         var row = _data.GetLength(0);
         var col = _data.GetLength(1);
@@ -31,9 +34,9 @@ public class ViewGameDragCell:MonoBehaviour,IBeginDragHandler,IEndDragHandler,ID
             for (int j = 0; j < col; j++)
             {
                 var cell = Instantiate(cellPrefab, nodeCell);
-                var data = new CubeCell(i, j, _data[i, j]);
+                var cellData = _data[i, j];
                 cell.GetComponent<RectTransform>().sizeDelta *= 0.75f;
-                cell.Init(data);
+                cell.Init(cellData);
                 cell.GetComponent<RectTransform>().localPosition =
                     new Vector2((i - row / 2f + 0.5f) * 75, (-j + col / 2f -0.5f ) * 75);
             }
@@ -44,14 +47,10 @@ public class ViewGameDragCell:MonoBehaviour,IBeginDragHandler,IEndDragHandler,ID
     {
         _dragStartPos = eventData.position;
         _dragOffset = _dragStartPos - transform.position; //transform.InverseTransformPoint(eventData.position);
-        nodeCell.transform.SetParent(_layerGame.nodeDrag);
-        
+        _layerGame.OnCellMoveStart(this);
     }
 
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        
-    }
+    
 
     public void OnDrag(PointerEventData eventData)
     {
@@ -64,6 +63,28 @@ public class ViewGameDragCell:MonoBehaviour,IBeginDragHandler,IEndDragHandler,ID
         var localPosition = nodeCell.localPosition;
         var sizeDelta = nodeCell.sizeDelta;
         var pointPos = localPosition + new Vector3( -sizeDelta.x/2, sizeDelta.y/2, 0);
-        _layerGame.OnCellMove(pointPos,_data);
+        _layerGame.OnCellMove(pointPos,_cellGroup);
+    }
+    
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        _layerGame.OnCellMoveEnd(this);
+    }
+
+    public CubeCellGroup GetData()
+    {
+        return _cellGroup;
+    }
+    public void MoveBack()
+    {
+        nodeCell.transform.SetParent(transform);
+        nodeCell.transform.DOLocalMove(Vector3.zero, 0.1f);
+    }
+    
+    public void SetConsumed()
+    {
+        nodeCell.transform.SetParent(transform);
+        nodeCell.gameObject.SetActive(false);
+        nodeCell.transform.localPosition = Vector3.zero;
     }
 }

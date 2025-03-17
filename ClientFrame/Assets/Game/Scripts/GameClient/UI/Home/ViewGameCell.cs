@@ -1,6 +1,7 @@
 
 using System;
 using System.Collections.Generic;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,23 +9,54 @@ using UnityEngine.UI;
 public class ViewGameCell:MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI textDesc;
-    [SerializeField] private List<Image> imgs;
+    [SerializeField] private Image imgNormal;
     private CubeCell data;
 
     
     public void Init(CubeCell cellData)
     {
-        data = cellData;
-        textDesc.text = data.Value.ToString();
-        for (var i = 0; i < imgs.Count; i++)
-        {
-            var img = imgs[i];
-            img.gameObject.SetActive(i == data.Value);
-        }
+        textDesc.text = $"{cellData.X},{cellData.Y}";
+        Refresh(cellData);
     }
 
-    public void ShowPreView(bool show)
+    public void HidePreView()
     {
-        imgs[2].gameObject.SetActive(show);
+        imgNormal.gameObject.SetActive(false);
     }
+    public void ShowPreView(CubeCell cellData)
+    {
+        Debug.Log("ShowPreView");
+        ShowUI(cellData.cellType, cellData.colorType,true);
+    }
+
+    public void Refresh(CubeCell cellData)
+    {
+        data = cellData;
+        ShowUI(cellData.cellType, cellData.colorType);
+    }
+
+
+
+    private void ShowUI(CellType type,ColorType color,bool isPreView = false)
+    {
+        if (type == CellType.Normal)
+        {
+            imgNormal.gameObject.SetActive(true);
+
+            imgNormal.color = color switch
+            {
+                ColorType.Blue => Color.blue,
+                ColorType.Green => Color.green,
+                ColorType.Red => Color.red,
+                ColorType.Yellow => Color.yellow,
+                _ => throw new ArgumentOutOfRangeException()
+            };
+            imgNormal.SetAlpha(isPreView ? 0.5f : 1f);
+        }
+        else
+        {
+            imgNormal.gameObject.SetActive(false);
+        }
+    }
+    
 }

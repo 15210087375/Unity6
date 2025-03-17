@@ -670,3 +670,8 @@ MonoBehaviour:
     addressMode: 0
     filter: 
     bundle: gameplay.bundle
+  - asset: Assets/Art/Image1/Number/ui_equip_bg_white.png
+    bundleMode: 0
+    addressMode: 0
+    filter: 
+    bundle: 

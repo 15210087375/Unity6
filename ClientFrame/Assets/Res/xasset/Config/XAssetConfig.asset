@@ -45,4 +45,9 @@ MonoBehaviour:
       addressMode: 0
       filter: 
       bundle: 
+    - asset: Assets/Res/Table
+      bundleMode: 0
+      addressMode: 0
+      filter: 
+      bundle: 
     desc: 

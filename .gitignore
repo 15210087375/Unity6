@@ -10,7 +10,7 @@ ClientFrame/[Oo]bj/
 ClientFrame/[Bb]uild/
 ClientFrame/[Bb]uilds/
 ClientFrame/Logs/*
-ClientFrame/Logs/
+ClientFrame/[Ll]logs/
 ClientFrame/UserSettings/
 ClientFrame/.vs
 ClientFrame/.idea

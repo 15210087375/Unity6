@@ -133,7 +133,13 @@ public static partial class GameExtensions
         color.a = alpha;
         graphic.color = color;
     }
-
+    //设置透明度
+    public static void SetAlpha(this Image graphic, float alpha)
+    {
+        var color = graphic.color;
+        color.a = alpha;
+        graphic.color = color;
+    }
     //设置材质球
     public static void SetMaterial(this Graphic img, string materialName)
     {

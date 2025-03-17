@@ -1,5 +1,9 @@
+using System;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
+using Sirenix.OdinInspector;
 using Unity.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class LayerGame:LayerBase
@@ -12,7 +16,7 @@ public class LayerGame:LayerBase
     
     [SerializeField] private ViewGameDragCell prefabDragCell;
 
-    [SerializeField] public RectTransform nodeDrag;
+    [SerializeField] private RectTransform nodeDrag;
     [SerializeField] private RectTransform nodeRandom;
 
     
@@ -28,8 +32,8 @@ public class LayerGame:LayerBase
     
     
     private ViewGameCell[,] _cells;
+    private List<ViewGameDragCell> _dragCells;
 
-   
     private int[] _cacheCheckPos = new  int[]{-1,-1};
     private List<ViewGameCell> _preCells = new List<ViewGameCell>();
     public override void OnInit(object data = null)
@@ -63,20 +67,19 @@ public class LayerGame:LayerBase
         for(var i =0;i<_cols;i++)
         {
             var line = Instantiate(prefabLine1, nodeLines);
-            line.name = $"Line row{i}";
             line.anchoredPosition = new Vector3(0, prefabLine1.anchoredPosition.y - (i + 1) * _cellSize, 0);
             _lines.Add(line.gameObject);
         }
         for (var j = 0; j < _rows; j++)
         {
             var line = Instantiate(prefabLine2, nodeLines);
-            line.name = $"Line col{j}";
             line.anchoredPosition = new Vector3(prefabLine2.anchoredPosition.x + (j + 1) * _cellSize, 0, 0);
             _lines.Add(line.gameObject);
         }
         
-        _cells = new ViewGameCell[_rows,_cols];
+        
         //格子
+        _cells = new ViewGameCell[_rows,_cols];
         for(var i = 0; i < _rows; i++)
         {
             for (var j = 0; j < _cols; j++)
@@ -84,32 +87,72 @@ public class LayerGame:LayerBase
                 var cell = Instantiate(prefabCell, nodeGame);
                 cell.name = $"Cell {i} {j}";
                 cell.transform.localPosition = new Vector3((i - _rows/2+0.5f) * 100, (-j+_cols/2-0.5f) * 100, 0);
-                var cellData = new CubeCell(i,j,_cubsManager.Data[i,j]);
-                cell.Init(cellData);
+                cell.Init(_cubsManager.Cells[i,j]);
                 _cells[i, j] = cell;
             }
         }
         
-        //随机模块
-        for (var i = 0; i < 3; i++)
-        {
-            var dragCell = Instantiate(prefabDragCell, nodeRandom);
-            dragCell.name = $"DragCell {i}";
-            dragCell.transform.localPosition = new Vector3(-300+i*300,0 , 0);
-            var randomData = _cubsManager.RandomData();
-            dragCell.Init(randomData,this);
-        }
+        InitDragCells();
     }
 
+    private void InitDragCells()
+    {
+        //拖拽的图形
+        _dragCells = new List<ViewGameDragCell>();
+        for (var i = 0; i < _cubsManager.DragGroups.Count; i++)
+        {
+            var dragCell = Instantiate(prefabDragCell, nodeRandom);
+            _dragCells.Add(dragCell);
+            dragCell.transform.localPosition = new Vector3(-300+i*300,0 , 0);
+            dragCell.Init(_cubsManager.DragGroups[i],this);
+        }
+    }
+    [Button("ResetGame")]
+    public void ResetGame()
+    {
+        ClearUI();
+        _cubsManager.NewGame(_rows, _cols);
+        InitUI();
+    }
 
-
+    
+    private void ResetDragCells(bool isReset = false)
+    {
+        if (isReset || _dragCells.Count == 0)
+        {
+            _cubsManager.GeneratorDragCells();
+            InitDragCells();
+        }
+    }
     private void ClearUI()
     {
         _lines.ForEach(Destroy);
+        var row = _cells.GetLength(0);
+        var col = _cells.GetLength(1);
+        for (var i = 0; i < row; i++)
+        {
+            for (var j = 0; j < col; j++)
+            {
+                Destroy(_cells[i, j].gameObject);
+            }
+        }
+        
+        ClearDragCells();
     }
 
-
-    public void OnCellMove(Vector3 pointPos,int[,] data)
+    private void ClearDragCells()
+    {
+        foreach (var cell in _dragCells)
+        {
+            Destroy(cell.gameObject);
+        }
+        _dragCells.Clear();
+    }
+    public void OnCellMoveStart(ViewGameDragCell cell)
+    {
+        cell.nodeCell.transform.SetParent(nodeDrag);
+    }
+    public void OnCellMove(Vector3 pointPos,CubeCellGroup cellGroup)
     {
         
         var x = Mathf.FloorToInt((pointPos.x - _leftPos)/_cellSize);
@@ -122,46 +165,98 @@ public class LayerGame:LayerBase
         _cacheCheckPos[1] = y;
         foreach (var cell in _preCells)
         {
-            cell.ShowPreView(false);
+            cell.HidePreView();
         }
         _preCells.Clear();
-        var checkData = LogicUtil.GetInputB2AChangeData(_cubsManager.Data, data, x, y);
+        var checkData = _cubsManager.GetInputGroupChangeData(cellGroup, x, y);
         
         if (checkData != null)
         {
-            
+            Debug.Log($"CheckData {x}  {y}");
             for (var i = 0; i < checkData.Count; i++)
             {
-                var pos = checkData[i];
-                var cell = _cells[pos.x, pos.y];
-                cell.ShowPreView(true);
+                var cellData = checkData[i];
+                var cell = _cells[cellData.X+x, cellData.Y+y];
+                cell.ShowPreView(cellData);
                 _preCells.Add(cell);
             }
         }
         
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+    public void OnCellMoveEnd(ViewGameDragCell cell)
+    {
+        if(_preCells.Count == 0)
+        {
+            cell.MoveBack();
+        }
+        else
+        {
+            _preCells.Clear();
+            cell.SetConsumed();
+            _cubsManager.InputGroup(cell.GetData(), _cacheCheckPos[0], _cacheCheckPos[1]);
+            RefreshCell();
+            _dragCells.Remove(cell);
+            Destroy(cell.gameObject);
+            ResetDragCells();
+            CheckMerge(cell);
+            
+            CheckOver();
+        }
+    }
+
+    private void CheckMerge(ViewGameDragCell cell)
+    {
+        var group = cell._cellGroup;
+        var row = group.cells.GetLength(0);
+        var col = group.cells.GetLength(1);
+        var removeList = _cubsManager.ClearFullLine(_cacheCheckPos[0], _cacheCheckPos[1],row,col);
+        for (var i = 0; i < removeList.Count; i++)
+        {
+            var cellData = removeList[i];
+            _cells[cellData.X, cellData.Y].Refresh(_cubsManager.Cells[cellData.X, cellData.Y]);
+        }
+    }
+    [Button("TestCheckOver")]
+    public void TestCheckOver()
+    {
+        CheckOver();
+    }
+    private void CheckOver()
+    {
+        var overData = _cubsManager.CheckGameOver();
+        if(overData.over)
+        {
+            Debug.Log("GameOver");
+        }
+        else
+        {
+            Debug.Log($"CheckOver ({overData.x},{overData.y}) ");
+        }
+       
+    }
+    private void RefreshCell()
+    {
+        for(var i = _cacheCheckPos[0];i<_rows;i++)
+        {
+            for (var j = _cacheCheckPos[1]; j < _cols; j++)
+            {
+                var cell = _cells[i, j];
+                cell.Refresh(_cubsManager.Cells[i, j]);
+            }
+        }
+    }
+
+
+    private void Update()
+    {
+        if (true)
+        {
+            
+        }
+    }
+
+
     public void OnClickTestData()
     {
         UIManager.Instance.OpenView(WindowID.ViewTestData);

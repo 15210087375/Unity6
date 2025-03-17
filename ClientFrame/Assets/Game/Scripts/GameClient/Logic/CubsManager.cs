@@ -1,16 +1,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CubsManager : Singleton<CubsManager>
+public partial class CubsManager : Singleton<CubsManager>
 {
    
-    public int[,] Data;
-    public List<int[,]> dataTempList = new List<int[,]>();
 
+    private List<int[,]> _dataTempList = new List<int[,]>();
+    public CubeCell[,] Cells;
+    public List<CubeCellGroup> DragGroups;
+    
+    private int _rows;
+    private int _cols;
     public void NewGame(int rows, int cols)
     {
-        Data = new int[rows, cols];
-        dataTempList = new List<int[,]>
+       
+        _dataTempList = new List<int[,]>
         {
             T,
             Cube,
@@ -18,14 +22,35 @@ public class CubsManager : Singleton<CubsManager>
             L,
             Line
         };
+        
+        _rows = rows;
+        _cols = cols;
+        GeneratorCells(rows, cols);
+        GeneratorDragCells();
+
     }
 
-    public int[,] RandomData()
+    private void GeneratorCells(int rows, int cols)
     {
-        var data = dataTempList[Random.Range(0, dataTempList.Count)];
-        var randomRotate = Random.Range(0, 4);
-        var tempData = LogicUtil.GetRotateData(data, (RotateAngle)(randomRotate));
-        return tempData;
+        var data = new int[rows, cols];
+        Cells = new CubeCell[rows, cols];
+        for(var i = 0; i < rows; i++)
+        {
+            for (var j = 0; j < cols; j++)
+            {
+                var cellData = new CubeCell(i,j,data[i,j],0);
+                Cells[i, j] = cellData;
+            }
+        }
+
+    }
+    public void GeneratorDragCells()
+    {
+        DragGroups=new List<CubeCellGroup>();
+        for (var i = 0; i < 3; i++)
+        {
+            DragGroups.Add(GeneratorGroup());
+        }
     }
 
 
