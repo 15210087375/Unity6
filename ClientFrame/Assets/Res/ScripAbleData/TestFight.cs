@@ -14,7 +14,7 @@ public class TestFight : MonoBehaviour
         var zhanshiData = AssetDatabase.LoadAssetAtPath<RoleData>("Assets/Res/ScripAbleData/zhanShi.asset");
         var role1 = new Role(1,zhanshiData,1);
         var role2 = new Role(2,zhanshiData,6);
-        FightTest.Instance.CheckFight(role1, role2);
+        FightManager.Instance.CheckFight(role1, role2);
     }
 
     public void DoFightAnim()

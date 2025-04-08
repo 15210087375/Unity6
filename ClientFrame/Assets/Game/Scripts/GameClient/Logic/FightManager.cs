@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FightTest:Singleton<FightTest>
+public class FightManager:Singleton<FightManager>
 {
 
     public int TickCount = 0;
@@ -54,7 +54,7 @@ public class FightTest:Singleton<FightTest>
         }
     }
 
-    private void UpdateTick(int timer)
+    private void UpdateTick(int timer,List<Role> list1,List<Role> list2)
     {
         var listAtkTime = new List<AttackTimeData>();
         foreach (var role in _roleList)

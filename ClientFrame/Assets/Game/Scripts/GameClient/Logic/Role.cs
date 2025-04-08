@@ -68,7 +68,7 @@ public class Role
         var realDamage = GetRealDamage(damage);
         _hp -= realDamage;
         
-        Debug.Log($"TickCount:{FightTest.Instance.TickCount}  Unit {Id} 受到伤害:{realDamage} Hp:{_hp}");
+        Debug.Log($"TickCount:{FightManager.Instance.TickCount}  Unit {Id} 受到伤害:{realDamage} Hp:{_hp}");
         State = _hp <= 0 ? UnitState.Dead : UnitState.Live;
         if(State == UnitState.Dead)
         {
