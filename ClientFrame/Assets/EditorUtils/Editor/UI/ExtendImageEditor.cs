@@ -17,6 +17,9 @@ namespace ExtendUI
         private SerializedProperty m_FillMethod;
         private SerializedProperty m_SlicedClipMode;
 
+        private SerializedProperty m_ShapeMode;
+        private SerializedProperty m_ShapeOffset;
+
         protected override void OnEnable()
         {
             m_Sprite         = serializedObject.FindProperty("m_Sprite");
@@ -24,7 +27,9 @@ namespace ExtendUI
             m_PreserveAspect = serializedObject.FindProperty("m_PreserveAspect");
             m_UseSpriteMesh  = serializedObject.FindProperty("m_UseSpriteMesh");
             m_FillMethod = serializedObject.FindProperty("m_FillMethod");
-            m_SlicedClipMode = serializedObject.FindProperty("m_SlicedClipMode");
+            m_SlicedClipMode = serializedObject.FindProperty("slicedClipMode");
+            m_ShapeMode = serializedObject.FindProperty("shapeMode");
+            m_ShapeOffset = serializedObject.FindProperty("shapeOffset");
             m_ShowImgType = new AnimBool(m_Sprite.objectReferenceValue != null);
             base.OnEnable();
         }
@@ -56,11 +61,24 @@ namespace ExtendUI
                         (Image.FillMethod)m_FillMethod.enumValueIndex == Image.FillMethod.Vertical)
                         EditorGUILayout.PropertyField(m_SlicedClipMode);
                 }
-
+    
                 EditorGUILayout.PropertyField(m_PreserveAspect);
                 EditorGUI.indentLevel--;
             }
             EditorGUILayout.EndFadeGroup();
+          
+            if ((Image.Type)m_Type.enumValueIndex == Image.Type.Simple || 
+                (Image.Type)m_Type.enumValueIndex == Image.Type.Filled)
+            {
+                EditorGUILayout.PropertyField(m_ShapeMode);
+                if (m_ShapeMode.boolValue)
+                {
+                    EditorGUI.indentLevel++;
+                    EditorGUILayout.PropertyField(m_ShapeOffset);
+                    EditorGUI.indentLevel--;
+                }
+            }
+            
             NativeSizeButtonGUI();
 
 

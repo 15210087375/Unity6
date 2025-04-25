@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1010,
+    "type": 1,
+    "quality": 0,
+    "main": [
+      1000,
+      1001
+    ],
+    "secondary": [],
+    "exdata": 0
+  },
+  {
+    "id": 1011,
+    "type": 1,
+    "quality": 0,
+    "main": [],
+    "secondary": [],
+    "exdata": 0
+  },
+  {
+    "id": 1012,
+    "type": 1,
+    "quality": 0,
+    "main": [],
+    "secondary": [],
+    "exdata": 0
+  },
+  {
+    "id": 1013,
+    "type": 1,
+    "quality": 0,
+    "main": [],
+    "secondary": [],
+    "exdata": 0
+  },
+  {
+    "id": 1014,
+    "type": 1,
+    "quality": 0,
+    "main": [],
+    "secondary": [],
+    "exdata": 0
+  },
+  {
+    "id": 1015,
+    "type": 1,
+    "quality": 0,
+    "main": [],
+    "secondary": [],
+    "exdata": 0
+  },
+  {
+    "id": 1016,
+    "type": 1,
+    "quality": 0,
+    "main": [],
+    "secondary": [],
+    "exdata": 0
+  }
+]

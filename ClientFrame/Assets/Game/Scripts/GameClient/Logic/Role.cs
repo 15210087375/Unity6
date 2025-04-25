@@ -17,7 +17,7 @@ public struct AttackTimeData
 public class Role 
 {
     public ulong Id;
-    private RoleData _data;
+    private FightRoleData _data;
     /// <summary>
     /// 蓄力时间
     /// </summary>
@@ -26,10 +26,10 @@ public class Role
     public UnitState State;
    
    
-    public Role(ulong id,RoleData data, int level)
+    public Role(ulong id,FightRoleData data, int level)
     {
         Id = (ulong)id;
-        _data = ScriptableObject.CreateInstance<RoleData>().Clone(data); 
+        _data = ScriptableObject.CreateInstance<FightRoleData>().Clone(data); 
         _data.level = level;
         _hp = data.Hp;
         Logger.Info($"{id} hp={_hp} attack={_data.Attack} cd={_data.AttackCd} level={_data.level} defense={_data.Defense}");

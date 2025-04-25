@@ -21,6 +21,8 @@ public partial class Tables
     public Res.Item Item {get; }
     public Res.Icon Icon {get; }
     public UI.HomeTab HomeTab {get; }
+    public Merge.MergeItem MergeItem {get; }
+    public Merge.MergeFormula MergeFormula {get; }
 
     public Tables(System.Func<string, ByteBuf> loader)
     {
@@ -32,6 +34,8 @@ public partial class Tables
         Item = new Res.Item(loader("res_item"));
         Icon = new Res.Icon(loader("res_icon"));
         HomeTab = new UI.HomeTab(loader("ui_hometab"));
+        MergeItem = new Merge.MergeItem(loader("merge_mergeitem"));
+        MergeFormula = new Merge.MergeFormula(loader("merge_mergeformula"));
         ResolveRef();
     }
     
@@ -45,6 +49,8 @@ public partial class Tables
         Item.ResolveRef(this);
         Icon.ResolveRef(this);
         HomeTab.ResolveRef(this);
+        MergeItem.ResolveRef(this);
+        MergeFormula.ResolveRef(this);
     }
 }
 

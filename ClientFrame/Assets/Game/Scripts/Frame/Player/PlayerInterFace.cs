@@ -191,7 +191,7 @@ public partial class PlayerInterFace
        
         for (var i = 0; i < _saveList.Count; i++)
         {
-            var filePath = $"{Define.AutoUpdateDownLoadPath}/{_saveList[i]}";
+            var filePath = $"{GameDefine.CacheResPath}/{_saveList[i]}";
             if (File.Exists(filePath))
             {
                 File.Delete(filePath);
@@ -203,12 +203,12 @@ public partial class PlayerInterFace
     public static void SaveData<T>(T t,eCacheDataType type)
     {
         var desc = GameUtils.IO.Serialize<T>(t);
-        GameUtils.IO.WriteFile($"{Define.AutoUpdateDownLoadPath}/{_saveList[(int)type]}", desc);
+        GameUtils.IO.WriteFile($"{GameDefine.CacheResPath}/{_saveList[(int)type]}", desc);
     }
 
     public static T ReadData<T>(eCacheDataType type)
     {
-        var desc = GameUtils.IO.ReadFile($"{Define.AutoUpdateDownLoadPath}/{_saveList[(int)type]}");
+        var desc = GameUtils.IO.ReadFile($"{GameDefine.CacheResPath}/{_saveList[(int)type]}");
         if (!string.IsNullOrEmpty(desc))
         {
             return GameUtils.IO.Deserialize<T>(desc);
