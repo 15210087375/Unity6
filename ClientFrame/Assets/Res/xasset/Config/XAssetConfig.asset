@@ -35,7 +35,7 @@ MonoBehaviour:
       addressMode: 0
       filter: 
       bundle: 
-    - asset: Assets/Res/Image
+    - asset: Assets/Res/UI/Image
       bundleMode: 3
       addressMode: 0
       filter: 
