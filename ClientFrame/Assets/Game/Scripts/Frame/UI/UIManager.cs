@@ -9,7 +9,8 @@ public enum UIType
 {
     None,
     Layer,
-    View
+    View,
+    Cell
 }
 public class UIManager : Singleton<UIManager>
 {

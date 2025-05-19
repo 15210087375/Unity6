@@ -109,13 +109,17 @@ public class UIAutoGenerator : OdinEditorWindow
     //刷新UIPathDefine
     private void WriteUIPathDefine(string prefabFilePath,UIType uiType)
     {
+        if(uiType == UIType.None || uiType == UIType.Cell)
+        {
+            return;
+        }
         var loadPath = prefabFilePath.Replace($"{EditorUtilsDefine.UIPrefabPath}/", "").Replace("\\", "/");
         Debug.Log(prefabFilePath);
         Debug.Log(loadPath);
         var tempPath = EditorUtilsDefine.UIPathDefinePath;
         var scriptContent = File.ReadAllText(tempPath);
         string searchText = "//WindowPath Tag";
-        string replaceText = $@"{{ WindowID.{className}, new UIPath(WindowID.{className}, ""{loadPath}"", LayerIndex.{(uiType == UIType.Layer?"Layer":"View")}) }},
+        string replaceText = $@"{{ WindowID.{className}, new UIPath(WindowID.{className}, ""{loadPath}"", LayerIndex.{EditorUtilsDefine.GetLayerIndex(uiType)}) }},
         //WindowPath Tag";
         
         var searchText1 = "//WindowID Tag";
@@ -133,7 +137,7 @@ public class UIAutoGenerator : OdinEditorWindow
 using UnityEngine;
 using UnityEngine.UI;
 
-public class {className} : {EditorUtilsDefine.GetUITypeBase(className)}
+public class {className} : { EditorUtilsDefine.GetUITypeBase(className)}
 {{
    
  
@@ -153,6 +157,8 @@ public class {className} : {EditorUtilsDefine.GetUITypeBase(className)}
        
         return true;
     }
+    
+    
     //生成预制体
     private bool GeneratePrefab(string prefabFilePath)
     {
@@ -170,6 +176,7 @@ public class {className} : {EditorUtilsDefine.GetUITypeBase(className)}
         PrefabUtility.SaveAsPrefabAsset(prefab, prefabFilePath);
 
         DestroyImmediate(prefab);
+        
         return true;
     }
 

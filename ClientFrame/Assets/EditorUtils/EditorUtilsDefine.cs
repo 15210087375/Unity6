@@ -5,6 +5,7 @@ public class EditorUtilsDefine
     //UI模板路径
     private const string LayerPrefabTemplate = "Assets/EditorUtils/Res/PrefabTemplate/LayerTemplate.prefab";
     private const string ViewPrefabTemplate = "Assets/EditorUtils/Res/PrefabTemplate/ViewTemplate.prefab";
+    private const string CellPrefabTemplate = "Assets/EditorUtils/Res/PrefabTemplate/CellTemplate.prefab";
     
     //UI路径定义文件路径
     public const string UIPathDefinePath = "Assets/Game/Scripts/Frame/UI/UIPathDefine.cs";
@@ -15,17 +16,23 @@ public class EditorUtilsDefine
     
     public static string GetUIPrefabTemplate(UIType uiType)
     {
-        return uiType == UIType.Layer ? LayerPrefabTemplate : ViewPrefabTemplate;
+        return uiType switch
+        {
+            UIType.Layer => LayerPrefabTemplate,
+            UIType.View => ViewPrefabTemplate,
+            UIType.Cell => CellPrefabTemplate,
+            _ => ViewPrefabTemplate
+        };
     }
     public static string GetUITypeBase(string className)
     {
-        if (className.Contains("Layer"))
+        if (className.StartsWith("Layer"))
         {
             return "LayerBase";
         }
-        else if (className.Contains("View"))
+        else if (className.StartsWith("View"))
         {
-            return "ViewBase";
+            return className.EndsWith("Cell")? "MonoBehaviour" : "ViewBase";
         }
         else
         {
@@ -35,17 +42,28 @@ public class EditorUtilsDefine
     
     public static UIType GetUIType(string className)
     {
-        if (className.Contains("Layer"))
+        if (className.StartsWith("Layer"))
         {
             return UIType.Layer;
         }
-        else if (className.Contains("View"))
+        else if (className.StartsWith("View"))
         {
-            return UIType.View;
+            return className.EndsWith("Cell") ? UIType.Cell : UIType.View;
         }
         else
         {
             return UIType.None;
         }
+    }
+    
+    public static LayerIndex GetLayerIndex(UIType uiType)
+    {
+        return uiType switch
+        {
+            UIType.Layer => LayerIndex.Layer,
+            UIType.View => LayerIndex.View,
+            UIType.Cell => LayerIndex.View,
+            _ => LayerIndex.Low
+        };
     }
 }
