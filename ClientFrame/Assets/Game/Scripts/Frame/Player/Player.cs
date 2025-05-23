@@ -38,6 +38,8 @@ public class Player
         InitByDB();
         
         _isInit = true;
+        
+        DailyRefresh.Instance.OnLoginCheckAndRefresh();
     }
 
     //新数据

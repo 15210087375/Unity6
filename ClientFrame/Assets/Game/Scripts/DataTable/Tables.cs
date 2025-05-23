@@ -23,6 +23,7 @@ public partial class Tables
     public UI.HomeTab HomeTab {get; }
     public Merge.MergeItem MergeItem {get; }
     public Merge.MergeFormula MergeFormula {get; }
+    public Shop.Store Store {get; }
 
     public Tables(System.Func<string, ByteBuf> loader)
     {
@@ -36,6 +37,7 @@ public partial class Tables
         HomeTab = new UI.HomeTab(loader("ui_hometab"));
         MergeItem = new Merge.MergeItem(loader("merge_mergeitem"));
         MergeFormula = new Merge.MergeFormula(loader("merge_mergeformula"));
+        Store = new Shop.Store(loader("shop_store"));
         ResolveRef();
     }
     
@@ -51,6 +53,7 @@ public partial class Tables
         HomeTab.ResolveRef(this);
         MergeItem.ResolveRef(this);
         MergeFormula.ResolveRef(this);
+        Store.ResolveRef(this);
     }
 }
 

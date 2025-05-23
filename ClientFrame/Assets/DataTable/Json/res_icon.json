@@ -50,6 +50,36 @@
     "sprite": "ui_res_star2"
   },
   {
+    "id": 10001,
+    "atlas": "Store",
+    "sprite": "GemPackIcon_300"
+  },
+  {
+    "id": 10002,
+    "atlas": "Store",
+    "sprite": "GemPackIcon_680"
+  },
+  {
+    "id": 10003,
+    "atlas": "Store",
+    "sprite": "GemPackIcon_1280"
+  },
+  {
+    "id": 10004,
+    "atlas": "Store",
+    "sprite": "GemPackIcon_1980"
+  },
+  {
+    "id": 10005,
+    "atlas": "Store",
+    "sprite": "GemPackIcon_3280"
+  },
+  {
+    "id": 10006,
+    "atlas": "Store",
+    "sprite": "GemPackIcon_6480"
+  },
+  {
     "id": 100001,
     "atlas": "HomeTabBar",
     "sprite": "shop0"

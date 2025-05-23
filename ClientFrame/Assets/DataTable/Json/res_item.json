@@ -106,5 +106,77 @@
     "quality": 0,
     "from": [],
     "exdata": []
+  },
+  {
+    "id": 10001,
+    "name": 10001,
+    "icon": 10001,
+    "desc": 0,
+    "type": 2,
+    "bagType": -1,
+    "maxCount": 0,
+    "quality": 0,
+    "from": [],
+    "exdata": []
+  },
+  {
+    "id": 10002,
+    "name": 10002,
+    "icon": 10002,
+    "desc": 0,
+    "type": 2,
+    "bagType": -1,
+    "maxCount": 0,
+    "quality": 0,
+    "from": [],
+    "exdata": []
+  },
+  {
+    "id": 10003,
+    "name": 10003,
+    "icon": 10003,
+    "desc": 0,
+    "type": 2,
+    "bagType": -1,
+    "maxCount": 0,
+    "quality": 0,
+    "from": [],
+    "exdata": []
+  },
+  {
+    "id": 10004,
+    "name": 10004,
+    "icon": 10004,
+    "desc": 0,
+    "type": 2,
+    "bagType": -1,
+    "maxCount": 0,
+    "quality": 0,
+    "from": [],
+    "exdata": []
+  },
+  {
+    "id": 10005,
+    "name": 10005,
+    "icon": 10005,
+    "desc": 0,
+    "type": 2,
+    "bagType": -1,
+    "maxCount": 0,
+    "quality": 0,
+    "from": [],
+    "exdata": []
+  },
+  {
+    "id": 10006,
+    "name": 10006,
+    "icon": 10006,
+    "desc": 0,
+    "type": 2,
+    "bagType": -1,
+    "maxCount": 0,
+    "quality": 0,
+    "from": [],
+    "exdata": []
   }
 ]

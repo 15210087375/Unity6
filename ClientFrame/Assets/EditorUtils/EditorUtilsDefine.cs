@@ -50,6 +50,10 @@ public class EditorUtilsDefine
         {
             return className.EndsWith("Cell") ? UIType.Cell : UIType.View;
         }
+        else if(className.Contains("TopBar") || className.Contains("TabBar"))
+        {
+            return UIType.Bar;
+        }
         else
         {
             return UIType.None;
@@ -63,6 +67,7 @@ public class EditorUtilsDefine
             UIType.Layer => LayerIndex.Layer,
             UIType.View => LayerIndex.View,
             UIType.Cell => LayerIndex.View,
+            UIType.Bar => LayerIndex.Bar,
             _ => LayerIndex.Low
         };
     }

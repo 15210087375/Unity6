@@ -31,7 +31,6 @@ public static class UIPathDefine
         { WindowID.LayerSetting, new UIPath(WindowID.LayerSetting, "Home/LayerSetting.prefab", LayerIndex.Layer) },
         { WindowID.ViewTopBar, new UIPath(WindowID.ViewTopBar, "Home/ViewTopBar.prefab", LayerIndex.Bar) },
         { WindowID.ViewTestData, new UIPath(WindowID.ViewTestData, "Home/ViewTestData.prefab", LayerIndex.View) },
-        { WindowID.ViewShopCell1, new UIPath(WindowID.ViewShopCell1, "Shop/ViewShopCell1.prefab", LayerIndex.View) },
         //WindowPath Tag 
         //请勿删除或修改，用于自动生成代码
     };

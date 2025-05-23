@@ -10,7 +10,8 @@ public enum UIType
     None,
     Layer,
     View,
-    Cell
+    Cell,
+    Bar
 }
 public class UIManager : Singleton<UIManager>
 {
