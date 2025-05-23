@@ -74,40 +74,5 @@ public class ExData
     }
     
     
-    public void SaveExdataData()
-    {
-        var s = new StringBuilder();
-        var isfirst = true;
-        foreach (var item in Player.Instance.ExData.Data)
-        {
-            if (!isfirst)
-            {
-                s.Append("|");
-            }
-            s.Append(item);
-            isfirst = false;
-        }
-
-        Logger.LogWarn(s.ToString());
-        PlayerPrefs.SetString("Exdata", s.ToString());
-    }
-    public void ReadExdataData()
-    {
-        var s = PlayerPrefs.GetString("Exdata");
-        if(string.IsNullOrEmpty(s))
-        {
-            return;
-        }
-        Player.Instance.ExData.Data.Clear();
-        var t = s.Split('|');
-        foreach (var item in t)
-        {
-            Player.Instance.ExData.Data.Add(int.Parse(item));
-        }
-    }
-
-    public static void ClearExData()
-    {
-        PlayerPrefs.DeleteKey("Exdata");
-    }
+ 
 }

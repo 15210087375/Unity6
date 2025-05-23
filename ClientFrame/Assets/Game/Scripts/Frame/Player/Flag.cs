@@ -145,47 +145,5 @@ public class BitFlag
     }
 
     
-    
-    
-    
-    
-    public  bool ReadFlagData()
-    {
-        var s = PlayerPrefs.GetString("Flag");
-        if (string.IsNullOrEmpty(s))
-        {
-            return false;
-        }
-        var t = s.Split('|');
-        List<int> list = new List<int>();
-        foreach (var item in t)
-        {
-            list.Add( int.Parse(item));
-        }
-        Player.Instance.Flag.Init(list);
-        return true;
-    }
-    
-    public void SaveFlagData()
-    {
-        var s = new StringBuilder();
-        var isfirst = true;
-        foreach (var item in Player.Instance.Flag.GetData())
-        {
-            if (!isfirst)
-            {
-                s.Append("|");
-            }
-            s.Append(item);
-            isfirst = false;
-        }
-
-        Logger.LogWarn(s.ToString());
-        PlayerPrefs.SetString("Flag", s.ToString());
-    }
-    
-    public void ClearFlag()
-    {
-        PlayerPrefs.DeleteKey("Flag");
-    }
+   
 }
