@@ -426,14 +426,6 @@ MonoBehaviour:
   windowID: 2
   isResident: 0
   uiState: 0
-  nodeGame: {fileID: 2926629317645108655}
-  nodeLines: {fileID: 8182370712706961156}
-  prefabLine1: {fileID: 3465082922976662382}
-  prefabLine2: {fileID: 3565339593217895134}
-  prefabCell: {fileID: 8452201686730879015, guid: 114764477a6694944a3a0b30563f5e40, type: 3}
-  prefabDragCell: {fileID: 7712150748012024331, guid: 04859e4e34c975b48b5ad348c3d549c5, type: 3}
-  nodeDrag: {fileID: 3660156403196412286}
-  nodeRandom: {fileID: 1064151323399498176}
 --- !u!1 &5734172889971012131
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,10 +763,10 @@ RectTransform:
   - {fileID: 3660156403196412286}
   m_Father: {fileID: 8434346553788095627}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 1546, y: 2048}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7462748546060413185
 CanvasRenderer:
@@ -797,14 +789,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5176471, g: 0.32941177, b: 0.41056117, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 17611266751527752, guid: d8c328b4d8290bd488e3fa75f31fa4ce, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
