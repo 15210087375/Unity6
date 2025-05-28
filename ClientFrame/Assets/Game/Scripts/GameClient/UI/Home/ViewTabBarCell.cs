@@ -19,7 +19,8 @@ public class ViewTabBarCell : MonoBehaviour
     private HomeTabRecord _homeTab;
     private bool _isSelect = false;
 
-    private Tweener _anim;
+    private Sequence _animOpen;
+    private Sequence _animClose;
     public void InitCell(HomeTabRecord homeTab,bool isSelect,Action<int> selectAction)
     {
         _homeTab = homeTab;
@@ -63,20 +64,20 @@ public class ViewTabBarCell : MonoBehaviour
         imgIconWhite.SetAlpha(0);
         imgBgWhite.gameObject.SetActive(true);
         imgIconWhite.gameObject.SetActive(true);
-
-        nodeAnim.DOLocalMoveY(0f, 0.2f).SetEase(Ease.InOutCubic);
-        
-        DOTween.To(()=>0, (value) =>
-        {
-            var color = imgBgWhite.color;
-            color.a = value;
-            imgBgWhite.color = color;
-            imgIconWhite.color = color;
-        }, 1, 0.2f).onComplete = () =>
-        {
-            imgBgGrey.gameObject.SetActive(false);
-            imgIconGrey.gameObject.SetActive(false);
-        };
+        _animClose?.Kill(true);
+        _animOpen?.Kill(true);
+        _animOpen = DOTween.Sequence();
+        _animOpen.Append(nodeAnim.DOLocalMoveY(0f, 0.2f).SetEase(Ease.InOutCubic))
+            .Join(imgBgWhite.DOFade(1, 0.2f).SetEase(Ease.InOutCubic))
+            .Join(imgIconWhite.DOFade(1, 0.2f).SetEase(Ease.InOutCubic))
+            .AppendCallback(() =>
+            {
+                imgBgWhite.SetAlpha(1);
+                imgIconWhite.SetAlpha(1);
+                imgBgGrey.gameObject.SetActive(false);
+                imgIconGrey.gameObject.SetActive(false);
+            });
+        _animOpen.Play();
     }
 
     private void HideAnim()
@@ -86,22 +87,24 @@ public class ViewTabBarCell : MonoBehaviour
             return;
         }
         _isSelect = false;
+        imgBgGrey.SetAlpha(0);
+        imgIconGrey.SetAlpha(0);
         imgBgGrey.gameObject.SetActive(true);
         imgIconGrey.gameObject.SetActive(true);
-        
-        nodeAnim.DOLocalMoveY(-80f, 0.2f).SetEase(Ease.InOutCubic);
-        
-        DOTween.To(()=>1, (value) =>
-        {
-            var color = imgBgWhite.color;
-            color.a = value;
-            imgBgWhite.color = color;
-            imgIconWhite.color = color;
-        }, 0, 0.2f).onComplete = () =>
-        {
-            imgBgWhite.gameObject.SetActive(false);
-            imgIconWhite.gameObject.SetActive(false);
-        };
+        _animOpen?.Kill(true);
+        _animClose?.Kill(true);
+        _animClose = DOTween.Sequence();
+        _animClose.Append(nodeAnim.DOLocalMoveY(-80f, 0.2f).SetEase(Ease.InOutCubic))
+            .Join(imgBgGrey.DOFade(1, 0.2f).SetEase(Ease.InOutCubic))
+            .Join(imgIconGrey.DOFade(1, 0.2f).SetEase(Ease.InOutCubic))
+            .AppendCallback(() =>
+            {
+                imgBgGrey.SetAlpha(1);
+                imgIconGrey.SetAlpha(1);
+                imgBgWhite.gameObject.SetActive(false);
+                imgIconWhite.gameObject.SetActive(false);
+            });
+       _animClose.Play();
     }
     
     private void InitSelect()
