@@ -167,6 +167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowID: 0
   isResident: 0
+  uiState: 0
   tabCells:
   - {fileID: 2877471049112984024}
   - {fileID: 7465013623396182271}

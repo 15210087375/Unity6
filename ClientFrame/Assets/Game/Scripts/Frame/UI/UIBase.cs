@@ -19,7 +19,9 @@ public abstract class UIBase : MonoBehaviour,IView
     public bool isResident = false;
     
     public UIState uiState = UIState.None;
-    
+
+    private Sequence _seqUIAnimIn;
+    private Sequence _seqUIAnimOut;
     public virtual void OnInit(object data = null)
     {
        
@@ -45,20 +47,34 @@ public abstract class UIBase : MonoBehaviour,IView
             Debug.LogError("当前预设没有界面动画节点");
             return;
         }
-
+        
+        if (moveIn)
+        {
+            _seqUIAnimOut?.Kill();
+            _seqUIAnimIn = DG.Tweening.DOTween.Sequence();
+           
+        }
+        else
+        {
+            _seqUIAnimIn?.Kill(true);
+            _seqUIAnimOut = DG.Tweening.DOTween.Sequence();
+        }
+        var seq = moveIn ? _seqUIAnimIn : _seqUIAnimOut;
         switch (animType)
         {
             case WindowAnimType.MoveToLeft:
             {
                 var startPos = moveIn ? new Vector3(1080, 0, 0) : new Vector3(0, 0, 0);
                 var endPosX = moveIn ? 0 : -1080;
+                
                 node.localPosition = startPos;
                 node.gameObject.SetActive(true);
-                node.transform.DOLocalMoveX(endPosX, 0.3f).SetEase(Ease.InOutCubic);
-                UniTask.Delay(300).ContinueWith(() =>
+                seq.Append(node.transform.DOLocalMoveX(endPosX, 0.3f).SetEase(Ease.InOutCubic));
+                seq.OnComplete(() =>
                 {
                     callback?.Invoke();
                 });
+                
                 break;
             }
 
@@ -68,11 +84,12 @@ public abstract class UIBase : MonoBehaviour,IView
                 var endPosX = moveIn ? 0 : 1080;
                 node.localPosition = startPos;
                 node.gameObject.SetActive(true);
-                node.transform.DOLocalMoveX(endPosX, 0.3f).SetEase(Ease.InOutCubic);
-                UniTask.Delay(300).ContinueWith(() =>
+                seq.Append(node.transform.DOLocalMoveX(endPosX, 0.3f).SetEase(Ease.InOutCubic));
+                seq.OnComplete(() =>
                 {
                     callback?.Invoke();
                 });
+               
                 break;
             }
             
@@ -81,11 +98,12 @@ public abstract class UIBase : MonoBehaviour,IView
                 node.gameObject.SetActive(true);
                 var canvasGroup = node.GetComponent<CanvasGroup>();
                 canvasGroup.alpha = 0;
-                canvasGroup.DOFade(1, 0.3f).SetEase(Ease.InOutCubic);
-                UniTask.Delay(300).ContinueWith(() =>
+                seq.Append(canvasGroup.DOFade(1, 0.3f).SetEase(Ease.InOutCubic));
+                seq.OnComplete(() =>
                 {
                     callback?.Invoke();
                 });
+              
                 break;
             }
                
@@ -94,14 +112,16 @@ public abstract class UIBase : MonoBehaviour,IView
                 node.gameObject.SetActive(true);
                 var canvasGroup = node.GetComponent<CanvasGroup>();
                 canvasGroup.alpha = 1;
-                canvasGroup.DOFade(0, 0.3f).SetEase(Ease.InOutCubic);
-                UniTask.Delay(300).ContinueWith(() =>
+                seq.Append(canvasGroup.DOFade(0, 0.3f).SetEase(Ease.InOutCubic));
+                seq.OnComplete(() =>
                 {
                     callback?.Invoke();
                 });
+                
                 break;
             }
         }
+        seq.Play();
     }
     
 }
